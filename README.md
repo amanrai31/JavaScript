@@ -23,7 +23,7 @@ Interpreted- 1=> Usually go line by line.
             2=> Partially run till error encounters.
             3 => E.g. = JS, Python
 
-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 
                       JavaScript (ES6- Second revision of JS(2015))
@@ -32,7 +32,7 @@ JS is Interpreted, dynamically typed and single threaded lang.(We can make node 
 
                       JavaScript with HTML
 
-1. JS in <head> or <body>
+1. JS in head or body
 
 ```
 <!DOCTYPE html>    
