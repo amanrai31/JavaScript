@@ -30,7 +30,7 @@ Interpreted- 1=> Usually go line by line.
 JS is Interpreted, dynamically typed and single threaded lang.(We can make node multithreaded)
 
 
-                      JavaScript with HTML
+### JavaScript with HTML
 
 1. JS in head or body
 
