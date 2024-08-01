@@ -56,9 +56,12 @@ function myFunction() {
 ```
 
 ### 2. External JavaScript
+
 1. It separates HTML and code thus easier to read and maintain.
 2. Cached JavaScript files can speed up page loads
- External References 
+<hr>
+External References 
+
 1. With a full URL (e.g. <script src="https://www.w3schools.com/js/myScript.js"></script> )
 2. With a file path (e.g. <script src="/jsLogic/myScript.js"></script>)
 3. Without any path
