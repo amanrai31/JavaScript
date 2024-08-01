@@ -30,9 +30,9 @@ Interpreted- 1=> Usually go line by line.
 JS is Interpreted, dynamically typed and single threaded lang.(We can make node multithreaded)
 
 
-### JavaScript with HTML
+## JavaScript with HTML
 
-1. JS in head or body
+### 1. JS in head or body
 
 ```
 <!DOCTYPE html>    
@@ -55,8 +55,7 @@ function myFunction() {
 </html>       [Placing scripts at the bottom of the <body> element improves the display speed]
 ```
 
-2. External JavaScript
-Advantages
+### 2. External JavaScript
 1. It separates HTML and code thus easier to read and maintain.
 2. Cached JavaScript files can speed up page loads
 External References 
