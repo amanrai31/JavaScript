@@ -59,7 +59,7 @@ function myFunction() {
 
 1. It separates HTML and code thus easier to read and maintain.
 2. Cached JavaScript files can speed up page loads
-<hr>
+
 External References 
 
 1. With a full URL (e.g. <script src="https://www.w3schools.com/js/myScript.js"></script> )
