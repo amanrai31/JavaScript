@@ -34,7 +34,8 @@ JS is Interpreted, dynamically typed and single threaded lang.(We can make node 
 
 1. JS in <head> or <body>
 
-<!DOCTYPE html>     [ This is script in Body (26 to 43) ]
+```
+<!DOCTYPE html>    
 <html>
 <body>
 
@@ -52,6 +53,7 @@ function myFunction() {
 
 </body>console.log(x);
 </html>       [Placing scripts at the bottom of the <body> element improves the display speed]
+```
 
 2. External JavaScript
 Advantages
