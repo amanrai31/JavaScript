@@ -66,29 +66,29 @@ External References
 2. With a file path (e.g. <script src="/jsLogic/myScript.js"></script>)
 3. Without any path
 
+### How JS displays data
 
+1. Using innerHTML. [Common way- document.getElementById(id)]
+2. Using document.write().[delete all existing HTML, used for testing]
+3. Writing into an alert box, using window.alert().
+4. Writing into the browser console, using console.log(). [Used for debugging]
+5. Js print [window.print()]
 
+----------------------------------------------------------------------------
 
+### Basics of RAM, ROM.
 
+1. JS Code Blocks {}, JS Statements, Keywords, Comments, JS identifiers are case sensitive.
 
+### VARIABLES 
+Variables are container for storing data
+(VARIABLE Declaration & initialization) (Global scope & block scope)
 
-
-
-
-
-Basics of RAM, ROM.
-VARIABLES (Declaration & initialization) (Global scope & block/function scope)
-
-Let => Block Scope, cannot be Redeclared in the same scope, can be reassign
-Const => Block Scope, cannot be Redeclared in the same scope, can'nt be reassign
-Const => It does not define a constant value. It defines a constant reference to a value.
-Means we can'nt Reassign a constant array but can change elements of array(same for objects)
+1. Let => Block Scope, cannot be Redeclared in the same scope, can be reassign
+2. Const => Block Scope, cannot be Redeclared in the same scope, can'nt be reassign. It does not define a constant value. It defines a constant reference to a value.Means we can'nt Reassign a constant array but can change elements of array(same for objects)
 
 
 
 1 => Primitives (numbers, )
 
-
-
-// console.log("hi")
-// console.log(2**3)
+Note => A variable declared without a value will have the value undefined.
