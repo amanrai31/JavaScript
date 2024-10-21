@@ -76,6 +76,11 @@ External JS References
 2. With a file path (e.g. <script src="/jsLogic/myScript.js"></script>)
 3. Without any path
 
+---
+What JS can do
+1. JS can Change/Show/Hide HTML content.
+2. JS can change HTML styles (CSS).
+
 ### How JS displays data
 
 1. Using innerHTML. [Common way- document.getElementById(id)]
