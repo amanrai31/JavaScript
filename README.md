@@ -22,12 +22,16 @@ Program- It is a set of instruction(s). We can write pgms in any lang.
 2. High level lang [3rd(c++, Java, JS ), 4th(Python), 5th(Ruby) ] 
 
 Compiled vs Interpreted languages
-Compiled- 1=>First need to compile(generates compiled file=> temp in c++, .class in java) then RUN.
-          2=> Don't run at all if there is error.
-          3=> E.g. = c, c++, Java, Rust, Go
-Interpreted- 1=> Usually go line by line.
-            2=> Partially run till error encounters.
-            3 => E.g. = JS, Python
+
+Compiled- 
+1. First need to compile(generates compiled file=> temp in c++, .class in java) then RUN.
+2. Don't run at all if there is error.
+3. E.g. = c, c++, Java, Rust, Go
+4. 
+Interpreted-
+1. Usually go line by line.
+2. Partially run till error encounters.
+3. E.g. = JS, Python
 
 -----------------------------------------------------------------------------------------------------
 
