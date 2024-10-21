@@ -66,6 +66,8 @@ function myFunction() {
 
 </body>console.log(x);
 </html>       [Placing scripts at the bottom of the <body> element improves the display speed]
+
+document.getElementById("demo").style.fontSize = "35px"; -- Changing CSS using JS
 ```
 
 ### 2. External JavaScript
