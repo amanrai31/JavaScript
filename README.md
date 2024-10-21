@@ -1,11 +1,17 @@
 # JavaScript
 E2E JS
 
+### Prerequisites
+Node (v20)
+VsCode
+
+### Steps
 1. Clone a repo from github in local.
 2. Open in VsCode
 3. create a file with .js extension
 4. to run a simple JS program run - `node filename ` => e.g- "node 01start.js"
 
+---
 
 Computer is an electronic device which takes input from user, process it under the control of  
 programs and gives output to the users and saves in the storage.
