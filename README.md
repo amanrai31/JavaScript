@@ -80,7 +80,7 @@ External JS References
 
 1. Using innerHTML. [Common way- document.getElementById(id)]
 2. Using document.write().[delete all existing HTML, used for testing]
-3. Writing into an alert box, using window.alert().
+3. Writing into an alert box, using window.alert(). OR just alert().
 4. Writing into the browser console, using console.log(). [Used for debugging]
 5. Js print [window.print()]
 
