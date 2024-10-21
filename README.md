@@ -72,7 +72,7 @@ function myFunction() {
 
 External JS References 
 
-1. With a full URL (e.g. <script src="https://www.w3schools.com/js/myScript.js"> </script> )
+1. With a full URL (e.g. <script src="https://www.w3schools.com/js/myScript.js" > </script> )
 2. With a file path (e.g. <script src="/jsLogic/myScript.js"></script>)
 3. Without any path
 
