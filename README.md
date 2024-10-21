@@ -2,8 +2,8 @@
 E2E JS
 
 ### Prerequisites
-Node (v20)
-VsCode
+1. Node (v20)
+2. VsCode
 
 ### Steps
 1. Clone a repo from github in local.
