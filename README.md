@@ -39,6 +39,9 @@ Interpreted-
 # JavaScript (ES6- Second revision of JS(2015))
 JS is Interpreted, dynamically typed and single threaded lang.(We can make node multithreaded)
 
+### What JS can do
+1. JS can Change/Show/Hide HTML content.
+2. JS can change HTML styles (CSS).
 
 ## JavaScript with HTML
 
@@ -75,11 +78,6 @@ External JS References
 1. With a full URL (e.g. <script src="https://www.w3schools.com/js/myScript.js" > </script> )
 2. With a file path (e.g. <script src="/jsLogic/myScript.js"></script>)
 3. Without any path
-
----
-### What JS can do
-1. JS can Change/Show/Hide HTML content.
-2. JS can change HTML styles (CSS).
 
 ### How JS displays data
 
