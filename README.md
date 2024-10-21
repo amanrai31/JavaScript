@@ -77,7 +77,7 @@ External JS References
 3. Without any path
 
 ---
-What JS can do
+### What JS can do
 1. JS can Change/Show/Hide HTML content.
 2. JS can change HTML styles (CSS).
 
