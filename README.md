@@ -18,8 +18,8 @@ programs and gives output to the users and saves in the storage.
 
 Program- It is a set of instruction(s). We can write pgms in any lang.
 
-Low level lang(1st & 2nd GEN)
-High level lang [3rd(c++, Java, JS ), 4th(Python), 5th(Ruby) ] 
+1. Low level lang(1st & 2nd GEN)
+2. High level lang [3rd(c++, Java, JS ), 4th(Python), 5th(Ruby) ] 
 
 Compiled vs Interpreted languages
 Compiled- 1=>First need to compile(generates compiled file=> temp in c++, .class in java) then RUN.
