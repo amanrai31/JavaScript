@@ -37,7 +37,7 @@ Interpreted-
 
 
 # JavaScript (ES6- Second revision of JS(2015))
-JS is Interpreted, dynamically typed and single threaded lang.(We can make node multithreaded)
+JS is Interpreted, dynamically typed, FP, executed by browser and single threaded lang.(We can make node multithreaded)
 
 ### What JS can do
 1. JS can Change/Show/Hide HTML content.
@@ -64,16 +64,16 @@ function myFunction() {
 }
 </script>
 
-</body>console.log(x);
+</body>
 </html>       [Placing scripts at the bottom of the <body> element improves the display speed]
 
 document.getElementById("demo").style.fontSize = "35px"; -- Changing CSS using JS
 ```
 
-### 2. External JavaScript
+### 2. External JavaScript Advantages
 
 1. It separates HTML and code thus easier to read and maintain.
-2. Cached JavaScript files can speed up page loads
+2. Cached JavaScript files can speed up page loads.
 
 External JS References 
 
@@ -93,17 +93,42 @@ External JS References
 
 ### Basics of RAM, ROM.
 
-1. JS Code Blocks {}, JS Statements, Keywords, Comments, JS identifiers are case sensitive.
+1. JS Code Blocks {}, JS Statements(Instructions), Keywords, Comments, JS identifiers are case sensitive.
 
 ### VARIABLES 
-Variables are container for storing data
-(VARIABLE Declaration & initialization) (Global scope & block scope)
+ - Variables are container for storing data. 
+ 
+**Note -** JS variable can hold any type of data. (Variable name can start with $,_ or with alphabets only).
 
-1. Let => Block Scope, cannot be Redeclared in the same scope, can be reassign
-2. Const => Block Scope, cannot be Redeclared in the same scope, can'nt be reassign. It does not define a constant value. It defines a constant reference to a value.Means we can'nt Reassign a constant array but can change elements of array(same for objects)
+1. VARIABLE Declaration & initialization
+2. Global scope & block scope
+
+**Note -** Before ES6, JS had only Global scope and function scope, there was nothing like block scope.
+
+1. let => Block Scope, cannot be Redeclared in the same scope, can be reassign
+2. const => Block Scope, cannot be Redeclared in the same scope, **can'nt be reassign**, must be assign a value when decleared. It does not define a constant value. It defines a constant reference to a value. Means we can'nt Reassign a constant array but can change elements of array(same for objects)
+3. var => Global scope, can be Redeclared.
+
+**Note -** let and const does not bind this.
+
+```JS
+const cars = ["Saab", "Volvo", "BMW"];  // We can not reassign this const array but can change the elements of array. 
+
+cars = ["Toyota", "Volvo", "Audi"];    // ERROR 
+```
+
+- Expressions(Algebra)
+
+#### Operators
+1. Arithmetic Operators [ + , - , * , / , % , **(exponential), ++ -- ]
+2. Assignment operator [ = ]
+3. Comparison Operators [ ==, !==, < , <= , > , >= , ===(equal value and equal type) , !==(not equal value or equal type)]
+4. Loical operators [ && , || , ! ]
+5. Type oprators[typeof(Returns the type of a variable), instanceof(Returns true if an object is an instance of an object type)]
+6. Bitwise Operators [ &, | , ~(not- uniary operator) , ^(xor) , << , >> , >>>]
+7. Ternary operator ( ? )
 
 
 
-1 => Primitives (numbers, )
-
-Note => A variable declared without a value will have the value undefined.
+**Note -** Bit operators work on 32 bits numbers. 
+**Note -** Nullish coalescing assignment operator(??=) => If the first value is undefined or null,the second value is assigned.

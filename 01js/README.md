@@ -1,0 +1,134 @@
+### Data Types (8)
+
+
+1. Number (64 bits)
+2. string
+3. boolean
+4. undefined [ let car;    // Value is undefined, type is undefined ]
+5. null
+6. bigint
+7. symbol
+8. object (Only non-premitive)
+
+
+**Note -** A variable declared without a value will have the value undefined.
+
+```JS
+let x = 16 + 4 + "Volvo";  // 20volvo
+let x = "Volvo" + 16 + 4;  // Volvo164 (Once it encounters string, will treat next as string.)
+
+```
+### Function
+
+A JavaScript function is a block of code designed to perform a particular task.
+A JavaScript function is executed when "something" invokes it (calls it).
+
+```
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+```
+**Use -** We can reuse code.
+
+```JS
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+
+let value = toCelsius; // Accessing a function without () returns the function object and not the function result.
+```
+
+### Object
+
+Objects are containers for Properties(Props) and Behaviours(Methods). In JS almost everthing is object(KING OF JS).
+
+**Notes -** Properties can be primitive values, functions, or even other objects.
+
+Define JS object
+- Object literal [ e.g. const personDetails = {name:"xyz", age:20}]  // recommended
+- using new keyword
+- Using an Object Constructor
+
+#### Accessing Object Properties
+
+```JS
+objectName.propertyName
+
+OR
+
+objectName["propertyName"]
+
+OR
+
+objectName[x]   // x here is expression e.g => let x = objectName.property then objectName[x]
+
+```
+#### Object methods
+
+```JS
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;    // Use of this - this refers to the person object
+  }
+};
+
+```
+
+**Note -** JS objects are mutable
+
+```JS
+const x = person;
+```
+Here the object x is not a copy of person. The object x is person. Any changes to x will also change person.
+
+**Note -** We can change, add and delete[delete objectName.property => will dlt key, value both.] object's props.
+
+#### Nested object
+
+#### Display objects
+
+```JS
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+// Build a Text  ===> 1st method
+let text = "";
+for (let x in person) {
+  text += person[x] + " ";
+};
+
+// Create an Array  ===> 2nd method
+const myArray = Object.values(person);    // Creates array of property values
+
+// Writes in JSON format ===> 3rd option
+let myString = JSON.stringify(person);      // output - {"name":"John","age":30,"city":"New York"}
+
+
+// Display the Text
+document.getElementById("demo").innerHTML = text;
+```
+
+#### Object constructor/Object constructor function
+
+Sometimes we need to create many objects of the same type. (Keep name of constructor function upper-case first letter.)
+
+```JS
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;       // We can create a property with default value e.g. => this.language = "Hindi"
+}
+
+const myFather = new Person("John", "Doe", 50, "blue");
+const myMother = new Person("Sally", "Rally", 48, "green");
+```
+
+We can **NOT** add new property to constructor function just like objects, to add new property
+``` Person.prototype.nationality = "Indian" ```
