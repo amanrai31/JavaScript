@@ -45,7 +45,7 @@ Objects are containers for Properties(Props) and Behaviours(Methods). In JS almo
 **Notes -** Properties can be primitive values, functions, or even other objects.
 
 Define JS object
-- Object literal [ e.g. const personDetails = {name:"xyz", age:20}]  // recommended
+- Object literal [ e.g. const personDetails = {name:"xyz", age:20}]  **recommended**
 - using new keyword
 - Using an Object Constructor
 
@@ -124,6 +124,9 @@ function Person(first, last, age, eye) {
   this.lastName = last;
   this.age = age;
   this.eyeColor = eye;       // We can create a property with default value e.g. => this.language = "Hindi"
+  this.fullName = function (){
+    return this.firstName + " " + this.lastName;
+  }
 }
 
 const myFather = new Person("John", "Doe", 50, "blue");
@@ -132,3 +135,11 @@ const myMother = new Person("Sally", "Rally", 48, "green");
 
 We can **NOT** add new property to constructor function just like objects, to add new property
 ``` Person.prototype.nationality = "Indian" ```
+
+But we can add new properties to objects=> ``` myFather.height = "5.10" ```
+
+- Built-in constructors ```new Object()```, ```new Array()```, ```new Set()```, ```new Map()```,```new RegExp()```, ```new Date()```, ```new Function()```
+
+**Note -** The Math() object is not in the list. Math is a global object. The new keyword cannot be used on Math.
+
+**Note -** Use object literals {} instead of new Object(). Use array literals [] instead of new Array(). Use pattern literals /()/ instead of new RegExp(). Use function expressions () {} instead of new Function().
