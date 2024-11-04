@@ -1,5 +1,5 @@
+**Content => DATA TYPES, FUNCTIONS, OBJECTS**
 ### Data Types (8)
-
 
 1. Number (64 bits)
 2. string
