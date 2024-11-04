@@ -16,8 +16,7 @@ const myMother = new Person("Sally", "Rally", 48, "green");
 
 const fatherJson = JSON.stringify(myFather);
 
-// console.log(fatherJson);
-console.log(Person.prototype)
+console.log(fatherJson);
 
 Person.prototype.height = "6";
 
@@ -25,6 +24,6 @@ const mySelf = new Person("Aman", "Rai", 22, "black", "5.6" );
 
 const mySelfJson = JSON.stringify(mySelf);
 
-// console.log(mySelfJson);
+console.log(mySelfJson);
 
 console.log(Person.prototype)
