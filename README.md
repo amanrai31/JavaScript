@@ -39,7 +39,8 @@ Interpreted-
 
 
 # JavaScript (ES6- Second revision of JS(2015))
-JS is Interpreted, dynamically typed, FP, executed by browser and single threaded lang.(We can make node multithreaded)
+JS is Interpreted, dynamically typed, (FP && OOPS), executed by browser and single threaded lang.(We can make node multithreaded).
+JavaScript is an OOPs language that uses prototypes rather than using classes for inheritance.
 
 ### What JS can do
 1. JS can Change/Show/Hide HTML content.
@@ -123,7 +124,7 @@ cars = ["Toyota", "Volvo", "Audi"];    // ERROR
 
 #### Operators
 1. Arithmetic Operators [ + , - , * , / , % , **(exponential), ++ -- ]
-2. Assignment operator [ = ]
+2. Assignment operator [ = ]   (See logical assignment operator.)
 3. Comparison Operators [ ==, !==, < , <= , > , >= , ===(equal value and equal type) , !==(not equal value or equal type)]
 4. Loical operators [ && , || , ! ]
 5. Type oprators[typeof(Returns the type of a variable), instanceof(Returns true if an object is an instance of an object type)]
@@ -133,4 +134,5 @@ cars = ["Toyota", "Volvo", "Audi"];    // ERROR
 
 
 **Note -** Bit operators work on 32 bits numbers. 
+
 **Note -** Nullish coalescing assignment operator(??=) => If the first value is undefined or null,the second value is assigned.

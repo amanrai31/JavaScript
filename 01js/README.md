@@ -86,7 +86,7 @@ Here the object x is not a copy of person. The object x is person. Any changes t
 
 **Note -** We can change, add and delete[delete objectName.property => will dlt key, value both.] object's props.
 
-#### Nested object
+#### Read about Nested object
 
 #### Display objects
 
@@ -134,12 +134,14 @@ const myMother = new Person("Sally", "Rally", 48, "green");
 ```
 
 We can **NOT** add new property to constructor function just like objects, to add new property
-``` Person.prototype.nationality = "Indian" ```
+` Person.prototype.nationality = "Indian" `
 
-But we can add new properties to objects=> ``` myFather.height = "5.10" ```
+But we can add new properties to objects=> ` myFather.height = "5.10" `
 
-- Built-in constructors ```new Object()```, ```new Array()```, ```new Set()```, ```new Map()```,```new RegExp()```, ```new Date()```, ```new Function()```
+- Built-in constructors `new Object()`, `new Array()`, `new Set()`, `new Map()`,`new RegExp()`, `new Date()`, `new Function()`
 
 **Note -** The Math() object is not in the list. Math is a global object. The new keyword cannot be used on Math.
 
 **Note -** Use object literals {} instead of new Object(). Use array literals [] instead of new Array(). Use pattern literals /()/ instead of new RegExp(). Use function expressions () {} instead of new Function().
+
+**Note -** WE CAN CONSIDER PROTOTYPES AS CLASS.
