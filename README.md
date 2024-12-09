@@ -21,7 +21,7 @@ programs and gives output to the users and saves in the storage.
 Program- It is a set of instruction(s). We can write pgms in any lang.
 
 1. Low level lang(1st & 2nd GEN)
-2. High level lang [3rd(c++, Java, JS ), 4th(Python), 5th(Ruby), Rust, c#, swift ] 
+2. High level lang [3rd(c++, Java, JS ), 4th(Python), 5th(Ruby), Rust, c#, swift, Go ] 
 
 Compiled vs Interpreted languages
 
