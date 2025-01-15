@@ -96,7 +96,10 @@ External JS References
 
 ### Basics of RAM, ROM.
 
-1. JS Code Blocks {}, JS Statements(Instructions), Keywords, Comments, JS identifiers are case sensitive.
+### Other topics
+1. JS Code Blocks {}
+2. JS Statements(Instructions)
+3. Keywords, Comments, [JS identifiers are case sensitive.]
 
 ### VARIABLES 
  - Variables are container for storing data. 
