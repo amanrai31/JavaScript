@@ -2,7 +2,7 @@ console.log("hi")
 console.log(2**3)  // 2 to the power 3
 
 const x= ~5;
-console.log("NOT Bitwise of 5 is=>",x)
+console.log("NOT Bitwise of 5 is=>",x)  // Bitwise operates on 32bits
 
 function Person(first, last, age, eye) {
     this.firstName = first;
