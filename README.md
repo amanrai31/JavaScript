@@ -116,7 +116,7 @@ External JS References
 2. const => Block Scope, cannot be Redeclared in the same scope, **can'nt be reassign**, must be assign a value when decleared. It does not define a constant value. It defines a constant reference to a value. Means we can'nt Reassign a constant array but can change elements of array(same for objects)
 3. var => Global scope, can be Redeclared.
 
-**Note -** let and const does not bind this.
+**Note -** let and const does not bind ```this```.
 
 ```JS
 const cars = ["Saab", "Volvo", "BMW"];  // We can not reassign this const array but can change the elements of array. 
