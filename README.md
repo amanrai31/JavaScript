@@ -81,7 +81,7 @@ document.getElementById("demo").style.fontSize = "35px"; -- Changing CSS using J
 External JS References 
 
 1. With a full URL (e.g. <script src="https://www.w3schools.com/js/myScript.js" > </script> )
-2. With a file path (e.g. <script src="/jsLogic/myScript.js"></script>)
+2. With a file path (e.g. <script src="/jsLogic/myScript.js defer"></script>)  // Here defer attribute ensures that script is executed after HTML is fully parsed (avoids loading HTML)
 3. Without any path
 
 ### How JS displays data
