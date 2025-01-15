@@ -42,6 +42,8 @@ Interpreted-
 JS is Interpreted, dynamically typed, (FP && OOPS), executed by browser and single threaded lang.(We can make node multithreaded).
 JavaScript is an OOPs language that uses prototypes rather than using classes for inheritance.
 
+**Note:** JS is only language that a browser understands. (We have other languages that transpiled to JS e.g. TS, Dart, WebAssembly)
+
 ### What JS can do
 1. JS can Change/Show/Hide HTML content.
 2. JS can change HTML styles (CSS).
