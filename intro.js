@@ -1,5 +1,6 @@
 console.log("hi")
-console.log(2**3)  // 2 to the power 3
+const power = 2**3    // 2 to the power 3
+console.log(power)  
 
 const x= ~5;
 console.log("NOT Bitwise of 5 is=>",x)  // Bitwise operates on 32bits
@@ -20,7 +21,7 @@ console.log(fatherJson);
 
 Person.prototype.height = "6";
 
-const mySelf = new Person("Aman", "Rai", 22, "black", "5.6" );
+const mySelf = new Person("Aman", "Rai", 22, "black", "5.6" ); // But the height will be constant to 6 (not 5.6)
 
 const mySelfJson = JSON.stringify(mySelf);
 

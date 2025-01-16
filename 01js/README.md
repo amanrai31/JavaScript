@@ -1,14 +1,14 @@
 ## Content => DATA TYPES, FUNCTIONS, OBJECTS**
 ### Data Types (8)
 
-1. Number (64 bits)
-2. string
+1. Number (64 bits, 15-17 digit precision)
+2. bigint [let bigInt = 20n; Used on integers only, arbitary pricision]
 3. boolean
-4. undefined [ let car;    // Value is undefined, type is undefined ]
-5. null
-6. bigint
+4. string
+5. object
+6. undefined [ let car;    // Value is undefined, type is undefined ]
+7. null
 7. symbol
-8. object (Only non-premitive)
 
 
 **Note -** A variable declared without a value will have the value undefined.
