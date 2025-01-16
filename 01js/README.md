@@ -45,7 +45,7 @@ Objects are containers for Properties(Props) and Behaviours(Methods). In JS almo
 
 Define JS object
 - Object literal [ e.g. const personDetails = {name:"xyz", age:20}]  **recommended**
-- using new keyword
+- using new keyword. [Usually when we make object from Object Constructor]
 - Using an Object Constructor
 
 #### Accessing Object Properties
@@ -116,9 +116,10 @@ document.getElementById("demo").innerHTML = text;
 #### Object constructor/Object constructor function
 
 Sometimes we need to create many objects of the same type. (Keep name of constructor function upper-case first letter.)
-
+**Note:** We can not use arrow function as object constructor, it lacks "this" binding.
+**Note:** Modern JS uses class for Object Constructor
 ```JS
-function Person(first, last, age, eye) {
+function Person(first, last, age, eye) { // We can not use arrow function as object constructor
   this.firstName = first;
   this.lastName = last;
   this.age = age;
@@ -132,7 +133,8 @@ const myFather = new Person("John", "Doe", 50, "blue");
 const myMother = new Person("Sally", "Rally", 48, "green");
 ```
 
-We can **NOT** add new property to constructor function just like objects, to add new property
+We can **NOT** add new property to constructor function just like objects, to add new property(property/function) 
+**NOTE:** But that will be constant for all Obj made out of this Object Constructor.
 ` Person.prototype.nationality = "Indian" `
 
 But we can add new properties to objects=> ` myFather.height = "5.10" `
@@ -143,4 +145,4 @@ But we can add new properties to objects=> ` myFather.height = "5.10" `
 
 **Note -** Use object literals {} instead of new Object(). Use array literals [] instead of new Array(). Use pattern literals /()/ instead of new RegExp(). Use function expressions () {} instead of new Function().
 
-**Note -** WE CAN CONSIDER PROTOTYPES AS CLASS.
+**Note -** WE CAN CONSIDER PROTOTYPES AS CLASS. Modern JS uses class for Object Constructor
