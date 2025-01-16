@@ -99,7 +99,7 @@ const person = {
 
 // Build a Text  ===> 1st method
 let text = "";
-for (let x in person) {
+for (let x in person) {   // x is key
   text += person[x] + " ";
 };
 
