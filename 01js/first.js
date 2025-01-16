@@ -5,7 +5,7 @@ console.log(power)
 const x= ~5;
 console.log("NOT Bitwise of 5 is=>",x)  // Bitwise operates on 32bits
 
-function Person(first, last, age, eye) {
+function Person(first, last, age, eye) {  // Object constructor
     this.firstName = first;
     this.lastName = last;
     this.age = age;

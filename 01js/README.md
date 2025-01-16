@@ -2,7 +2,7 @@
 ### Data Types (8)
 
 1. Number (64 bits, 15-17 digit precision)
-2. bigint [let bigInt = 20n; Used on integers only, arbitary pricision]
+2. bigint [let bigInt = 20n; Used on integers only, arbitary pricision(unless ur memory fulls)]
 3. boolean
 4. string
 5. object
@@ -20,17 +20,16 @@ let x = "Volvo" + 16 + 4;  // Volvo164 (Once it encounters string, will treat ne
 ```
 ### Function
 
-A JavaScript function is a block of code designed to perform a particular task.
-A JavaScript function is executed when "something" invokes it (calls it).
+A JavaScript function is a block of code designed to perform a particular task. (May return something and may not)
+A function is executed when "something" invokes it (calls it).
+
+**Use -** We can reuse code.
 
 ```
 function name(parameter1, parameter2, parameter3) {
   // code to be executed
 }
-```
-**Use -** We can reuse code.
 
-```JS
 function toCelsius(fahrenheit) {
   return (5/9) * (fahrenheit-32);
 }
