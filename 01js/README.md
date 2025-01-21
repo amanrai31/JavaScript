@@ -45,7 +45,7 @@ Objects are containers for Properties(Props) and Behaviours(Methods). In JS almo
 
 Define JS object
 - Object literal [ e.g. const personDetails = {name:"xyz", age:20}]  **recommended**
-- using new keyword. [Usually when we make object from Object Constructor]
+- using new keyword. [Usually when we make object from Object Constructor or class]
 - Using an Object Constructor
 
 #### Accessing Object Properties
