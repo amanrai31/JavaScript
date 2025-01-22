@@ -6,19 +6,20 @@
 3. boolean
 4. string
 5. object
-6. undefined [ let car;    // Value is undefined, type is undefined ]
+6. undefined [ let car;    // Value is undefined, type is undefined, (Variable declared without value is undefined)]
 7. null
 7. symbol
 
+**Note :** Non-premitive data type => It is passed by reference and thus mutable, stored by reference. ( e.g. Object)
+**Note :** Premitive data type => Stored directly in memory, immutable. (e.g. All other data type except Object)
 
-**Note -** A variable declared without a value will have the value undefined.
 
 ```JS
 let x = 16 + 4 + "Volvo";  // 20volvo
 let x = "Volvo" + 16 + 4;  // Volvo164 (Once it encounters string, will treat next as string.)
 
 ```
-### Function
+### Function (A callable object)
 
 A JavaScript function is a block of code designed to perform a particular task. (May return something and may not)
 A function is executed when "something" invokes it (calls it).
@@ -28,10 +29,11 @@ A function is executed when "something" invokes it (calls it).
 ```
 function name(parameter1, parameter2, parameter3) {
   // code to be executed
+  console.log(parameter1); // This function is not returning anything
 }
 
 function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
+  return (5/9) * (fahrenheit-32);  // Returns a number value
 }
 
 let value = toCelsius; // Accessing a function without () returns the function object and not the function result.
@@ -40,6 +42,7 @@ let value = toCelsius; // Accessing a function without () returns the function o
 ### Object
 
 Objects are containers for Properties(Props) and Behaviours(Methods). In JS almost everthing is object(KING OF JS).
+Objects are non-premitive data type because they are **stored by ref**, that why **mutable**
 
 **Notes -** Properties can be primitive values, functions, or even other objects.
 
@@ -59,7 +62,7 @@ objectName["propertyName"]
 
 OR
 
-objectName[x]   // x here is expression e.g => let x = objectName.property then objectName[x]
+objectName[x]   // x here is expression e.g => let x = objectName.property/key then objectName[x]
 
 ```
 #### Object methods
