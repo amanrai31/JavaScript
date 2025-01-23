@@ -10,9 +10,9 @@
 7. null
 7. symbol
 
-**Note :** *Non-premitive data type* => It is passed by reference and thus mutable, stored by reference. ( e.g. Object)
+**Note :** Non-premitive data type => It is passed by reference and thus mutable, stored by reference. ( e.g. Object)
 
-**Note :** *Premitive data type* => Stored directly in memory, immutable. (e.g. All other data type except Object)
+**Note :** Premitive data type => Stored directly in memory, immutable(Changing their value create a new memory allocation). (e.g. All other data type except Object)
 
 
 ```JS
