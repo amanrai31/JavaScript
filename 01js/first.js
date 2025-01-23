@@ -1,3 +1,5 @@
+// CONTENT => DATA TYPES, OBJECTS, FUNCTIONS
+
 console.log("hi")
 
 const power = 2**3    // 2 to the power 3
@@ -11,7 +13,7 @@ console.log(7%-3, -7%3) // Result of remainder depends on numerator sign.
 const x= ~5;
 console.log("NOT Bitwise of 5 is=>",x)  // Bitwise operates on 32bits
 
-console.log("Type of power = ",typeof(power))
+console.log("Type of power = ",typeof(power)); // typeof and instanceof operator
 
 function Person(first, last, age, eye) {  // Object constructor
     this.firstName = first;
@@ -52,3 +54,5 @@ function objectConstructior(name, age){
 const obj1 = new objectConstructior("aman", 25);
 console.log(obj1)
 console.log(JSON.stringify(obj1));
+
+console.log("My father object=>",Object.entries(myFather))
