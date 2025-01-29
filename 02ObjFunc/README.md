@@ -1,3 +1,5 @@
+# CONTENT  OBJECTS AND FUNCTIONS
+
 ### Function (A callable object)
 
 A JavaScript function is a block of code designed to perform a particular task. (May return something and may not)

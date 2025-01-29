@@ -1,3 +1,5 @@
+// Object constructor, prototype
+
 function Person(first, last, age, eye) {  // Object constructor (Can not use arrow f/n- do not bind this)
     this.firstName = first;
     this.lastName = last;
@@ -31,26 +33,6 @@ console.log("My father array from object=>",Object.entries(myFather))  // Create
 console.log("My father object from array=>",Object.fromEntries(Object.entries(myFather))) // Create obj from list/array.
 console.log("My father value", Object.values(myFather))  // Object.values
 console.log("My father value", Object.keys(myFather))   // Object.keys
-
-// const fruits = [
-//     {name:"apples", quantity:300},
-//     {name:"bananas", quantity:500},
-//     {name:"oranges", quantity:200},
-//     {name:"kiwi", quantity:150}
-//   ];
-  
-//   function myCallback({ quantity }) {                   //groupBy introduced in ES2024
-//     return quantity > 200 ? "ok" : "low";
-//   }
-  
-//   const result = Object.groupBy(fruits, myCallback);
-  
-//   let text ="These fruits are Ok: <br>";
-//   for (let [x,y] of result.ok.entries()) {
-//     text += y.name + " " + y.quantity + "<br>";
-//   }
-  
-//   console.log(text)
 
 const person = {
     fname:"John",
