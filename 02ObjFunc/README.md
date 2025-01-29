@@ -152,6 +152,10 @@ But we can add new properties to objects=> ` myFather.height = "5.10" `
 
 ### 2. Property Management Methods - Not that much of use
 
+Every property in JS has internal attributes(metadata) [1. writable, 2. Enumerable, 3. configurable]
+Value is also an attribute of property. 
+** getters and setters**
+
 ### 3. Object Protection Methods
 
 1. const car = {type:"Fiat", model:"500", color:"white"}; [const Prevents re-assignment]
