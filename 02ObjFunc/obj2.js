@@ -12,15 +12,15 @@ for (let [fruit, value] of fruitEntries) {
 }
 console.log(text)
 
-const map1 = new Map(fruitEntries);
-console.log(map1);
+const map1 = new Map(fruitEntries); // We can not create map from fruits Object cuz it is not iterable, fruitEntries is iterable. 
+console.log("Map1 - ",map1);
 
 // Object.values(object)
-console.log(Object.values(fruits))
+console.log("Values - ",Object.values(fruits))
 
 // Object.keys(object)
 
-console.log(Object.keys(fruits))
+console.log("Keys - ",Object.keys(fruits))
 
 
 // Other methods - Object.fromEntries(iterableEntries/list), Object.asign(target,source), Object.create(object)
@@ -45,3 +45,45 @@ console.log(Object.keys(fruits))
 //   }
   
 //   console.log(text)
+
+
+
+
+const person = {
+  firstName: "Rahul",
+  lastName : "Yadav",
+  language : "EN",
+};
+
+// Add a Property
+Object.defineProperty(person, "yearOfBirth", {value:"2001"}); //This will not appear when you iterate obj in loop
+
+console.log(person)  
+// yearOfBirth is not showing cuz creates a property with default attributes that make it non-enumerable by default; 
+console.log(person.yearOfBirth)
+
+person.hobby = "cricket";  // Adding prop like this is enumerable/iterable
+
+console.log(person)
+
+
+// Change a property
+Object.defineProperty(person, "language", {value : "NO"});
+
+// Changing metadata
+Object.defineProperty(person, "language", {writable:false});
+Object.defineProperty(person, "language", {enumerable:false});
+
+console.log(person) // language is not enumerable now.
+
+// Object.getOwnPropertyNames(object)  -- gets all props enumerable and non-enumerable,
+console.log(Object.getOwnPropertyNames(person)) // Object.keys() gets only enumerable props
+
+
+// Object.getOwnPropertyDescriptor()
+console.log(Object.getOwnPropertyDescriptor(person, "firstName"))
+
+// Object.getPrototypeOf(object) - Accessing the prototype
+console.log(Object.getPrototypeOf(person))
+
+// getters and setters - get lang() {return this.language} OR set lang1(lang){ this.language = lang}

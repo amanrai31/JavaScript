@@ -152,9 +152,13 @@ But we can add new properties to objects=> ` myFather.height = "5.10" `
 
 ### 2. Property Management Methods - Not that much of use
 
-Every property in JS has internal attributes(metadata) [1. writable, 2. Enumerable, 3. configurable]
+Every property in JS has internal attributes(metadata) [1. writable, 2. Enumerable(iterable) 3. configurable]
 Value is also an attribute of property. 
 ** getters and setters**
+1. Object.defineProperty(object, property, descriptor) [adds new prop to obj, can change prop's value & metadata & getters/setters.]
+2. Object.getOwnPropertyDescriptor(object, property) -- [Accessing a Property]
+3. Object.getOwnPropertyNames(object) -- [Returns all properties as an array]
+4. Object.getPrototypeOf(object) -- [ Accessing the prototype ]
 
 ### 3. Object Protection Methods
 
