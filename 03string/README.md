@@ -14,3 +14,6 @@ let text = "We are the so-called \"Vikings\" from the north.";
 
 **NOTE :** JS strings are primitive values, created from literals, but string also can be defined as objects using new keyword. But string obj can produce unexpected results, so *use string litterals*.
 
+### JS string methods
+
+**NOTE :** JS string are primitive so immutable. All string method produce a new string without altering the orignal one. 
