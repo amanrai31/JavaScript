@@ -266,6 +266,8 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 - In an event, this refers to the element that received the event.
 - Methods like call(), apply(), and bind() can refer this to any object.
 
+
+
 #### F/n closures
 - A f/n can access all variables inside its local scope
 - A function can access all variables in the global scope:

@@ -38,3 +38,26 @@ const func1 = (...args)=>{
 
 const sumOfNmbrs = func1(4, 9, 16, 25, 29, 100, 66, 77);
 console.log("...Rest operator: Sum =>", sumOfNmbrs);
+
+
+// Apply() method with arguments
+
+const person = {
+    fullName: function(city, country) {
+      return this.firstName + " " + this.lastName + "," + city + "," + country;
+    }
+  }
+  
+  const person1 = {
+    firstName:"John",
+    lastName: "Doe"
+  }
+  
+  person.fullName.apply(person1, ["Oslo", "Norway"]);
+
+  Math.max(1,2,3) // Returns 3, since array dont have max method we will use "apply()"
+
+  console.log("max apply",Math.max.apply(0,[1,2,3])) // you can pass null,Math,empty string in place of 0.
+  console.log("max apply",Math.max.apply([1,2,3]))
+
+  // In JS strict mode, if the 1st argument of the apply() method is not an obj, it becomes the owner (obj) of the invoked f/n. In "non-strict" mode, it becomes the global obj.
