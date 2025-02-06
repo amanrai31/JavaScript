@@ -16,7 +16,7 @@ let text = "We are the so-called \"Vikings\" from the north.";
 
 ### JS string methods (JS also counts position from 0)
 
-**NOTE :** JS string are primitive so immutable. All string method produce a new string without altering the orignal one. 
+**NOTE :** JS string are primitive so immutable. All string method produce a new string without altering the orignal one. All methods are case sensitive by default (make it caseInsensitive using Regex)
 
 1. String length => str.length 
 
@@ -36,4 +36,24 @@ let text = "We are the so-called \"Vikings\" from the north.";
 
 5. str.concat(list of parameters to be added)
 
-6. 
+6. str.trim(); str.trimStart(); str.trimEnd();
+
+7. Replace string content
+- str.replace("oldSubstring/target", "new string/which will replace")  
+**NOTE :** It is caseSensitive and this method replaces only the first match [Use RegEx (/i & /g respectivly) to overcome]
+
+8. String to array
+- str.split(",") [split on comma]
+- str.split(" ")  [split on space]
+- str.split("")  [returned array will be an array of single characters]
+
+**NOTE :** If the separator is omitted, the returned array will contain the whole string in index [0].
+
+9. string search
+- str.indexOf("string/substring")
+- str.includes("string/substring")
+
+
+### Template strings ( ` ` )
+
+Template string allows single & double quotes inside a string, allows multiline string and *interpolation* ${...} i.e. it can interpolate variables and expressions.

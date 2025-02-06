@@ -1,5 +1,5 @@
 // All string methods return a new string. They don't modify the original string. Strings are immutable
-
+// All methods are case sensitive by default (make it caseInsensitive using Regex)
 let x = "John";
 let y = new String("John");
 console.log(x==y, "    ", x===y);
@@ -39,3 +39,23 @@ console.log(text3)
 // str.trim(), str.trimStart(), str.trimEnd()
 let str3 = "     Aman    ";
 console.log("Orignal", str3, " full trim",str3.trim(), "trim start",str3.trimStart(), "trim end", str3.trimEnd())
+
+// str.replace()
+let str4 = "Please visit Microsoft and Microsoft!";
+console.log(str4.replace("Microsoft", "Google")); //Replace only 1st occurrence
+console.log(str4.replace("MICROSOFT", "Amazon")); // will not work as replace() is case sensitive
+
+console.log(str4.replace(/Microsoft/g, "Google"));  // this Regex will work for all occurrence(global search)
+console.log(str4.replace(/MICROSOFT/i, "Amazon"));   // this Regex will make it caseInsensitive
+// console.log(str4.replace(/MICROSOFT/gi, "Amazon")); - this regex will make global search and case insensitive
+
+// str.split()
+let str5 = "Aman, Appu, rai"
+console.log(str5.split(","));
+console.log(str5.split(" "));
+console.log(str5.split(""));
+
+// str.indexOf(), str.includes()
+console.log(str4.indexOf("Microsoft"));  // returns the 1st occurrence
+console.log(str4.includes("Microsoft"));  // returns boolean
+
