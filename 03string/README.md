@@ -8,7 +8,7 @@ Backslash escape charater( \ )- truns special character into string charater.
 - \"  means double qoute
 - \\ means backslash
 
-```
+``` js
 let text = "We are the so-called \"Vikings\" from the north.";
 ```
 

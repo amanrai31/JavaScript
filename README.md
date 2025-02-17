@@ -118,7 +118,7 @@ External JS References
 
 **Note -** let and const does not bind ```this```.
 
-```JS
+``` js
 const cars = ["Saab", "Volvo", "BMW"];  // We can not reassign this const array but can change the elements of array. 
 
 cars = ["Toyota", "Volvo", "Audi"];    // ERROR 

@@ -158,7 +158,7 @@ A function is executed when "something" invokes it (calls it).
 
 **Use -** We can reuse code.
 
-```
+``` js
 function name(parameter1, parameter2, parameter3) {  // 
   // code to be executed
   console.log(parameter1); // This function is not returning anything
@@ -173,7 +173,7 @@ let value = toCelsius; // Accessing a function without () returns the function o
 
 OR JS f/n can also be defined using an expression (Function expression)
 
-```
+``` js
 const x = function (a, b) {return a * b};       // OR :  const x = (a, b) => {return a*b}
 let z = x(4, 3);          // After a function expression has been stored in a variable, the variable can be used as function
 
@@ -183,7 +183,7 @@ let z = x(4, 3);          // After a function expression has been stored in a va
 
 **NOTE :** The *typeof* operator in JavaScript returns "function" for functions.
 
-```
+``` js
 // Arrow f/n
 const x = (x, y) => x * y;    
 // Arrow f/n do not bind "this" (Cannot be used as Obj constructor), also cannot be hoisted, it does not have arguments object.
@@ -192,7 +192,7 @@ const x = (x, y) => x * y;
 
 Self invoking f/n OR Immediately Invoked Function Expression (IIFE) - Can be called only once.
 
-```
+``` js
 (() => {                  // //We can have named IIFE, IIFE can take parameters, IIFE can be async/await.
     console.log("IIFE with Arrow Function");  
 })();
@@ -207,7 +207,7 @@ Self invoking f/n OR Immediately Invoked Function Expression (IIFE) - Can be cal
 
 #### Default parameter values
 
-```
+``` js
 function myFunction(x, y = 10) {   // If y is not passed or undefined, then y=10
   return x + y;
 }
@@ -218,7 +218,7 @@ myFunction(5);
 
 JS f/n have a build in object called arguments object. The argument object contains an array of the arguments used when the function was called. (Arrow f/n does not support arguments object - use Rest parameter)
 
-```
+``` js
 x = sumAll(1, 123, 500, 115, 44, 88);
 
 function sumAll() {
@@ -234,7 +234,7 @@ function sumAll() {
 
 #### F/n rest parameter (Modern JS preference)
 
-```
+``` js
 function sum(...args) {
   let sum = 0;
   for (let arg of args) sum += arg;
