@@ -35,4 +35,9 @@
     console.log(parseInt("1.45"), parseInt("2 year"), parseInt("aman"), parseInt("1.45", 10));
 }
 
-console.log(Number.MAX_SAFE_INTEGER, Number.MAX_VALUE)
+
+
+// Number properties (Properties of Number object)
+{
+  console.log(Number.MAX_VALUE, Number.MIN_VALUE, Number.MAX_SAFE_INTEGER, Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY, Number.NaN);
+}

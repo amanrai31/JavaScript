@@ -6,7 +6,7 @@ Numbers are primitive data type(immutable, directly stored in memory), JS has on
 
 ### JS strings can have numeric content.
 
-- "+" is used for addition and concatination (is anywhere in expression string is encountered will concate that)
+- "+" is used for addition and concatenation (is anywhere in expression string is encountered will concat that)
 - All other operators JS converts string to number (if it has numeric content)
 
 **NOTE :** NaN (not a number)- It is JS reserved word indicating a number is not a legal number.
@@ -64,3 +64,8 @@ Number(), parseFloat(), parseInt()  // Convert any type of variable to number(if
 Number.isInteger(), Number.isSafeInteger(), Number.parseFloat(), Number.parseInt()
 
 ### Number properties (Properties of Number object)
+
+let x = Number.MAX_SAFE_INTEGER;
+Number.MAX_VALUE; Number.MIN_VALUE; Number.MAX_SAFE_INTEGER; Number.MIN_SAFE_INTEGER; Number.POSITIVE_INFINITY; POSITIVE_INFINITY; NEGATIVE_INFINITY;
+
+**NOTE :** MAX_VALUE return largest number possible; MAX_SAFE_INTEGER returns largest INTEGER possible.
