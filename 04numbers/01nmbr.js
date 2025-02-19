@@ -36,13 +36,6 @@ console.log(z);
 console.log("z is =>", z , "typeOf a NaN variable(z) =>",typeof(z) ); // z is NaN but typeof NaN is number
 }
 
-// toString() method to output numbers from base 2 to base 36.
-{
-let myNumber = 32;
-console.log(myNumber.toString(32),myNumber.toString(16),myNumber.toString(12),
-myNumber.toString(10),myNumber.toString(8),myNumber.toString(2))
-}
-
 //BigInt
 {
     // create BigInt
@@ -58,3 +51,7 @@ myNumber.toString(10),myNumber.toString(8),myNumber.toString(2))
 
     console.log("max safe integer =>", Number.MAX_SAFE_INTEGER, "min safe integer =>",Number.MIN_SAFE_INTEGER)
 }
+
+
+
+

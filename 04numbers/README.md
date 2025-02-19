@@ -50,3 +50,17 @@ console.log(typeof(x));
 1. to check - Number.isSafeInteger()
 2. let x = Number.MAX_SAFE_INTEGER;
 3. let y = Number.MIN_SAFE_INTEGER;
+
+### Number methods
+
+1. toString()  [if argument is not there it converts to decimal notation by default] [e.g. x.toString()]
+2. toFixed() => returns string with number written with a specified number of decimals. [e.g. x.toFixed(2)]
+3. toPrecision() => returns string with number written with a specified length. [e.g. x.toPrecision(6)]
+
+#### Global methods for number
+Number(), parseFloat(), parseInt()  // Convert any type of variable to number(if possible) otherwise returns NaN
+
+#### Number object method
+Number.isInteger(), Number.isSafeInteger(), Number.parseFloat(), Number.parseInt()
+
+### Number properties (Properties of Number object)
