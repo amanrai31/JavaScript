@@ -30,13 +30,39 @@ But Differnce is => array uses number to access its elements unlike objects(uses
 
 #### splice and slice methods 
 
-1. splice() => used to add new items to array
+1. splice() => used to add new items to array. OR *simply removes elements without leaving holes.* Returns the deleted items. 
 
 ```js
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.splice(2, 0, "Lemon", "Kiwi");
+fruits.splice(2, 0, "Lemon", "Kiwi");  // Alters the orignal array.
 ```
 1st parameter defines position where new elements should be added(spliced in), 2nd defines how many elements should be removed, rest parameters defines new elements to be added. 
+
+**NOTE :** The splice() method returns an array with the deleted items. Also splice() removes elements without leaving holes in array.
+
+**NOTE :** toSpliced() methods is same but it does not alters the orignal array.
+
+2. slice() => Slice out piece of array into new array. It does not remove element from orignal array.
+``` js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const sliceArr = fruits.slice(1);   // slice out part of an array starting from array element 1.
+const sliceArr2 = fruits.slice(1,3);
+```
+
+#### Search methods
+
+- arr.indexOf(item) - retuens index or -1 if not found;
+- arr.includes(item) - returns true or false;
+
+#### Sort methods
+
+
+
+
+
+
+
+
 
 
 
