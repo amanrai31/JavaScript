@@ -12,6 +12,38 @@ But Differnce is => array uses number to access its elements unlike objects(uses
 
 - Access array elements by index (0 index). We can change the elements of array.
 
-### Looping array element
-
 **NOTE :** How to recognize array? Array.isArray(array_name); OR (array_name instanceof Array) [beacause typeof will give object for object and array both]
+
+**NOTE :** JS does not support associative arrays (aarray with named indexes).
+
+### Array methods
+
+- arr.length;  arr.toString(); arr.at(index);
+
+**NOTE :** arr.at(2) OR arr[2] will produce same result, but JS doesNot allow -ve bracket indexing like [-2] thats why arr.at() method is usefull.
+
+- arr.join(); arr.pop(); arr.push(); arr.shift(); arr.unshift();
+
+- arr1.concat(arr2,arr3,...); - does not change existing array, creates a new array.
+
+- arr.flat(); convert multidiamensional array into a one-diamensional array.
+
+#### splice and slice methods 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
