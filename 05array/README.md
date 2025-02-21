@@ -30,13 +30,13 @@ But Differnce is => array uses number to access its elements unlike objects(uses
 
 #### splice and slice methods 
 
+1. splice() => used to add new items to array
 
-
-
-
-
-
-
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+```
+1st parameter defines position where new elements should be added(spliced in), 2nd defines how many elements should be removed, rest parameters defines new elements to be added. 
 
 
 
