@@ -56,13 +56,10 @@ const sliceArr2 = fruits.slice(1,3);
 
 #### Sort methods
 
+- arr.sort(); arr.reverse(); => By combining sort() and reverse(), you can sort an array in descending order.
+- arr.toSorted(); arr.toReversed() => safe to use as they do not alter orignal array;
 
-
-
-
-
-
-
+**NOTE :** Sorting happens as string so if we sort =>```js const arr = [10, 25, 8, 100]; then 100 will come before 25 ```
 
 
 
