@@ -52,5 +52,26 @@ const myObj = {
   const useToSpliced = carArr.toSpliced(1,2);     // removes 2 elements staring from index 1, Also does not alter original array
   console.log(useToSpliced, carArr);
 
-  // slice() method in README
+  // slice() method in README  => returns new array and does not alter original one.
+}
+
+// indexOf(), includes()
+{
+  const carArr = ["Mahindra", "BMW", "Tata", "Toyota"];
+  console.log("indexOf() method => ",carArr.indexOf("BMW"), carArr.indexOf("Audi"));
+  console.log("includes method => ",carArr.includes("BMW"), carArr.includes("Audi"));
+
+}
+
+// sort methods => sort(), reverse(), compare inside sort(). [toSorted(), toReversed()]
+{
+  const carArr = ["Mahindra", "BMW", "Tata", "Toyota"];
+  const numArr = [2,7,23,54,5,76,33,8];
+  console.log(carArr.sort());                // will work good because it is array of string
+  console.log(numArr.sort());                // will give unexpected results
+
+  numArr.sort((a,b)=>{return a-b});
+  console.log(numArr);
+  console.log(numArr.sort((a,b) => {return b-a}));   // sort in DESC ORDER  
+
 }
