@@ -7,10 +7,10 @@ But Difference is => array uses number to access its elements unlike objects(use
 **NOTE :** Because JS array are special kind of object we can have variables of different types in same array, we can have obj in array, f/n in array, array in array.
 
 ### Creating an array
-- Array literal => const arr = [item1, item2, ...];                  // This is preferred
-- new keyword => const arr = new Array(item1, item2, ...);      // can produce unexpected results sometimes; e.g. if u put only 1 number element it will take as size.
+- Array literal => ```js const arr = [item1, item2, ...]; ```          // This is preferred
+- new keyword => ```js const arr = new Array(item1, item2, ...); ```  // can produce unexpected results sometimes; e.g. if you put only 1 number element it will take as size.
 
-- Access array elements by index (0 index). We can change the elements of array.
+- Access array elements by index (0 index). Also we can change the elements of array.
 
 **NOTE :** How to recognize array? Array.isArray(array_name); OR (array_name instanceof Array) [because typeof will give object for object and array both]
 
