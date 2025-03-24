@@ -5,4 +5,4 @@
  Task queue(callback queue) is used by callback based APIs to en-queue the callback once the asynchronous task.
 
  Microtask queue - Only used by 
- promise handlers ``` .then(()=>{...}); .catch(()=>{...}); .finally(()=> {...})
+ promise handlers ``` .then(()=>{...}); .catch(()=>{...}); .finally(()=> {...})```
