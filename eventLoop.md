@@ -22,3 +22,5 @@ queue microtask queue callbacks ```queueMicrotask(()=>{...});```
 new MutationObserver callbacks ```new MutationObserver (()=>{...})```
 
 **NOTE :** After handling *each* task from task queue, event loops checks the microtask queue to ensure that nothing has been added to microtask queue in the meantime.
+
+ **NOTE  :** When you have setTimeout delay, it's the delay until it moves to *task queue*, not the call stack. The callback will go to call stack only if callStack and microTask queue is empty.
