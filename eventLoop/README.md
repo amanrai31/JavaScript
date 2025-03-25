@@ -37,3 +37,5 @@ new MutationObserver callbacks ```new MutationObserver (()=>{...})```
 
 
 So the priority =>   callStack > microTask queue > task/callback queue
+
+Event lop model =>no parallel command execution, efficient for CPU bound task, concurrency via non-blocking I/O
