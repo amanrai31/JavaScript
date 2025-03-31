@@ -37,3 +37,5 @@ new MutationObserver callbacks ```new MutationObserver (()=>{...})```
 
 
 So the priority =>   callStack > microTask queue > task/callback queue
+
+Test your JS knowledge => [https://www.youtube.com/watch?v=IHQcma93fpE]
