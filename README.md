@@ -13,6 +13,7 @@ E2E JS
 3. create a file with .js extension
 4. to run a simple JS program run - `node filename ` => e.g- "node intro.js"
 
+Source - [https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP]
 ---
 
 Computer is an electronic device which takes input from user, process it under the control of  
