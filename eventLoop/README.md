@@ -35,6 +35,8 @@ new MutationObserver callbacks ```new MutationObserver (()=>{...})```
 
 **NOTE :** When you have setTimeout delay, it's the delay until it moves to *task queue*, not the call stack. The callback will go to callStack only if callStack and microTask queue is empty.
 
+Test your JS knowledge => [https://www.youtube.com/watch?v=IHQcma93fpE]
+
 
 So the priority =>   callStack > microTask queue > task/callback queue
 
