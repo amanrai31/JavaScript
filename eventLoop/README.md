@@ -38,4 +38,8 @@ new MutationObserver callbacks ```new MutationObserver (()=>{...})```
 
 So the priority =>   callStack > microTask queue > task/callback queue
 
+<<<<<<< HEAD
 Test your JS knowledge => [https://www.youtube.com/watch?v=IHQcma93fpE]
+=======
+Event lop model =>no parallel command execution, efficient for CPU bound task, concurrency via non-blocking I/O
+>>>>>>> de62e94fd0093287355f9de6783175ccac0ee964
