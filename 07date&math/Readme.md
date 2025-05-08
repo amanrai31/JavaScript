@@ -96,3 +96,15 @@ function getRndInteger(min, max) {
 }
 // This JS function always returns a random number between min (included) and max (excluded).
 ```
+
+---
+
+# CONTENT => Comparision, if-else, switch
+
+## Boolean
+
+Everything With a "Value" is True e.g. => 100, 3.14, "aman", "false", 7 + 8.8.
+
+Everything Without a "Value" is False e.g. => 0, -0, "", null, undefined, NaN, false.
+
+**NOTE :** Comparing two JavaScript objects always return false.
