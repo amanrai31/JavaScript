@@ -170,4 +170,6 @@ switch (new Date().getDay()) {
 
 **NOTE :** Switch cases use strict comparison (===). The values must be of the same type to match
 
+---
 
+### LOOPS
