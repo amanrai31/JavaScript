@@ -1,4 +1,4 @@
-# CONTENT => Class
+# CONTENT => Class, Module
 
 JS Classes are templates for objects. Use "class" keyword to create a class also always add a method name constructor() inside.
 
@@ -97,4 +97,29 @@ const myCar = new Car("Ford");
 
 // You can call 'hello()' on the Car Class
 console.log(Car.hello()); //myCar.hello() - will raise error.
+```
+
+# Module
+
+JS modules allow you to break up your code into separate files. This makes it easier to maintain a code-base. Modules are imported from external files with the "import" statement.
+
+There are two types of exports: Named Exports and Default Exports.
+
+- Named export
+```
+const name = "Jesse";
+const age = 40;
+
+export {name, age};
+```
+
+- Default export
+```
+const message = () => {
+const name = "Jesse";
+const age = 40;
+return name + ' is ' + age + 'years old.';
+};
+
+export default message;
 ```
