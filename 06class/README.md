@@ -123,3 +123,5 @@ return name + ' is ' + age + 'years old.';
 
 export default message;
 ```
+
+**NOTE :** Modules only work with the HTTP(s) protocol. We can have only one default export in a module file.
