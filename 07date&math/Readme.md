@@ -25,3 +25,19 @@ const d = new Date(2018); // Will take 2018 as milliseconds.
 **NOTE :** JS stores dates as number of milliseconds since January 01, 1970. Zero time is January 01, 1970 00:00:00 UTC.
 
 **NOTE :** UTC (Universal Time Coordinated) is the same as GMT (Greenwich Mean Time).
+
+### Date get methods
+
+getFullYear()	=> Get year as a four digit number (yyyy) ``` const d = new Date(); const y = d.getFullYear()```
+getMonth()	=> Get month as a number (0-11) [ January is month number 0, & December is month number 11]
+getDate()	=> Get day as a number (1-31)
+getDay()	=> Get weekday as a number (0-6) [sunday is 0]
+getHours() =>	Get hour (0-23)
+getMinutes()	=> Get minute (0-59)
+getSeconds() =>	Get second (0-59)
+getMilliseconds() =>	Get millisecond (0-999)
+getTime()	=> Get time (milliseconds since January 1, 1970)
+
+**NOTE :** The get methods above return Local time.
+
+**NOTE :** The getTimezoneOffset() method returns the difference (in minutes) between local time an UTC time. ```let diff = d.getTimezoneOffset();```
