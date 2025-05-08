@@ -71,3 +71,28 @@ The JS Math object allows you to perform mathematical tasks on numbers.Unlike ot
 - Math.floor(x)	  // Returns x rounded down to its nearest integer
 - Math.trunc(x)	  // Returns the integer part of x (new in ES6)
 
+
+- Math.pow(x, y)   // returns the value of x to the power of y
+- Math.sqrt(x)    // returns the square root of x
+- Math.abs(x)     // returns the absolute (positive) value of x
+- Math.sin(x)/ Math.cos(x)  // returns the sine/cosine (a value between -1 and 1) of the angle x (given in radians).
+- Math.min()/ Math.max()  // used to find the lowest or highest value in a list of arguments. [Math.min(0, 150, 30, 20, -8, -200);]
+- Math.log(x)         // returns the natural logarithm of x
+- Math.log2(x)        // returns the base 2 logarithm of x.
+
+### Math.random()
+
+Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive).
+
+```
+Math.floor(Math.random() * 10); // Returns a random integer from 0 to 9
+Math.floor(Math.random() * 11); // Returns a random integer from 0 to 10
+Math.floor(Math.random() * 10) + 1; // // Returns a random integer from 1 to 10
+```
+
+```
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min) ) + min;
+}
+// This JS function always returns a random number between min (included) and max (excluded).
+```
