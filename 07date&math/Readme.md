@@ -108,3 +108,66 @@ Everything With a "Value" is True e.g. => 100, 3.14, "aman", "false", 7 + 8.8.
 Everything Without a "Value" is False e.g. => 0, -0, "", null, undefined, NaN, false.
 
 **NOTE :** Comparing two JavaScript objects always return false.
+
+### Comparison & Locgical Operators
+
+Comparison Operators => ==, ===, !=, !==, >, >=, <, <=
+
+Locgical Operators => &&, ||, !
+
+Conditional (Ternary) Operator => variablename = (condition) ? value1:value2 
+
+**NOTE :** To secure a proper result, variables should be converted to the proper type before comparison:
+
+The Nullish Coalescing Operator (??) => returns the first argument if it is not nullish (null or undefined), otherwise it returns the second argument.
+
+The Optional Chaining Operator (?.) => returns undefined if an object is undefined or null (instead of throwing an error).
+
+```js
+const car = {type:"Fiat", model:"500", color:"white"};
+// Ask for car name:
+console.log(car?.name); // Returns undefined, not some error.
+```
+
+### Conditional Statements
+
+- if
+- else
+- else if
+- switch
+
+**switch :** The switch expression is evaluated once. The value of the expression is compared with the values of each case. If there is a match, the associated block of code is executed. If there is no match, the default code block is executed.
+```
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
+**NOTE :** If default is not the last case in the switch block, remember to end the default case with a break. Here default is last case so breaking the switch not needed.
+
+Sometimes you will want different switch cases to use the same code.
+```
+switch (new Date().getDay()) {
+  case 4:
+  case 5:
+    text = "Soon it is Weekend";
+    break;
+  case 0:
+  case 6:
+    text = "It is Weekend";
+    break;
+  default:
+    text = "Looking forward to the Weekend";
+}
+```
+
+**NOTE :** Switch cases use strict comparison (===). The values must be of the same type to match
+
+
