@@ -41,3 +41,14 @@ getTime()	=> Get time (milliseconds since January 1, 1970)
 **NOTE :** The get methods above return Local time.
 
 **NOTE :** The getTimezoneOffset() method returns the difference (in minutes) between local time an UTC time. ```let diff = d.getTimezoneOffset();```
+
+Same goes with set Methods
+
+```
+const d = new Date("January 01, 2025");
+d.setDate(d.getDate() + 50);  // Adds days to a date.
+```
+
+# Math
+
+
