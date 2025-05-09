@@ -174,7 +174,7 @@ switch (new Date().getDay()) {
 
 ### LOOPS
 
-- for loop
+- **for loop**
 ```
 for (expression 1; expression 2; expression 3) {
   // code block to be executed
@@ -183,7 +183,7 @@ for (expression 1; expression 2; expression 3) {
 
 **NOTE :**  (All 3 expressions are optional, for 1st we can declear outside/before loop, for 2nd we can add break condition inside loop, for 3rd we can add condition inside loop)
 
-- for in loop (The JS for in loops through the properties of an Object, used to access value of the key)
+- **for in loop** (The JS for in loops through the properties of an Object, used to access value of the key)
 
 ```
 for (key in object) {
@@ -202,8 +202,21 @@ for (let x in person) {
 
 **NOTE :** Try not to use for-in loop over array if index order is important. The index order is implementation-dependent, and array values may not be accessed in the order you expect, better to use 'for'/'for-of'/Array.forEach() when order is important.
 
+- **Array.forEach()** [forEach() method calls a function (a callback function) once for each array element]
 
+```
+const numbers = [45, 4, 9, 16, 25];
 
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array) {     // Takes 3 arguments, 1- the item value, 2- the item index, 3- the array itself.
+  txt += value;
+}
+
+// or
+numbers.forEach((value)=> txt += value);
+```
 
 
 
