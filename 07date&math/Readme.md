@@ -173,3 +173,50 @@ switch (new Date().getDay()) {
 ---
 
 ### LOOPS
+
+- for loop
+```
+for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+}
+```
+
+**NOTE :**  (All 3 expressions are optional, for 1st we can declear outside/before loop, for 2nd we can add break condition inside loop, for 3rd we can add condition inside loop)
+
+- for in loop (The JS for in loops through the properties of an Object, used to access value of the key)
+
+```
+for (key in object) {
+  // code block to be executed
+}
+```
+
+```
+const person = {fname:"Aman", lname:"Rai", age:24};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+```
+
+**NOTE :** Try not to use for-in loop over array if index order is important. The index order is implementation-dependent, and array values may not be accessed in the order you expect, better to use 'for'/'for-of'/Array.forEach() when order is important.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
