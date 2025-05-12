@@ -16,4 +16,6 @@
 
 **>>>**	Zero fill right shift	=> Shifts right by pushing zeros in from the left, and let the rightmost bits fall off
 
-**NOTE :** JS stores numbers as 64 bits floating point numbers, but all bitwise operations are performed on 32 bits binary numbers. Before a bitwise operation is performed, JS converts numbers to 32 bits signed integers. 
+**NOTE :** JS stores numbers as 64 bits floating point numbers, but all bitwise operations are performed on 32 bits binary numbers. Before a bitwise operation is performed, JS converts numbers to 32 bits signed integers. After the bitwise operation is performed, the result is converted back to 64 bits JS numbers.
+
+E.G. if you do ~(nor) of 5 using 4 bit binary it will be 10 (0101 => 1010). But This NOR will
