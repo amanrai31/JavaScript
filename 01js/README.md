@@ -2,7 +2,7 @@
 ### Data Types (8)
 
 1. Number (64 bits, 15-17 digit precision)
-2. bigint [let bigInt = 20n; Used on integers only, arbitary pricision(unless ur memory fulls)]
+2. bigint [let bigInt = 20n; Used on integers only, arbitrary precision(unless ur memory fulls)]
 3. boolean
 4. string
 5. object
@@ -10,9 +10,9 @@
 7. null
 7. symbol
 
-**Note :** Non-premitive data type => It is passed by reference and thus mutable, stored by reference. ( e.g. Object)
+**Note :** Non-primitive data type => It is passed by reference and thus mutable, stored by reference. ( e.g. Object)
 
-**Note :** Premitive data type => Stored directly in memory, immutable(Changing their value create a new memory allocation). (e.g. All other data type except Object)
+**Note :** Primitive data type => Stored directly in memory, immutable(Changing their value create a new memory allocation). (e.g. All other data type except Object)
 
 
 ```JS
