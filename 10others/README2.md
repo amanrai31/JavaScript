@@ -71,6 +71,37 @@ In JS, the this keyword refers to an *object*. The this keyword refers to differ
 - In an event, this refers to the element that received the event.
 - Methods like call(), apply(), and bind() can refer this to any object.
 
+```js
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName; // i.e. this.firstName is the firstName property of this (the person object)
+  }
+  myFunc: function(){
+    return this;     // returns whole object
+  };
+```
+
+```js
+console.log(this); // In a browser window the global object is [object Window]
+
+//OR
+
+function myFunction() {
+  return this;            // global object i.e. object window in browser
+}
+```
+
+```js
+"use strict";
+function myFunction() {
+  return this;           // this is undefined
+}
+```
+
+
 
 
 
