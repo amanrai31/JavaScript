@@ -10,3 +10,12 @@ function myfunc() {
 }
 myfunc();
 console.log("y", y);
+
+// Hoisting
+
+var x = 5; // Initialize x
+
+elem = document.getElementById("demo"); // Find an element
+elem.innerHTML = x + " " + y;           // Display x and y => y is undefined because it is not intialized
+
+var y = 7; // Initialize y
