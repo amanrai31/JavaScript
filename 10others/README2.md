@@ -51,9 +51,12 @@ Declared at the beginning of a script, it has global scope (all code in the scri
 
 **NOTE :** The "use strict" directive is only recognized at the beginning of a script or a function.
 
+#### What it does not allow
 
-
-
+- Using a variable, without declaring it, is not allowed.
+- Deleting a variable (or object) is not allowed.
+- Duplicating a parameter name is not allowed.  ```js function x(p1, p1) {}; ```
+- Keywords reserved for future JavaScript versions can NOT be used as variable names in strict mode (like - implement, public, static,protected, private, pakage etc.)
 
 
 
