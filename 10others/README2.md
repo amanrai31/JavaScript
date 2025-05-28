@@ -58,6 +58,33 @@ Declared at the beginning of a script, it has global scope (all code in the scri
 - Duplicating a parameter name is not allowed.  ```js function x(p1, p1) {}; ```
 - Keywords reserved for future JavaScript versions can NOT be used as variable names in strict mode (like - implement, public, static,protected, private, pakage etc.)
 
+-----
+
+### this
+
+In JS, the this keyword refers to an *object*. The this keyword refers to different objects depending on how it is used.
+
+- In an object method, this refers to the object.
+- Alone, this refers to the global object.
+- In a f/n(which is defined globally, not object f/n), this refers to the global object.
+- In a f/n, in strict mode, this is undefined.
+- In an event, this refers to the element that received the event.
+- Methods like call(), apply(), and bind() can refer this to any object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
