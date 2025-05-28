@@ -43,6 +43,18 @@ Hoisting is JavaScript's default behavior of moving all **declarations** to the 
 
 JS technically hosit every declarations, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally decleared.
 
+-----
+
+### strict mode  => "use strict";
+
+Declared at the beginning of a script, it has global scope (all code in the script will execute in strict mode). 
+
+**NOTE :** The "use strict" directive is only recognized at the beginning of a script or a function.
+
+
+
+
+
 
 
 
