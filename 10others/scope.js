@@ -13,9 +13,11 @@ console.log("y", y);
 
 // Hoisting
 
-var x = 5; // Initialize x
+var a = 5; // Initialize x
+console.log(a + " " + b);           // Display a and b => b is undefined because it is not intialized (JS does not hoist intialization)
 
-elem = document.getElementById("demo"); // Find an element
-elem.innerHTML = x + " " + y;           // Display x and y => y is undefined because it is not intialized
+var b = 7; // Initialize b
 
-var y = 7; // Initialize y
+
+
+
