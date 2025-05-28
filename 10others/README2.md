@@ -12,7 +12,7 @@ ES6 introduced two important new JS keywords: let and const. These two keywords 
 
 #### Function scope
 
-JS has function scope: Each function creates a new scope. Variables defined inside a function are not accessible from outside the function. var, let and const are quite similar when declared inside a function. **Local variables have f/n scope**
+JS has function scope: Each function creates a new scope. Variables defined inside a function are not accessible from outside the function. var, let and const are quite similar when declared inside a function. **Local variables have f/n scope** . Local variables are created when a function starts, and deleted when the function is completed.
 
 #### Global scope
 
@@ -29,15 +29,13 @@ myFunction();
 // code here can use carName
 
 function myFunction() {
-  carName = "Volvo";
+  carName = "Volvo";       // carName is not decleared here, directly initialized.
 }
 ```
 
+**NOTE :** In "Strict Mode", undeclared variables are not automatically global.
 
-
-
-
-
+**NOTE :** Do NOT create global variables unless you intend to. Your global variables (or functions) can overwrite window variables (or functions). Any function, including the window object, can overwrite your global variables and functions.
 
 
 
