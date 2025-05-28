@@ -41,7 +41,7 @@ function myFunction() {
 Hoisting is JavaScript's default behavior of moving all **declarations** to the top of the current scope (to the top of the current script or the current function). JS do not hoist Initializations. So Initialize your variable (var) and then you can use it and then declear it.  
 
 
-JS technically hosit everything, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally decleared.
+JS technically hosit every declarations, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally decleared.
 
 
 
