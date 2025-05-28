@@ -18,10 +18,11 @@ JS has function scope: Each function creates a new scope. Variables defined insi
 
 Variables declared Globally (outside any function/block) have Global Scope. Global variables can be accessed from anywhere in a JS program.
 
-
-**NOTE : Automatically Global**
+**NOTE :** Do NOT create global variables unless you intend to. Your global variables (or functions) can overwrite window variables (or functions). Any function, including the window object, can overwrite your global variables and functions.
 
 If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+
+**NOTE :** In "Strict Mode", undeclared variables are not automatically global.
 
 ```js
 myFunction();
@@ -29,19 +30,18 @@ myFunction();
 // code here can use carName
 
 function myFunction() {
-  carName = "Volvo";       // carName is not decleared here, directly initialized.
+  carName = "Volvo";            // directly Initialized, so treated as global scope.
 }
 ```
 
-**NOTE :** In "Strict Mode", undeclared variables are not automatically global.
+-----
 
-**NOTE :** Do NOT create global variables unless you intend to. Your global variables (or functions) can overwrite window variables (or functions). Any function, including the window object, can overwrite your global variables and functions.
+### Hoisting
 
-
-
-
+Hoisting is JavaScript's default behavior of moving all **declarations** to the top of the current scope (to the top of the current script or the current function). JS do not hoist Initializations. So Initialize your variable (var) and then you can use it and then declear it.  
 
 
+JS technically hosit everything, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally decleared.
 
 
 
