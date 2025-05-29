@@ -117,6 +117,23 @@ const person2 = {
 person1.fullName.call(person2); // call() & apply() methods used to call an object method with another object as argument
 ```
 
+--------
+
+### JSON (JavaScript Object Notation)
+
+It is a format for storing and transporting data. JSON is often used when data is sent from a server to a web page. JSON is language independent.
+
+```json
+{
+"employees":[
+  {"firstName":"John", "lastName":"Doe"},
+  {"firstName":"Anna", "lastName":"Smith"},
+  {"firstName":"Peter", "lastName":"Jones"}
+]
+}
+```
+
+JavaScript built-in function JSON.parse() converts the string into a JavaScript object:
 
 
 
