@@ -139,6 +139,8 @@ JavaScript built-in function JSON.parse() converts the string into a JavaScript 
 
 ### Good practices
 
+if (typeof myObj !== "undefined" && myObj !== null) **use undefined check before null**
+
 ```js
 for(let i=0; i<arr.length;i++){     // BAD
 }
@@ -153,4 +155,8 @@ for(let i=0; i<l;i++){     // GOOD
 -----
 
 ## Learn more about asyn/promise, web APIs
+
+
+
+
 
