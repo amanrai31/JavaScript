@@ -1,4 +1,4 @@
-# CONTENT => Scope, Strict, this, JSON, debugging
+# CONTENT => Scope, Strict, this, JSON, WebAPI
 
 ### Scope
 
@@ -38,10 +38,10 @@ function myFunction() {
 
 ### Hoisting
 
-Hoisting is JavaScript's default behavior of moving all **declarations** to the top of the current scope (to the top of the current script or the current function). JS do not hoist Initializations. So Initialize your variable (var) and then you can use it and then declear it.  
+Hoisting is JavaScript's default behavior of moving all **declarations** to the top of the current scope (to the top of the current script or the current function). JS do not hoist Initializations. So Initialize your variable (var) and then you can use it and then declared it.  
 
 
-JS technically hosit every declarations, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally decleared.
+JS technically hoist every declarations, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally declared.
 
 -----
 
@@ -154,9 +154,26 @@ for(let i=0; i<l;i++){     // GOOD
 
 -----
 
-## Learn more about asyn/promise, web APIs
+### WebAPIs
+
+A Web API is an API for the Web. 
+
+#### web API
+ Any API available over the web (i.e., HTTP) to let applications communicate. Used by browser, mobile, backend
+
+REST APIs/ GraphQL provided by backend servers 
+Third-party services like GitHub API, Twitter API, etc.
 
 
+#### A Browser API 
+APIs provided by the browser to help web developers interact with browser features, extend the functionality of a web browser.
 
+- fetch()
+- localStorage() => [no expiration date => localStorage.setItem("name", "John Doe");], sessionStorage() => [The data is deleted when the browser is closed]
+- DOM API - document.querySelector()
+- GeoLocation API, WebRTC, Canvas API, Notification API
 
+**So we can say all browser API are web API, vice versa not true** 
+
+- Web history API => back, forward, go, length => window.history.back() [1 page back], window.history.go(-2) [2 page back], 
 
