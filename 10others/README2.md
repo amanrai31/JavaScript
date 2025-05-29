@@ -150,4 +150,7 @@ for(let i=0; i<l;i++){     // GOOD
 }
 ```
 
+-----
+
+## Learn more about asyn/promise, web APIs
 
