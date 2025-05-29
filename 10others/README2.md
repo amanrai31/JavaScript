@@ -135,12 +135,19 @@ It is a format for storing and transporting data. JSON is often used when data i
 
 JavaScript built-in function JSON.parse() converts the string into a JavaScript object:
 
+-----
 
+### Good practices
 
+```js
+for(let i=0; i<arr.length;i++){     // BAD
+}
+```
 
-
-
-
-
+```js
+let l =arr.length;
+for(let i=0; i<l;i++){     // GOOD
+}
+```
 
 
