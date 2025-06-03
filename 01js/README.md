@@ -17,7 +17,7 @@
 
 - Expressions(Algebra)
 
-#### Operators
+### Operators
 1. Arithmetic Operators [ + , - , * , / , % , **(exponential), ++ -- ]
 2. Assignment operator [ = ]   (See logical assignment operator.)
 3. Comparison Operators [ ==, !==, < , <= , > , >= , ===(equal value and equal type) , !==(not equal value or equal type)]
