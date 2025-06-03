@@ -134,10 +134,6 @@ cars = ["Toyota", "Volvo", "Audi"];    // ERROR
 4. Loical operators [ && , || , ! ]
 5. Type oprators[typeof(Returns the type of a variable), instanceof(Returns true if an object is an instance of an object type)]
 6. Bitwise Operators [ &, | , ~(not- uniary operator) , ^(xor) , << , >> , >>>]
-7. Ternary operator ( ? )
-
-
+7. Ternary operator ( ? ), Nullish coalescing (??=) If the first value is undefined or null,the second value is assigned.
 
 **Note -** Bit operators work on 32 bits numbers. 
-
-**Note -** Nullish coalescing assignment operator(??=) => If the first value is undefined or null,the second value is assigned.
