@@ -12,7 +12,7 @@ ES6 introduced two important new JS keywords: let and const. These two keywords 
 
 1. let => Block Scope, cannot be Redeclared in the same scope, can be reassign
 2. const => Block Scope, cannot be Redeclared in the same scope, **can'nt be reassign**, must be assign a value when declared. It does not define a constant value. It defines a constant reference to a value. Means we can'nt Reassign a constant array but can change elements of array(same for objects)
-3. var => Global scope, can be Redeclared. var do not respect block scope, var only respects f/n block.
+3. var => Global scope, can be Redeclared. var do not respect block scope(can be accessed outside block), var only respects f/n block.
 
 **Note -** let and const does not bind ```this```.
 
