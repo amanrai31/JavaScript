@@ -41,7 +41,7 @@ Interpreted-
 
 # JavaScript (ES6- Second revision of JS(2015))
 JS is Interpreted, dynamically typed, (FP && OOPS), executed by browser and single threaded lang.(We can make node multithreaded).
-JavaScript is an OOPs language that uses prototypes rather than using classes for inheritance. We can use classes for inheritance(ES6) in more clean/intuitive way.
+JavaScript is an OOPs language that uses prototypes OR class(modern JS) for inheritance.
 
 ### What JS can do (WHY JS)
 1. JS is only language that a browser understands. (We have other languages that transpiled to JS e.g. TS, Dart, WebAssembly)
