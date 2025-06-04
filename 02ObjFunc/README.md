@@ -73,9 +73,6 @@ const myArray = Object.values(person);    // Creates array of property's values
 // Writes in JSON format ===> 3rd option
 let myString = JSON.stringify(person);      // output - {"name":"John","age":30,"city":"New York"}
 
-
-// Display the Text
-document.getElementById("demo").innerHTML = text;
 ```
 
 #### Object constructor/Object constructor function
