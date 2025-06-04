@@ -7,24 +7,22 @@ const fruitEntries = Object.entries(fruits);
 console.log("Array from object => ",fruitEntries);
 
 let text = "";
-for (let [fruit, value] of fruitEntries) {     // forof loop works on array/entry, not on object
+for (let [fruit, value] of fruitEntries) {     // forof loop works on array/entry(fruitEntries), not on object
   text += fruit + ": " + value + " ";
 }
 console.log(text)
 
-// Object.fromEntries() => Returns object from entry/array
-console.log("Object from entry/array", Object.fromEntries(fruitEntries));
-
 const map1 = new Map(fruitEntries); // We can not create map from fruits Object cuz it is not iterable, fruitEntries is iterable. 
 console.log("Map1 - ",map1);
+
+// Object.fromEntries() => Returns object from entry/array
+console.log("Object from entry/array", Object.fromEntries(fruitEntries));
 
 // Object.values(object)
 console.log("Values - ",Object.values(fruits))
 
 // Object.keys(object)
-
 console.log("Keys - ",Object.keys(fruits))
-
 
 // Other methods - Object.fromEntries(iterableEntries/list), Object.asign(target,source), Object.create(object)
 
