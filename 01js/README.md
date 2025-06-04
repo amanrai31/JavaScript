@@ -2,11 +2,6 @@
 
 ### Basics of RAM, ROM.
 
-### Other topics
-1. JS Code Blocks {}
-2. JS Statements(Instructions)
-3. Keywords, Comments, [JS identifiers are case sensitive.]
-
 ### VARIABLES 
  - Variables are container for storing data. 
  
@@ -14,6 +9,8 @@
 
 1. VARIABLE Declaration & initialization
 2. Global scope & block scope (chapter 10)
+3. JS Statements(Instructions)
+4. Keywords, Comments, [JS identifiers are case sensitive.]
 
 - Expressions(Algebra)
 
