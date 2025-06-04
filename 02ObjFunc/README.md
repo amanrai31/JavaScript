@@ -2,9 +2,9 @@
 
 ## Object
 
-Objects are containers for Properties(Props) and Behaviours(Methods). In JS almost everthing is object(KING OF JS).
+Objects are containers for Properties(Props) and Behaviours(Methods/functions). In JS almost everthing is object(KING OF JS).
 
-Objects are non-premitive data type because they are **stored by ref**, that why **mutable**
+Objects are non-premitive data type because they are **stored by ref**, that's why **mutable**
 
 **Notes -** Properties can be primitive values, functions, or even other objects.
 
