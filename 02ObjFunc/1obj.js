@@ -40,7 +40,7 @@ const person = {
     age: 25
   };
   let txt= "";
-  for (let x in person) {          // loop will be executed once for each property. (gives value of props)
+  for (let x in person) {          // loop will be executed once for each property, gives value of props => forin loop is for object.
     txt += person[x] + " ";
   }
   console.log(txt)
