@@ -54,6 +54,6 @@ let text = "We are the so-called \"Vikings\" from the north.";
 - str.includes("string/substring")
 
 
-### Template strings ( ` ` ) => ``
+### Template strings ( ` ` ) => ` `
 
 Template string allows single & double quotes inside a string, allows multiline string and *interpolation* ${...} i.e. it can interpolate variables and expressions.
