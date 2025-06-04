@@ -111,7 +111,21 @@ But we can add new properties to objects=> ` myFather.height = "5.10" `
 
 **Note -** Use object literals {} instead of new Object(). Use array literals [] instead of new Array(). Use pattern literals /()/ instead of new RegExp(). Use function expressions () {} instead of new Function().
 
-# Global objects - Read about
+-----
+
+### Global objects vs Object constructor
+
+The global object is the top-level object in JavaScript that provides access to global variables, functions, and built-in constructors.
+
+- In browsers: ```window``` is the global object. In Node.js: ```global``` is the global object.
+
+**Key characteristics**
+
+- Contains built-in objects like Math, JSON, etc.
+- Contains global functions like parseInt, setTimeout, etc.
+- Holds user-defined global variables (e.g., var x = 10 makes x accessible via window.x)
+
+-----
 
 ## JavaScript Object Methods 
 
