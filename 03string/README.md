@@ -34,7 +34,7 @@ let text = "We are the so-called \"Vikings\" from the north.";
 - str.toUpperCase()
 - str.toLowerCase()
 
-5. str.concat(list of parameters to be added)
+5. str.concat("some string")
 
 6. str.trim(); str.trimStart(); str.trimEnd();
 
