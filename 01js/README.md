@@ -17,7 +17,7 @@
 1. Arithmetic Operators [ + , - , * , / , % , **(exponential), ++ -- ]
 2. Assignment operator [ = ]   (See logical assignment operator.)
 3. Comparison Operators [ ==, !==, < , <= , > , >= , ===(equal value and equal type) , !==(not equal value or equal type)]
-4. Local operators [ && , || , ! ]
+4. Logical operators [ && , || , ! ]
 5. Type operators[typeof(Returns the type of a variable), instanceof(Returns true if an object is an instance of an object type)]
 6. Bitwise Operators [ &, | , ~(not- uniary operator) , ^(xor) , << , >> , >>>]
 7. Ternary operator ( ? ), Nullish coalescing (??=) If the first value is undefined or null,the second value is assigned.
