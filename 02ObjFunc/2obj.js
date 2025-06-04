@@ -1,13 +1,13 @@
 // Object methods
 
-// Object.entries(object) => returns an array of the key/value pairs from an object
 const fruits = {Bananas:300, Oranges:200, Apples:500};
 
+// Object.entries(object) => returns an array of the key/value pairs from an object
 const fruitEntries = Object.entries(fruits);
 console.log("Array from object => ",fruitEntries);
 
 let text = "";
-for (let [fruit, value] of fruitEntries) {
+for (let [fruit, value] of fruitEntries) {     // forof loop works on array/entry, not on object
   text += fruit + ": " + value + " ";
 }
 console.log(text)
