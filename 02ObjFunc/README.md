@@ -84,7 +84,7 @@ Sometimes we need to create many objects of the same type. (Keep name of constru
 
 **Note:** We can not use arrow function as object constructor, it lacks "this" binding.
 
-**Note:** Modern JS uses class for Object Constructor
+**Note:** WE CAN CONSIDER PROTOTYPES AS CLASS. Modern JS uses class for Object Constructor.
 ```JS
 function Person(first, last, age, eye) { // We can not use arrow function as object constructor
   this.firstName = first;
@@ -113,8 +113,6 @@ But we can add new properties to objects=> ` myFather.height = "5.10" `
 **Note -** The Math() object is not in the list. Math is a global object. The new keyword cannot be used on Math.
 
 **Note -** Use object literals {} instead of new Object(). Use array literals [] instead of new Array(). Use pattern literals /()/ instead of new RegExp(). Use function expressions () {} instead of new Function().
-
-**Note -** WE CAN CONSIDER PROTOTYPES AS CLASS. Modern JS uses class for Object Constructor
 
 # Global objects -Read about
 
