@@ -1,16 +1,19 @@
 // Object methods
 
-// Object.entries(object) => returns an array of the key/value pairs in an object
+// Object.entries(object) => returns an array of the key/value pairs from an object
 const fruits = {Bananas:300, Oranges:200, Apples:500};
 
 const fruitEntries = Object.entries(fruits);
-console.log(fruitEntries);
+console.log("Array from object => ",fruitEntries);
 
 let text = "";
 for (let [fruit, value] of fruitEntries) {
   text += fruit + ": " + value + " ";
 }
 console.log(text)
+
+// Object.fromEntries() => Returns object from entry/array
+console.log("Object from entry/array", Object.fromEntries(fruitEntries));
 
 const map1 = new Map(fruitEntries); // We can not create map from fruits Object cuz it is not iterable, fruitEntries is iterable. 
 console.log("Map1 - ",map1);
