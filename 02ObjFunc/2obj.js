@@ -50,8 +50,6 @@ console.log("Keys - ",Object.keys(fruits))
 //   console.log(text)
 
 
-
-
 const person = {
   firstName: "Rahul",
   lastName : "Yadav",
