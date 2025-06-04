@@ -9,7 +9,7 @@ Objects are non-premitive data type because they are **stored by ref**, that why
 **Notes -** Properties can be primitive values, functions, or even other objects.
 
 Define JS object
-- Object literal [ ```js const personDetails = {name:"xyz", age:20} ```]  **recommended**
+- Object literal =>  ```js const personDetails = {name:"xyz", age:20} ``` =>  **recommended**
 - using new keyword. [Usually when we make object from Object Constructor or class]
 - Using an Object Constructor
 
