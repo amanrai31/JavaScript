@@ -19,7 +19,7 @@ console.log(str1.length);
 
 // str.charAt(position), str1.at(position), str.charCodeAt(position)
 console.log("charAt =>",str1.charAt(0),"at =>", str1.at(0));              
-console.log("at with -ve index =>", str1.at(-4),"charCodeAt =>", str1.charCodeAt(0));    
+console.log("at with -ve index =>", str1.at(-5),"charCodeAt =>", str1.charCodeAt(0));    
 
 
 // str.slice(start, end) || str.substring(start, end) || str.substr(start, length)
