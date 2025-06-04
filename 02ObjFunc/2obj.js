@@ -25,6 +25,8 @@ console.log("Keys - ",Object.keys(fruits))
 
 // Other methods - Object.fromEntries(iterableEntries/list), Object.asign(target,source), Object.create(object)
 
+// --------------------------------------------------------------------------------------------
+
 // Object.groupBy()
 // const fruits = [
 //     {name:"apples", quantity:300},
