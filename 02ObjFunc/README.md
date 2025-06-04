@@ -177,7 +177,7 @@ let z = x(4, 3);          // After a function expression has been stored in a va
 
 ```
 
-**NOTE :** Hoisting applies to variable declarations(using var only) and to f/n declarations(not for arrow f/n). Hoisting is JS default behavior of moving declarations to the top of the current scope. (In Hoisting we can use variable(var)/function before declaration, and after use we can declear )
+**NOTE :** Hoisting applies to variable declarations(using var only) and to f/n declarations(not for arrow f/n). Hoisting is JS default behavior of moving declarations to the top of the current scope. (In Hoisting we can use variable(var)/function before declaration, and after use we can declear ) => READ MORE IN CHAPTER 10.
 
 **NOTE :** The *typeof* operator in JavaScript returns "function" for functions.
 
