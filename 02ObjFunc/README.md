@@ -68,7 +68,7 @@ for (let x in person) {   // x is key
 };
 
 // Create an Array  ===> 2nd method
-const myArray = Object.values(person);    // Creates array of property values
+const myArray = Object.values(person);    // Creates array of property's values
 
 // Writes in JSON format ===> 3rd option
 let myString = JSON.stringify(person);      // output - {"name":"John","age":30,"city":"New York"}
