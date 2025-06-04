@@ -113,7 +113,7 @@ But we can add new properties to objects=> ` myFather.height = "5.10" `
 
 -----
 
-### Global objects vs Object constructor
+### Global objects
 
 The global object is the top-level object in JavaScript that provides access to global variables, functions, and built-in constructors.
 
