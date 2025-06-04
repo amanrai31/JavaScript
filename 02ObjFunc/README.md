@@ -97,8 +97,8 @@ function Person(first, last, age, eye) { // We can not use arrow function as obj
   }
 }
 
-const myFather = new Person("John", "Doe", 50, "blue");
-const myMother = new Person("Sally", "Rally", 48, "green");
+const myFather = new Person("BN", "Rai", 50, "Brown");
+const myMother = new Person("Sush", "Rai", 48, "Black");
 ```
 
 We can **NOT** add new property to constructor function just like objects, to add new property(property/function) 
