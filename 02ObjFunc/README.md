@@ -114,18 +114,18 @@ But we can add new properties to objects=> ` myFather.height = "5.10" `
 
 **Note -** Use object literals {} instead of new Object(). Use array literals [] instead of new Array(). Use pattern literals /()/ instead of new RegExp(). Use function expressions () {} instead of new Function().
 
-# Global objects -Read about
+# Global objects - Read about
 
 ## JavaScript Object Methods 
 
 ### 1. General methods
 
-1. Object.assign(target, source) [Copies properties from a source object to a target object]
-2. Object.create(object) [Creates an object from an existing object]
-3. Object.fromEntries(iterableEntries) [Creates an object from a list/array of keys/values]
-4. Object.entries(object) [Returns an array of the key/value pairs of an object]
-5. Object.key(object) [Returns an array of the key of an object]
-6. Object.value(object) [Returns an array of the value of an object]
+1. Object.key(object) [Returns an array of the key of an object]
+2. Object.value(object) [Returns an array of the value of an object]
+3. Object.entries(object) [Returns an array of the key/value pairs of an object]
+4. Object.fromEntries(iterableEntries) [Creates an object from a list/array of keys/values]
+5. Object.assign(target, source) [Copies properties from a source object to a target object]
+6. Object.create(object) [Creates an object from an existing object]
 7. Object.groupBy(object, callback) [Groups object elements according to a function]
 
 ### 2. Property Management Methods - Not that much of use
