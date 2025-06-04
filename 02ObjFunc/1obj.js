@@ -29,11 +29,6 @@ console.log("Myself JSON => ",mySelfJson);
 
 console.log(Person.prototype)
 
-console.log("My father array from object=>",Object.entries(myFather))  // Create array/list from object
-console.log("My father object from array=>",Object.fromEntries(Object.entries(myFather))) // Create obj from list/array.
-console.log("My father value", Object.values(myFather))  // Object.values
-console.log("My father value", Object.keys(myFather))   // Object.keys
-
 const personObj = {
     fname:"John",
     lname:"Doe",
