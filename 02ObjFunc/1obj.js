@@ -34,13 +34,13 @@ console.log("My father object from array=>",Object.fromEntries(Object.entries(my
 console.log("My father value", Object.values(myFather))  // Object.values
 console.log("My father value", Object.keys(myFather))   // Object.keys
 
-const person = {
+const personObj = {
     fname:"John",
     lname:"Doe",
     age: 25
   };
   let txt= "";
-  for (let x in person) {          // loop will be executed once for each property, gives value of props => forin loop is for object.
-    txt += person[x] + " ";
+  for (let x in personObj) {          // loop will be executed once for each property, gives value of props => forin loop is for object.
+    txt += personObj[x] + " ";
   }
   console.log(txt)
