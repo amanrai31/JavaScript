@@ -11,8 +11,7 @@
 2. Global scope & block scope (chapter 10)
 3. JS Statements(Instructions)
 4. Keywords, Comments, [JS identifiers are case sensitive.]
-
-- Expressions(Algebra)
+5. Expressions(Algebra)
 
 ### Operators
 1. Arithmetic Operators [ + , - , * , / , % , **(exponential), ++ -- ]
