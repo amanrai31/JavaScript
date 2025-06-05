@@ -12,7 +12,7 @@
 -----
 
 - What is Object, why object
-- Declare object (TS object), how to get value of object.
+- Declare & intialize object (TS object), how to get value of object.
 - Object constructor
 - Global object
 - Object methods (general => key, value, entries, fromEntries etc.) Also JSON.stringify(), JSON.parse().
