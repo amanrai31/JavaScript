@@ -28,7 +28,7 @@ objectName["propertyName"] // If key itself is in string form
 
 OR
 
-objectName[x]   // x here is expression e.g => let x = objectName.property/key then objectName[x]
+objectName[x]   // x here is expression e.g => let x = objectName.property/key i.e. x is key
 
 ```
 #### Object methods
