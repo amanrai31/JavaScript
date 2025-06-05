@@ -106,7 +106,7 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 - In JS all f/n are object methods, if a f/n is not a method of a JS object, it is a f/n of the global object
 
 
-#### "this" in f/n and methods
+#### "this" in f/n and methods (Chapter 10)
 
 - In an object method(f/n), this refers to the object(in which that f/n is declared). 
 - Alone, this refers to the global object.
