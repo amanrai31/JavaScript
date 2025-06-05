@@ -108,15 +108,6 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 
 #### "this" in f/n and methods (Chapter 10)
 
-- In an object method(f/n), this refers to the object(in which that f/n is declared). 
-- Alone, this refers to the global object.
-- In a function(in normal f/n declared outside of any object), this refers to the global object.
-- In a function, in strict mode, this is undefined.
-- In an event, this refers to the element that received the event.
-- Methods like call(), apply(), and bind() can refer this to any object.
-
-
-
 #### F/n closures
 - A f/n can access all variables inside its local scope
 - A function can access all variables in the global scope:
