@@ -85,7 +85,7 @@ The global object is the top-level object in JavaScript that provides access to 
 **Key characteristics**
 
 - Contains built-in objects like Math, JSON, etc.
-- Contains global functions like parseInt, setTimeout, etc.
+- Contains global functions like parseInt, setTimeout, alert(browser only) etc.
 - Holds user-defined global variables (e.g., var x = 10 makes x accessible via window.x)
 
 -----
