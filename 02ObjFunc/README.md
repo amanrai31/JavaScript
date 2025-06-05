@@ -62,9 +62,9 @@ const myMother = new Person("Sush", "Rai", 48, "Black");
 ```
 
 We can **NOT** add new property to constructor function just like objects, to add new property(property/function) 
+` Person.prototype.nationality = "Indian" `
 
 **NOTE:** But that will be constant for all Obj made out of this Object Constructor.
-` Person.prototype.nationality = "Indian" `
 
 But we can add new properties to objects=> ` myFather.height = "5.10" `
 
