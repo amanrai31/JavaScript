@@ -7,7 +7,7 @@
  
 **Note -** JS variable can hold any type of data. (Variable name can start with $,_ or with alphabets only).
 
-1. VARIABLE Declaration & initialization. Hositing(Chapter 10)
+1. VARIABLE Declaration & initialization. Hositing(Chapter 10), pass by **value** & pass by **reference**
 2. Global scope & block scope (chapter 10)
 3. JS Statements(Instructions)
 4. Keywords, Comments, [JS identifiers are case sensitive.]
