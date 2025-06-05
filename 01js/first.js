@@ -15,3 +15,5 @@ console.log("NOT Bitwise of 5 is=>",x)  // Bitwise operates on 32bits
 
 console.log("Type of power = ",typeof(power)); // typeof and instanceof operator
 
+const a = null;
+console.log(typeof(a));
