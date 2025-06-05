@@ -34,32 +34,9 @@ objectName[x]   // x here is expression e.g => let x = objectName.property/key i
 
 **Note -** We can change, add and delete[delete objectName.property => will dlt key, value both.] object's props.
 
-#### Read about Nested object
+#### => Read about Nested object
 
-#### Display objects
-
-```JS
-const person = {
-  name: "John",
-  age: 30,
-  city: "New York"
-};
-
-// Build a Text  ===> 1st method
-let text = "";
-for (let x in person) {   // x is key
-  text += person[x] + " ";
-};
-
-// Create an Array of property's value 
-const myArray = Object.values(person);    
-
-// Writes in JSON format  => output - {"name":"John","age":30,"city":"New York"}
-let myString = JSON.stringify(person);
-
-let x = person; // Here x is not copy of person. x is person, so any change in x will reflect in person too.
-
-```
+#### => for-in loop on object, JSON.stringify(obj), passing object by reference.
 
 #### Object constructor/Object constructor function
 
