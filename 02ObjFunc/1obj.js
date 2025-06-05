@@ -12,8 +12,10 @@ const myFather = new Person("BN", "Rai", 60, "black");
 const myMother = new Person("Aish", "Rai", 48, "blue");
 
 const fatherJson = JSON.stringify(myFather);
+const obj1 = myFather;                    // Now any change in obj1 will change myFather as well, because they have the same reference. They are one now
 
 console.log(fatherJson);
+console.log(obj1==myFather, obj1===myFather);   // Because they point to the same reference. In all other cases comparing object will give false.
 
 Person.prototype.height = "6";
 
