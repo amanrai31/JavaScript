@@ -38,7 +38,7 @@ objectName[x]   // x here is expression e.g => let x = objectName.property/key i
 
 #### => for-in loop on object, JSON.stringify(obj), passing object by reference => visit obj1.js
 
-#### Object constructor/Object constructor function
+### Object constructor/Object constructor function
 
 Sometimes we need to create many objects of the same type. (Keep name of constructor function upper-case first letter.)
 
