@@ -8,8 +8,7 @@ A function is executed when "something" invokes it (calls it).
 **Use -** We can reuse code.
 
 ``` js
-function name(parameter1, parameter2, parameter3) {  // 
-  // code to be executed
+function name(parameter1, parameter2, parameter3) {  
   console.log(parameter1); // This function is not returning anything
 }
 
