@@ -10,7 +10,7 @@ Objects are non-primitive data type because they are **stored by ref**, that's w
 
 Define JS object 
 ```ts
-const obj : type = {...} //Generic
+const obj : type = {...} //General syntax for obj in TS
 ```
 - Object literal =>  ``` const personDetails = {name:"xyz", age:20} ``` =>  **recommended**
 - using new keyword. [Usually when we make object from Object Constructor or class]
