@@ -43,14 +43,14 @@ Interpreted-
 JS is Interpreted, dynamically typed, (FP && OOPS), executed by browser and single threaded lang.(We can make node multithreaded).
 JavaScript is an OOPs language that uses prototypes OR class(modern JS) for inheritance.
 
-## What JS can do (WHY JS)
+### What JS can do (WHY JS)
 1. JS is only language that a browser understands. (We have other languages that transpiled to JS e.g. TS, Dart, WebAssembly)
 2. JS can Change/Show/Hide HTML content.
 3. JS can change HTML styles (CSS).
 
-## JavaScript with HTML
+### JavaScript with HTML
 
-### 1. JS in head or body
+#### 1. JS in head or body
 
 ```
 <!DOCTYPE html>    
@@ -75,7 +75,7 @@ function myFunction() {
 document.getElementById("demo").style.fontSize = "35px"; -- Changing CSS using JS
 ```
 
-### 2. External JavaScript Advantages
+#### 2. External JavaScript Advantages
 
 1. It separates HTML and code thus easier to read and maintain.
 2. Cached JavaScript files can speed up page loads.
@@ -86,7 +86,7 @@ External JS References
 2. With a file path ``` <script src="/jsLogic/myScript.js defer"></script>)  // Here defer attribute ensures that script is executed after HTML is fully parsed (avoids loading HTML). Add script tag in head of HTML ```
 3. Without any path
 
-## How JS displays data
+### How JS displays data
 
 1. Using innerHTML. [Common way- document.getElementById(id)]
 2. Writing into the browser console, using console.log(). [Used for debugging]
