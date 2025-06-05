@@ -11,7 +11,7 @@
 
 -----
 
-- Object, why object
+- What is Object, why object
 - Declare object (TS object), how to get value of object.
 - Object constructor
 - Global object
@@ -22,4 +22,4 @@
 
 -----
 
-- function, why function
+- What is function, why function
