@@ -7,7 +7,7 @@
  
 **Note -** JS variable can hold any type of data. (Variable name can start with $,_ or with alphabets only).
 
-1. VARIABLE Declaration & initialization. Hositing(Chapter 10), pass by **value** & pass by **reference**
+1. VARIABLE Declaration & initialization. Hoisting(Chapter 10), pass by **value** & pass by **reference**
 2. Global scope & block scope (chapter 10)
 3. JS Statements(Instructions)
 4. Keywords, Comments, [JS identifiers are case sensitive.]
@@ -19,7 +19,7 @@
 3. Comparison Operators [ ==, !==, < , <= , > , >= , ===(equal value and equal type) , !==(not equal value or equal type)]
 4. Logical operators [ && , || , ! ]
 5. Type operators[typeof(Returns the type of a variable), instanceof(Returns true if an object is an instance of an object type)]
-6. Bitwise Operators [ &, | , ~(not- uniary operator) , ^(xor) , << , >> , >>>]
+6. Bitwise Operators [ &, | , ~(not- urinary operator) , ^(xor) , << , >> , >>>]
 7. Ternary operator ( ? ), Nullish coalescing (??=) If the first value is undefined or null,the second value is assigned.
 
 **Note -** Bit operators work on 32 bits numbers. 
