@@ -1,6 +1,5 @@
 
-- JS as lang.
-- Why js
+- JS as lang, Why js
 - JS in html, how JS interact with html. How JS can write on browser/node
 
 -----
