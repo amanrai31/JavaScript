@@ -3,10 +3,10 @@ function toCelsius(fahrenheit) {
 }
   
 let value = toCelsius; // Accessing a function without () returns the function object and not the function result.
-
 const v1 = value(100);
 
 console.log("100 fahrenheit in celsius =>", v1);
+console.log(typeof toCelsius, toCelsius instanceof Function); // All f/n in JS are instances of the Function constructor
 
 // Arrow f/n
 const arrowFunc = () => { console.log("Arrow f/n called")};
