@@ -31,9 +31,6 @@ OR
 objectName[x]   // x here is expression e.g => let x = objectName.property/key i.e. x is key
 
 ```
-#### More on Object
-
-**Note -** JS objects are mutable
 
 **Note -** We can change, add and delete[delete objectName.property => will dlt key, value both.] object's props.
 
