@@ -15,6 +15,7 @@
 - Declare & intialize object (TS object), how to get value of object.
 - Object constructor
 - Global object
+- for-in loop on object
 - Object methods (general => key, value, entries, fromEntries etc.) Also JSON.stringify(), JSON.parse().
 - Object Protection Methods (Object.preventExtensions(object), Object.seal(object), Object.freeze(object))
 - Property Management Methods (Object.getOwnPropertyNames(object))
