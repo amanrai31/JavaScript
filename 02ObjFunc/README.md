@@ -36,7 +36,7 @@ objectName[x]   // x here is expression e.g => let x = objectName.property/key i
 
 #### => Read about Nested object
 
-#### => for-in loop on object, JSON.stringify(obj), passing object by reference.
+#### => for-in loop on object, JSON.stringify(obj), passing object by reference => visit obj1.js
 
 #### Object constructor/Object constructor function
 
