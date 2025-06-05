@@ -40,4 +40,25 @@ const personObj = {
   for (let x in personObj) {          // loop will be executed once for each property, gives value of props => forin loop is for object.
     txt += personObj[x] + " ";
   }
-  console.log(txt)
+console.log(txt)
+
+// type User = {           // This is how we declare an object if we want to have type defined for props. Use of type|interface => Recommended
+//   name: string;
+//   age: number;
+//   isActive: boolean;
+// };
+
+// const user: User = {
+//   name: "Aman",
+//   age: 25,
+//   isActive: true,
+// };
+
+// OR Inline object typing (same as above)
+// const user: {
+//   name: string;
+//   age: number;
+// } = {
+//   name: "Rahul",
+//   age: 25,
+// };
