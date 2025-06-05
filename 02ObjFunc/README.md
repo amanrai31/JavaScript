@@ -31,26 +31,9 @@ OR
 objectName[x]   // x here is expression e.g => let x = objectName.property/key i.e. x is key
 
 ```
-#### Object methods
-
-```JS
-const person = {
-  firstName: "John",
-  lastName : "Doe",
-  id       : 5566,
-  fullName : function() {
-    return this.firstName + " " + this.lastName;    // Use of this - this refers to the person object
-  }
-};
-
-```
+#### More on Object
 
 **Note -** JS objects are mutable
-
-```JS
-const x = person;
-```
-Here the object x is not a copy of person. The object x is person. Any changes to x will also change person.
 
 **Note -** We can change, add and delete[delete objectName.property => will dlt key, value both.] object's props.
 
@@ -71,11 +54,13 @@ for (let x in person) {   // x is key
   text += person[x] + " ";
 };
 
-// Create an Array  ===> 2nd method
-const myArray = Object.values(person);    // Creates array of property's values
+// Create an Array of property's value 
+const myArray = Object.values(person);    
 
-// Writes in JSON format ===> 3rd option
-let myString = JSON.stringify(person);      // output - {"name":"John","age":30,"city":"New York"}
+// Writes in JSON format  => output - {"name":"John","age":30,"city":"New York"}
+let myString = JSON.stringify(person);
+
+let x = person; // Here x is not copy of person. x is person, so any change in x will reflect in person too.
 
 ```
 
