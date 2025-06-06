@@ -82,3 +82,10 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 5. keys()             =>  returns an Array Iterator object with the keys of an array.
 6. entries()          =>  returns an Array Iterator object with key/value pairs.
 7. spread             =>  (...)
+
+
+```js
+// Suppose i do not know any functon about array then =>
+const arr = [1,2,3];
+console.log(arr.__proto__);
+```
