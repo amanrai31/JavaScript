@@ -7,7 +7,7 @@ const obj1 = {
     }
 }
 
-const copy = {...obj1}; // use => structuredClone(obj1) OR JSON.parse(JSON.stringify(obj1)) for deep copy
+const copy = {...obj1};  // use => structuredClone(obj1) OR JSON.parse(JSON.stringify(obj1)) for deep copy
 console.log(copy);
 copy.name = "aman";
 copy.add.city = "bxr"
