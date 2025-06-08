@@ -112,7 +112,7 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 ### F/n closures (Closure = Function + Lexical Environment)
 
 - Closure is a f/n that remembers the variables from its lexical (outer) scope even after the outer function has finished executing
-- A f/n can access all variables inside its local scope as well as a f/n can access all variables in the global scope.
+- A closure locks the environment where it was created and carries it forever.
 
 ```js
 function outer() {
