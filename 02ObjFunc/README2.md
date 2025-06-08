@@ -115,6 +115,23 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 - A f/n can access all variables inside its local scope as well as a f/n can access all variables in the global scope.
 
 ```js
+function outer() {
+  let counter = 0;
+
+  function inner() {
+    counter++;
+    console.log(counter);
+  }
+
+  return inner;
+}
+
+const myFunc = outer();  // outer runs once and returns inner
+console.log("Closure =>",myFunc);
+myFunc(); // 1
+myFunc(); // 2
+myFunc(); // 3
+
 
 ```
 
