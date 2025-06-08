@@ -128,5 +128,5 @@ function greet(user: User) {
   console.log(`Hello, ${name}. You are ${age} years old.`);
 }
 
-greet({}); // Hello, Guest. You are 18 years old.
+greet({name: "Aman"}); // Hello, Guest. You are 18 years old.
 ```
