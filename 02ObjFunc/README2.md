@@ -127,7 +127,7 @@ function outer() {
 }
 
 const myFunc = outer();  // outer runs once and returns inner
-console.log("Closure =>",myFunc);
+console.log("Closure =>",myFunc());
 myFunc(); // 1
 myFunc(); // 2
 myFunc(); // 3
