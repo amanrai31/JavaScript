@@ -64,7 +64,9 @@ myFunction(5);
 
 #### The Arguments object
 
-JS f/n have a build in object called arguments object. The argument object contains an array of the arguments used when the function was called. (Arrow f/n does not support arguments object - use Rest parameter)
+If a f/n is called with too many arguments (more than declared), these arguments () can be reached using the arguments object.The argument object contains an array of the arguments used when the function was called. 
+
+**NOTE :** Arrow f/n does not support arguments object - use Rest parameter
 
 ``` js
 x = sumAll(1, 123, 500, 115, 44, 88);
@@ -78,7 +80,7 @@ function sumAll() {
   return sum;
 }
 ```
-**NOTE :** If a f/n is called with too many arguments (more than declared), these arguments () can be reached using the arguments object.
+
 
 #### F/n rest parameter (Modern JS preference)
 
