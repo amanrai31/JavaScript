@@ -114,3 +114,19 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 - A function can access all variables in the global scope:
 
 **Note :** Undeclared variables (created without var/let/const), are always global, even if they are created inside a f/n.
+
+#### TS function with parameters (interface)
+
+```ts
+interface User {
+  name: string;
+  age?: number;
+}
+
+function greet(user: User) {
+  const age = user.age ?? 18; // Want to give a default value(incase age is undefined => make that parameter optional inside interface
+  console.log(`Hello, ${name}. You are ${age} years old.`);
+}
+
+greet({}); // Hello, Guest. You are 18 years old.
+```
