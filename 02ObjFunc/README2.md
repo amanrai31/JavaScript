@@ -109,9 +109,10 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 
 #### "this" in f/n and methods (Chapter 10)
 
-#### F/n closures
-- A f/n can access all variables inside its local scope
-- A function can access all variables in the global scope:
+#### F/n closures (Closure = Function + Lexical Environment)
+
+- Closure is a f/n that remembers the variables from its lexical (outer) scope even after the outer function has finished executing
+- A f/n can access all variables inside its local scope as well as a f/n can access all variables in the global scope.
 
 **Note :** Undeclared variables (created without var/let/const), are always global, even if they are created inside a f/n.
 
