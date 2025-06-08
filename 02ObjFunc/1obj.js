@@ -18,6 +18,9 @@ console.log(fatherJson);
 console.log(obj1==myFather, obj1===myFather);   // Because they point to the same reference. In all other cases comparing object will give false.
 
 Person.prototype.height = "6";
+Person.prototype.sayHello = function(){
+    console.log("hello", this.firstName);
+}
 
 const mySelf = new Person("Aman", "Rai", 22, "black", "5.6" ); // But the height prototype will be constant to 6 (not 5.6)
 
