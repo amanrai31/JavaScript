@@ -61,3 +61,19 @@ const person = {
   console.log("max apply",Math.max.apply([1,2,3]))
 
   // In JS strict mode, if the 1st argument of the apply() method is not an obj, it becomes the owner (obj) of the invoked f/n. In "non-strict" mode, it becomes the global obj.
+
+// CLOSURE
+
+function createUser() {
+  let password = "secret";
+
+  return {
+    getPassword: () => password
+  };
+}
+
+const user = createUser();                   // Returns an object which has f/n called getPassword
+console.log("user =>", user);
+console.log(typeof(user));
+console.log(user.getPassword());
+
