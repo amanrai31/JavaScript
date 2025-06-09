@@ -17,7 +17,7 @@
 
 let x = 5;
 {
-  let x = 3;
+  let x = 3;          // do x = 3, then it will be global, If we do var here => SyntaxError: Identifier 'x' has already been declared
 }
 console.log("x", x);
 
