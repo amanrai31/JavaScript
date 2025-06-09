@@ -1,3 +1,18 @@
+//.Object declearation
+const person = {
+  name: "Aman",
+  greet: function () {
+    console.log("My name is " + this.name);
+  }
+};
+// OR In short =>
+const person = {
+  name: "Aman",
+  greet () {
+    console.log("My name is " + this.name);
+  }
+};
+
 // Object constructor, prototype
 
 function Person(first, last, age, eye) {  // Object constructor (Can not use arrow f/n- do not bind this)
