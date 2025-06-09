@@ -4,7 +4,7 @@
 
 Objects are containers for Properties(Props) and Behaviors(Methods/functions). In JS almost everything is object(KING OF JS).
 
-Objects are non-primitive data type because they are **stored by ref**, that's why **mutable**
+Objects are non-primitive data type (in key: value format) because they are **stored by ref**, that's why **mutable**
 
 **Notes -** Properties can be primitive values, functions, or even other objects.
 
