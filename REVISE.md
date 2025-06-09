@@ -5,7 +5,7 @@
 -----
 
 - Variable, declaration & initialization, hoisting, store by value AND reference.
-- Scope, statement, expressions, comment, keyword
+- Scope mainly block scope, statement, expressions, comment, keyword
 - operators
 - Data type (premitive(value), non-premitive(ref))
 
