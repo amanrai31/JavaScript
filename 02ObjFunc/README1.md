@@ -52,7 +52,7 @@ function Person(first, last, age, eye) { // We can not use arrow function as obj
   this.age = age;
   this.eyeColor = eye;       
   this.language = "Hindi";   // Value given to a property will be default value for all objects
-  this.fullName = function (){
+  this.fullName = function (){                     // NOT recommended to declear f/n here, each obh will have it's own copy then.
     return this.firstName + " " + this.lastName;
   }
 }
