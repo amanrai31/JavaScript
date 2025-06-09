@@ -6,7 +6,7 @@
 // console.log(x);  // Will give 10;
 
 // {
-//   var x = 10;     // var does not respect block scope
+//   var x = 10;     // var does not respect block scope so x will be accessible outside
 // }
 // console.log(x);  // Will give 10;
 
