@@ -63,13 +63,13 @@ console.log(txt)
 // type User = {           // This is how we declare an object if we want to have type defined for props. Use of type|interface => Recommended
 //   name: string;
 //   age: number;          // Also learn about index signature, dynamic key in quotes => type test { [key:string] : string }, key could be id,prop or anything
-//   isActive: boolean;
+//   greet: () => void;
 // };
 
 // const user: User = {
 //   name: "Aman",
 //   age: 25,
-//   isActive: true,
+//   greet(){ console.log("My name is", this.name)}
 // };
 
 // OR Inline object typing (same as above)
