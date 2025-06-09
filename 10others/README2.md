@@ -8,8 +8,6 @@ Scope determines the accessibility/visibility of variables.
 
 ES6 introduced two important new JS keywords: let and const. These two keywords provide Block Scope in JS. Variables(let & const) declared inside a { } block cannot be accessed from outside the block.
 
-**Note -** Before ES6, JS had only Global scope and function scope, there was nothing like block scope.
-
 1. let => Block Scope, cannot be Redeclared in the same scope, can be reassign
 2. const => Block Scope, cannot be Redeclared in the same scope, **can'nt be reassign**, must be assign a value when declared. It does not define a constant value. It defines a constant reference to a value. Means we can'nt Reassign a constant array but can change elements of array(same for objects)
 3. var => Global scope, can be Redeclared. var do not respect block scope(can be accessed outside block), var only respects f/n block.
