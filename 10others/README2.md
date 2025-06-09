@@ -53,7 +53,7 @@ Hoisting is JavaScript's default behavior of moving all **declarations** to the 
 
 JS technically hoist every declarations, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally declared.
 
-Function are also hoisted but not the arrow function.
+Function are also hoisted but the arrow function are not hoisted also class is not hoisted too.
 
 -----
 
