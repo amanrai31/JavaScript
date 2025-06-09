@@ -32,7 +32,7 @@ Variables declared Globally (outside any function/block) have Global Scope. Glob
 
 If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
 
-**NOTE :** In "Strict Mode", undeclared variables are not automatically global.
+**NOTE :** In "Strict Mode", undeclared variables are not automatically global. You have to declear otherwise ReferenceError occur.
 
 ```js
 myFunction();
