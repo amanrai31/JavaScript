@@ -113,7 +113,8 @@ let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 
 - Closure is a f/n that remembers the variables from its lexical (outer) scope even after the outer function has finished executing
 - A closure locks the environment where it was created and carries it forever.
-
+- Encapsulation via closures or private fields.
+  
 ```js
 function outer() {
   let counter = 0;
