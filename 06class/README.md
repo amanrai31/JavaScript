@@ -24,11 +24,13 @@ class Car {
   }
 }
 
-const car1 = new Car(Mahindra, 2018);
-const car2 = new Car(Tata, 2020);
+const car1 = new Car("Mahindra", 2018);
+const car2 = new Car("Tata", 2020);
 
-console.log(car1.age());
+console.log(car1.age(), car2.age());
+console.log(car1.age() === car2.age());
 
+**NOTE :** We do not declear f/n inside constructor cuz Every time class is instantiated, a new copy of that f/n is created.
 ```
 
 #### The constructor method
