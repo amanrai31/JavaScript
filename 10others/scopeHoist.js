@@ -1,3 +1,20 @@
+// Scope
+
+// {
+//   x = 10;     // Not defined that it is var, let or const => will be a global vaiable
+// }
+// console.log(x);  // Will give 10;
+
+// {
+//   var x = 10;     // var does not respect block scope
+// }
+// console.log(x);  // Will give 10;
+
+// {
+//   let x = 10;     // let and const do respect block scope
+// }
+// console.log(x);   // Will give ReferenceError
+
 let x = 5;
 {
   let x = 3;
@@ -8,7 +25,7 @@ console.log("x", x);
 
 let y = 5;
 function myfunc() {
-  y = 3;                    // here y is not declared, so it will assign y = 3;
+  y = 3;                    // here y is not declared, so it will assign y = 3 as part of global scope;
 }
 myfunc();
 console.log("y", y);
