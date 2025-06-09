@@ -17,3 +17,7 @@ console.log("Type of power = ",typeof(power)); // typeof and instanceof operator
 
 const a = null;
 console.log(typeof(a));
+
+const arr = [1,2,3];
+console.log("typeof arr => ", typeof(arr));
+console.log("arr instanceof Array =>", arr instanceof Array);
