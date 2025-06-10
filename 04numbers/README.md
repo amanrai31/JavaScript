@@ -13,6 +13,7 @@ Numbers are primitive data type(immutable, directly stored in memory), JS has on
 
 ``` js
 let x = 100 / "Apple";  // Will give NaN
+console.log(x, typeof(x));
 ```
 
 ### Binary, octal, decimal, hexadecimal
