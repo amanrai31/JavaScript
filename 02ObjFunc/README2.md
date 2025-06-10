@@ -56,6 +56,7 @@ Self invoking f/n OR Immediately Invoked Function Expression (IIFE) - Can be cal
 2. JS f/n definitions do not specify data types for parameters.
 3. JS f/n do not check the number of arguments received.
 4. If a function is called with missing arguments (less than declared), the missing values are set to *undefined*.
+5. If argumants are more than decleared params, then use argument object or (...args)
 
 #### Default parameter values
 
