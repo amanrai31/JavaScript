@@ -27,7 +27,7 @@ console.log(mutliply);
 
 // Rest parameter (...)  [applicable for both- arrow and normal f/n]
 
-const func1 = (...args)=>{
+const func1 = (...args)=>{          // Name of this rest paramter could be any thing in place of ...args
  
     let sum = 0;
     for(let i = 0; i<args.length; i++){
