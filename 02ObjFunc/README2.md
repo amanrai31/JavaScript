@@ -45,9 +45,11 @@ const x = (x, y) => x * y;
 Self invoking f/n OR Immediately Invoked Function Expression (IIFE) - Can be called only once.
 
 ``` js
-(() => {                  // //We can have named IIFE, IIFE can take parameters, IIFE can be async/await.
+(() => {                   //We can have named IIFE, IIFE can take parameters, IIFE can be async/await.
     console.log("IIFE with Arrow Function");  
 })();
+
+const mutliply = ((x,y) => { return x*y})(4,5);
 ```
 
 ### F/n parameters and arguments
