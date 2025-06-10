@@ -30,3 +30,15 @@
 - scope and this w.r.t f/n
 - clouser
 - apply method and TS f/n
+
+-----
+
+- what is string, declearation of string
+- Methods => length, string to array, char at, extract string part, upper/lower case, trim, includes?, concat, replace(regex)
+
+
+
+
+
+
+
