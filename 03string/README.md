@@ -18,38 +18,38 @@ let text = "We are the so-called \"Vikings\" from the north.";
 
 **NOTE :** JS string are primitive so immutable. All string method produce a new string without altering the orignal one. All methods are case sensitive by default (make it caseInsensitive using Regex)
 
-1. String length => str.length 
+1. **String length => str.length** 
 
 
-2. Extracting String Characters
+2. **Extracting String Characters**
 - str.charAt(position) || **str.at(position)** => at() method is preferred as it allow to use negtive indexed
 - str.charCodeAt(position) => gives the ASCII value of that character
 
-3. Extracting String Parts (includes start index, excludes end index)
+3. **Extracting String Parts (includes start index, excludes end index)**
 - **slice(start, end)**            [if you dont give end index, it will slice rest of the string from start] *recommended*
 - substring(start, end)            [-ve start/end values will be treated as 0]
 - substr(start, length)            
 
-4. Converting to Upper and Lower Case
+4. **Converting to Upper and Lower Case**
 - str.toUpperCase()
 - str.toLowerCase()
 
-5. str.concat("some string")
+5. **str.concat("some string")**
 
-6. str.trim(); str.trimStart(); str.trimEnd();
+6. **str.trim(); str.trimStart(); str.trimEnd();**
 
-7. Replace string content
+7. **Replace string content**
 - str.replace("oldSubstring/target", "new string/which will replace")  
 **NOTE :** It is caseSensitive and this method replaces only the first match [Use RegEx (/i & /g respectivly) to overcome]
 
-8. String to array
+8. **String to array**
 - str.split(",") [split on comma]
 - str.split(" ")  [split on space]
 - str.split("")  [returned array will be an array of single characters]
 
 **NOTE :** If the separator is omitted, the returned array will contain the whole string in index [0].
 
-9. string search
+9. **string search**
 - str.indexOf("string/substring")
 - str.includes("string/substring")
 
