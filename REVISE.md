@@ -1,5 +1,5 @@
 
-- JS as lang, Why js
+- JS as lang, Why js(use)
 - JS in html, how JS interact with html. How JS can write on browser/node
 
 -----
@@ -11,7 +11,7 @@
 
 -----
 
-- What is Object, why object
+- What is Object, why object(use)
 - Declare & intialize object (TS object), how to get value of object.
 - Object constructor
 - Global object
@@ -23,4 +23,4 @@
 
 -----
 
-- What is function, why function
+- What is function, why function(use)
