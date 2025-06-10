@@ -40,7 +40,7 @@
 
 - number, BigInt, (bit size, precision) Diff b/w these two
 - number & string relations (+,-,*,/), NaN
-- toString method for variou number notations.
+- toString method for variou number notations, toFixed(), toPrecision();
 - convert BigInt to number & vice versa
 - max_value, min_value, max/min Safe Integer
 
