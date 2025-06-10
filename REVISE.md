@@ -29,4 +29,4 @@
 - f/n parameters and arguments(pass by value, pass by ref), argument object/rest parameter
 - scope and this w.r.t f/n
 - clouser
-- TS f/n
+- apply method and TS f/n
