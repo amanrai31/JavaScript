@@ -36,9 +36,11 @@
 - what is string, declearation of string
 - Methods => length, string to array, char at, extract string part, upper/lower case, trim, includes?, concat, replace(regex)
 
+-----
 
-
-
-
-
+- number, BigInt, (bit size, precision) Diff b/w these two
+- number & string relations (+,-,*,/), NaN
+- toString method for variou number notations.
+- convert BigInt to number & vice versa
+- max_value, min_value, max/min Safe Integer
 
