@@ -61,7 +61,7 @@ console.log(typeof(x));
 Number(), parseFloat(), parseInt()  // Convert any type of variable to number(if possible) otherwise returns NaN
 
 #### Number object method
-Number.isInteger(), Number.isSafeInteger(), Number.parseFloat(), Number.parseInt()
+Number.isInteger(nmbr), Number.isSafeInteger(nmbr), Number.parseFloat(nmbr), Number.parseInt(nmbr)
 
 ### Number properties (Properties of Number object)
 
