@@ -24,3 +24,4 @@
 -----
 
 - What is function, why function(use)
+- function expression, arrow f/n, f/n hoisting 
