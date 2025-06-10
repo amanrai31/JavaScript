@@ -13,6 +13,7 @@
 
 - What is Object, why object(use)
 - Declare & intialize object (TS object), how to get value of object.
+- shallow copy, deep copy
 - Object constructor
 - Global object
 - for-in loop on object, JSON.stringify(), JSON.parse()
