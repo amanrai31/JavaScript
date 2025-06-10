@@ -26,7 +26,7 @@ console.log(value(110);
 OR JS f/n can also be defined using an expression (Function expression)
 
 ``` js
-const x = function (a, b) {return a * b};       // OR :  const x = (a, b) => {return a*b}
+const x = function (a, b) {return a * b};   
 let z = x(4, 3);          // After a function expression has been stored in a variable, the variable can be used as function
 
 ```
