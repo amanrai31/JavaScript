@@ -24,4 +24,8 @@
 -----
 
 - What is function, why function(use)
-- function expression, arrow f/n, f/n hoisting 
+- function expression, arrow f/n, iife, f/n hoisting 
+- f/n parameters and arguments(pass by value, pass by ref), argument object/rest parameter
+- scope and this w.r.t f/n
+- clouser
+- TS f/n
