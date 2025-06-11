@@ -84,8 +84,8 @@
   let txt = "";
   numbers.forEach(myFunction);                 //instead of passing f/n here we can direct pass callback.
 
-  function myFunction(value, index, array) {   // We have value, index, array here, but we can skip useless params if we want
-    txt += value;
+  function myFunction(value, index, array) {   // We have value, index, & array => we can skip useless params. Does not return new array.
+    txt += value;                              // Return statement just exits that particular iteration’s callback & not the forEach.
   }
   console.log(txt);
 
