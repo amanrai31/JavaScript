@@ -18,9 +18,7 @@ But Difference is => array uses number to access its elements unlike objects(use
 
 ### Array methods
 
-- arr.length;  arr.toString(); arr.at(index);
-
-**NOTE :** arr.at(2) OR arr[2] will produce same result, but JS doesNot allow -ve bracket indexing like [-2] thats why arr.at() method is useful.
+- arr.length;  arr.toString(); arr.at(index) => allows -ve index otherwise arr[index] is also fine;
 
 - arr.join(); arr.pop() => pops last; arr.push() => push at last; arr.shift() => put at 0th; arr.unshift() => removes from 0th;
 
