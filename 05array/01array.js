@@ -49,10 +49,8 @@
   carArr.splice(1, 1);                                 // Remove 1 item(2nd parameter) from index 1.
   console.log(carArr);
   carArr.push("Dodge", "Audi");
-  const useToSpliced = carArr.toSpliced(1, 2);     // removes 2 elements staring from index 1, Also does not alter original array
+  const useToSpliced = carArr.toSpliced(1, 2);     // removes 2 elements staring from index 1, returns new array & do not alter original array
   console.log(useToSpliced, carArr);
-
-  // slice() method in README  => returns new array and does not alter original one.
 }
 
 // indexOf(), includes()
