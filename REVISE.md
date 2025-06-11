@@ -44,3 +44,7 @@
 - convert BigInt to number & vice versa
 - max_value, min_value, max/min Safe Integer
 
+-----
+
+- What is array, why(use)
+- 
