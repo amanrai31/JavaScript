@@ -3,10 +3,8 @@
 ## String 
 String is Sequence of charaters, used for stroing text. We can use single/double quotes/templete(backticks)
 
-Backslash escape charater( \ )- truns special character into string charater.
-- \' means single qoute
-- \"  means double qoute
-- \\ means backslash
+Backslash escape charater( \ )- truns special character into string charater. If you want ' OR " OR backslash itself as string charater, use backslash (\) first then use these special charater.
+
 
 ``` js
 let text = "We are the so-called \"Vikings\" from the north.";
