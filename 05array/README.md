@@ -65,7 +65,7 @@ const points = [40, 100, 1, 5, 25, 10];
 points.sort(function(a, b){return a - b}); // using compare f/n (will output in asc order)
 ```
 
-- The compare f/n => ```js function(a, b){return a - b} ```
+- The compare f/n => ``` function(a, b){return a - b} ```
 
 If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sorted before "a"; If 0, no changes done with sort order. 
 
