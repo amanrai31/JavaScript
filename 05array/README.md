@@ -22,7 +22,7 @@ But Difference is => array uses number to access its elements unlike objects(use
 
 **NOTE :** arr.at(2) OR arr[2] will produce same result, but JS doesNot allow -ve bracket indexing like [-2] thats why arr.at() method is useful.
 
-- arr.join(); arr.pop(); arr.push(); arr.shift(); arr.unshift();
+- arr.join(); arr.pop() => pops last; arr.push() => push at last; arr.shift() => put at 0th; arr.unshift() => removes from 0th;
 
 - arr1.concat(arr2,arr3,...); - does not change existing array, creates a new array.
 
