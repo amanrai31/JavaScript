@@ -74,7 +74,7 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 ### Array iteration
 
 1. forEach();         =>  calls a callback f/n once for each array element.
-2. map(); flatMap()   =>  creates a new array by performing a function on each array element.
+2. map(); flatMap()   =>  has a callback f/n once for each element, creates a new array by performing a f/n on each array element.
 3. filter()           =>  creates a new array with array elements that pass a test.
 4. reduce()           =>  runs a function on each array element to produce (reduce it to) a single value.
 5. keys()             =>  returns an Array Iterator object with the keys of an array.
