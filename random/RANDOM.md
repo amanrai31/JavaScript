@@ -7,4 +7,3 @@ Diff in undefined & null
 
 -----
 
-Practice polyfill of forEach, map, reduce, filter.
