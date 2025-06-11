@@ -48,8 +48,8 @@ let text = "We are the so-called \"Vikings\" from the north.";
 **NOTE :** If the separator is omitted, the returned array will contain the whole string in index [0].
 
 9. **string search**
-- str.indexOf("string/substring")
-- str.includes("string/substring")
+- str.indexOf("string/substring") => returns -1 if not present
+- str.includes("string/substring") => true,false
 
 
 ### Template strings => ``
