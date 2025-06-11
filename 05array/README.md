@@ -87,3 +87,5 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 const arr = [1,2,3];
 console.log(arr.__proto__);
 ```
+
+**NOTE :** If you do not want to alter your original array then use arr.toSpliced(), arr.toSorted(), arr.toReversed() instead of splice, sort and reverse
