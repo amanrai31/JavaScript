@@ -28,7 +28,7 @@ But Difference is => array uses number to access its elements unlike objects(use
 
 #### splice and slice methods 
 
-1. splice() => used to *add new items* to array OR *simply removes elements without leaving holes.* => Returns the deleted items. 
+1. splice() => used to ```add new items``` to array OR ```simply removes elements without leaving holes``` => Returns the deleted items. 
 
 ```js
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
