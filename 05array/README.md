@@ -36,7 +36,7 @@ fruits.splice(2, 0, "Lemon", "Kiwi");  // Alters the original array.
 ```
 1st parameter defines position where new elements should be added(spliced in), 2nd defines how many elements should be removed, rest parameters defines new elements to be added. 
 
-**NOTE :** The splice() method returns an array with the deleted items. Also splice() removes elements without leaving holes in array.
+**NOTE :** The splice() method returns an array with the deleted items, alters the orignal array. Also splice() removes elements without leaving holes in array.
 
 **NOTE :** toSpliced() methods is same but it does not alters the original array returns new array with change
 
