@@ -15,6 +15,7 @@ let y = 20;
 let z = "30";
 let result = x + y + z;          // x + y "added" coz both were number, (x+y) + z "concatenated" cuz z is string
 console.log(result)
+console.log("23" + 5 + 3);
 }
 
 // Strings can have numeric content.
