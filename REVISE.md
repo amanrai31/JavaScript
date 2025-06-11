@@ -45,5 +45,5 @@
 
 -----
 
-- What is array, why(use)
-- 
+- What is array, why(use), how it is different from regular object
+- array f/n => length, put/remove at/from last, put/remove at/from 0th, array to string, sort/search methods
