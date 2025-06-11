@@ -66,7 +66,6 @@ Number.isInteger(nmbr), Number.isSafeInteger(nmbr), Number.parseFloat(nmbr), Num
 
 ### Number properties (Properties of Number object)
 
-let x = Number.MAX_SAFE_INTEGER;
-Number.MAX_VALUE; Number.MIN_VALUE; Number.MAX_SAFE_INTEGER; Number.MIN_SAFE_INTEGER; Number.POSITIVE_INFINITY; POSITIVE_INFINITY; NEGATIVE_INFINITY;
+Number.MAX_VALUE; Number.MIN_VALUE; Number.POSITIVE_INFINITY; Number.NEGATIVE_INFINITY;
 
 **NOTE :** MAX_VALUE return largest number possible; MAX_SAFE_INTEGER returns largest INTEGER possible.
