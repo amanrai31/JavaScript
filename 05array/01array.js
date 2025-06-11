@@ -42,7 +42,7 @@
 // splice(), slice()
 {
   const carArr = ["Mahindra", "BMW", "Tata", "Toyota"];
-  carArr.splice(2, 0, "Dodge", "Audi");                 // Add at 2nd index, removes 0 elements, add following items.
+  carArr.splice(2, 0, "Dodge", "Audi");                 // Add at 2nd index, removes 0 elements, add following items i.e "Doge" & "Audi"
   console.log("splice", carArr);
   const splicedItems = carArr.splice(1, 2);
   console.log("Spliced items => ", splicedItems, "After splice => ", carArr);
