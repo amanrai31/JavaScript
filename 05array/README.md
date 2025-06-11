@@ -81,11 +81,10 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 6. entries()          =>  returns an Array Iterator object with key/value pairs.
 7. spread             =>  (...)
 
+**NOTE :** If you do not want to alter your original array then use arr.toSpliced(), arr.toSorted(), arr.toReversed() instead of splice, sort and reverse.
 
 ```js
 // Suppose i do not know any functon about array then =>
 const arr = [1,2,3];
 console.log(arr.__proto__);
 ```
-
-**NOTE :** If you do not want to alter your original array then use arr.toSpliced(), arr.toSorted(), arr.toReversed() instead of splice, sort and reverse
