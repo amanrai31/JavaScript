@@ -45,7 +45,7 @@ for (const x of letters) {
 
 **NOTE :** A Set has no keys, so keys() returns the same as values().
 
-**Set methods =>** add(),has(),value(),size()
+**Set methods =>** new Set() || add() || has() || value() || size()
 
 ## Maps
 
