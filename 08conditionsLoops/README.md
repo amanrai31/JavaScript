@@ -200,3 +200,5 @@ myNumbers[Symbol.iterator] = function() {
     }
   };
 }
+
+```
