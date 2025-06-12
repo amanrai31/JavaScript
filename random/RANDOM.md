@@ -7,6 +7,8 @@ Diff in undefined & null
 
 **Object and Array =>** Object = key-value || array = index-value
 
+- All intervals/timers get cleared on reload/refresh
+
 -----
 
 MAP Polyfill
