@@ -34,9 +34,10 @@ fruits.set("oranges", 200);
 console.log(fruits.get("apples"));
 console.log("typeof map :", typeof fruits," || is fruits instance of maps?", fruits instanceof Map);
 
-const apples = {name: 'Apples'};
-const bananas = {name: 'Bananas'};
-const oranges = {name: 'Oranges'};
+const mango = {name: 'mango'};
+const kiwi = {name: 'kiwi'};
+fruits.set(mango: 100);
+fruits.set(kiwi: 150);
 
 
 console.log(typeof "jhon", typeof 3.14, typeof 1234n, typeof true, typeof x, typeof Symbol() )
