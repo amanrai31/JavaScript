@@ -5,6 +5,7 @@ Diff in undefined & null
 - undefined => JS engine (or unintentional by dev) ||  Value not assigned / doesn’t exist || Uninitialized vars, missing keys.
 - null      => Developer (intentional) ||  Explicitly empty  ||  API responses, database placeholders
 
+**Object and Array =>** Object = key-value || array = index-value
 -----
 
 MAP Polyfill
