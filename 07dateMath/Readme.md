@@ -71,22 +71,16 @@ The JS Math object allows you to perform mathematical tasks on numbers.Unlike ot
 
 ### Math properties [Math.property]
 
-- Math.E        // returns Euler's number
-- Math.PI       // returns PI
-- Math.SQRT2    // returns the square root of 2
-- Math.SQRT1_2  // returns the square root of 1/2
-- Math.LN2      // returns the natural logarithm of 2
-- Math.LN10     // returns the natural logarithm of 10
-- Math.LOG2E    // returns base 2 logarithm of E
-- Math.LOG10E   // returns base 10 logarithm of E
+- Math.E => returns Euler's number || Math.PI  => returns PI || Math.SQRT2 => returns the square root of 2
+- Math.SQRT1_2 => returns the square root of 1/2 || Math.LN2  => returns the natural logarithm of 2 || Math.LN10 => returns the natural logarithm of 10
+- Math.LOG2E => returns base 2 logarithm of E || Math.LOG10E => returns base 10 logarithm of E
 
 ### Math methods [Math.method(number)]
 
-- Math.round(x)  	// Returns x rounded to its nearest integer
-- Math.ceil(x)	  // Returns x rounded up to its nearest integer
-- Math.floor(x)	  // Returns x rounded down to its nearest integer
-- Math.trunc(x)	  // Returns the integer part of x (new in ES6)
+- Math.ceil(x) => Returns x rounded up to its nearest integer || Math.floor(x) => Returns x rounded down to its nearest integer
+- Math.trunc(x)	=> Returns the integer part of x (new in ES6) || Math.round(x) => Returns x rounded to its nearest integer
 
+----- 
 
 - Math.pow(x, y)   // returns the value of x to the power of y
 - Math.sqrt(x)    // returns the square root of x
@@ -96,6 +90,7 @@ The JS Math object allows you to perform mathematical tasks on numbers.Unlike ot
 - Math.log(x)         // returns the natural logarithm of x
 - Math.log2(x)        // returns the base 2 logarithm of x.
 
+-----
 ### Math.random()
 
 Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive).
@@ -103,7 +98,7 @@ Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive).
 ```
 Math.floor(Math.random() * 10); // Returns a random integer from 0 to 9
 Math.floor(Math.random() * 11); // Returns a random integer from 0 to 10
-Math.floor(Math.random() * 10) + 1; // // Returns a random integer from 1 to 10
+Math.floor(Math.random() * 10) + 1;  // Returns a random integer from 1 to 10
 ```
 
 ```
