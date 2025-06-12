@@ -4,7 +4,7 @@ Arrays are a special type of objects. The typeof operator in JS returns "object"
 
 But Difference is => array uses ```number to access``` its elements unlike objects which ```uses key to access```
 
-**NOTE :** Because JS array are special kind of object we can have variables of different types in same array, we can have obj in array, f/n in array, array in array.
+**NOTE :** Because JS array are special kind of object we can have variables of different types in same array, we can have obj in array, f/n in array, array in array. ``` const arr = [1,2,"aman",{lname:"rai", age:25},["js","JAVA","go"]] ```
 
 ### Creating an array
 - Array literal => ```js const arr = [item1, item2, ...]; ```          // This is preferred
