@@ -108,10 +108,4 @@
   console.log(q1q2);
 }
 
-// for of
-{
-
-const arr = [1,2,"aman",{lname:"rai", age:25},["js","JAVA","go"]];
-for(let x of arr){ console.log(x) }
-
-}
+**for-of** => See chapter 8 (08conditionsLoops)
