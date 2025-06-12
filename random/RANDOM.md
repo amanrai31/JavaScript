@@ -9,6 +9,7 @@ Diff in undefined & null
 
 MAP Polyfill
 - Built-in constructors `new Object()`, `new Array()`, `new Set()`, `new Map()`,`new RegExp()`, `new Date()`, `new Function()`
+
 **Want to define polyfills or custom methods?** => modify these built in constructors.
 ```
 Array.prototype.myMap = function(callbackFn) {
