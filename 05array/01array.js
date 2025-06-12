@@ -108,4 +108,4 @@
   console.log(q1q2);
 }
 
-**for-of** => See chapter 8 (08conditionsLoops)
+// for-of => See chapter 8 (08conditionsLoops)
