@@ -2,7 +2,7 @@
 
 Arrays are a special type of objects. The typeof operator in JS returns "object" for array. They are non primitive and mutable.
 
-But Difference is => array uses number to access its elements unlike objects(uses key to access).
+But Difference is => array uses ```number to access``` its elements unlike objects which ```uses key to access```
 
 **NOTE :** Because JS array are special kind of object we can have variables of different types in same array, we can have obj in array, f/n in array, array in array.
 
