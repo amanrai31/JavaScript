@@ -50,3 +50,4 @@
 - array f/n => length || put/remove at/from last || put/remove at/from 0th || array to string || sort & search methods || slice, splice
 - toSliced, toSorted, toReversed || 2D to 1D array
 - iterations => for-of loop, forEach, map, filter, reduce, keys, entries, spread(...)
+- polyfills of all iterables (foeEach, map, filter, reduce etc.) => See random folder
