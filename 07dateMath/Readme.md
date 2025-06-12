@@ -53,7 +53,7 @@ d.setDate(d.getDate() + 50);  // Adds days to a date.
 ```
 
 ```js
-const date = new Date();
+const date = new Date();                     // RUN THIS => All interval/counter are cleared on reload/refresh
 let c = 0;
 const ti = setInterval(()=>{
     const cd = new Date();
