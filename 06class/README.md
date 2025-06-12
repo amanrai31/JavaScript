@@ -77,9 +77,10 @@ console.log(car.cnam);
 ```
 
 **NOTE :** By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+
 **NOTE :** The name of the getter/setter method cannot be the same as the name of the property, in this case carname.
 
-**NOTE :** Unlike functions, and other JS declarations, class declarations are not hoisted.
+**NOTE :** Unlike functions, and other JS declarations, class declarations are not hoisted && always written in strict mode.
 
 ### JS static methods
 
