@@ -47,12 +47,12 @@ getTime()	=> Get time (milliseconds since January 1, 1970)
 
 Same goes with set Methods
 
-```
+```js
 const d = new Date("January 01, 2025");
 d.setDate(d.getDate() + 50);  // Adds days to a date.
 ```
 
-```
+```js
 const date = new Date();
 let c = 0;
 const ti = setInterval(()=>{
