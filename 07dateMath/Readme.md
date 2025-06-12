@@ -52,6 +52,19 @@ const d = new Date("January 01, 2025");
 d.setDate(d.getDate() + 50);  // Adds days to a date.
 ```
 
+```
+const date = new Date();
+let c = 0;
+const ti = setInterval(()=>{
+    const cd = new Date();
+    console.log("hello", cd - date);
+    c += 1;
+    if(c >= 10){
+        clearInterval(ti);
+    }
+},100)
+```
+
 # Math
 
 The JS Math object allows you to perform mathematical tasks on numbers.Unlike other objects, the Math object has no constructor. The Math object is static. All methods and properties can be used without creating a Math object first.
