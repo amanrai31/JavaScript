@@ -45,6 +45,8 @@ for (const x of letters) {
 
 **NOTE :** A Set has no keys, so keys() returns the same as values().
 
+**Set methods =>** add(),has(),value()
+
 ## Maps
 
 A Map holds key-value pairs where the keys can be any datatype. A Map remembers the original insertion order of the keys.
