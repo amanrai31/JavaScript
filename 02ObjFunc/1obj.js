@@ -6,7 +6,7 @@ const person = {
   }
 };
 // OR In short =>
-const person = {
+const person1 = {
   name: "Aman",
   greet () {
     console.log("My name is " + this.name);
