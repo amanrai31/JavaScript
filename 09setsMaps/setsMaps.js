@@ -8,7 +8,7 @@ console.log("type of sets - ", typeof letters, " || size of letters set - ", let
 
 let text = "";
 for (const x of letters) {
-  text += x;
+  text += x + " ";
 }
 
 // has() method
