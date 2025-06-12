@@ -88,3 +88,7 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 const arr = [1,2,3];
 console.log(arr.__proto__);
 ```
+
+-----
+
+polyfills of all iterables (foeEach, map, filter, reduce etc.) => See random folder
