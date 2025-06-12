@@ -86,13 +86,10 @@ fruits.get("apples");    // Returns 500
 - new Map()
 - map.set()
 - map.get()
+- map.has() 
 - map.size()
 - map.delete() ``` map.delete(key)```
-
 - map.clear() => removes all the elements from the map
-
-- map.has() => returns true if a key exists in a map.
-
 - map.keys(), map.values(), map.entries(), map.forEach();
 
 #### Objects as Keys
