@@ -31,15 +31,15 @@ const d = new Date(2018); // Will take 2018 as milliseconds.
 
 ### Date get methods
 
-getFullYear()	=> Get year as a four digit number (yyyy) ``` const d = new Date(); const y = d.getFullYear()```
-getMonth()	=> Get month as a number (0-11) [ January is month number 0, & December is month number 11]
-getDate()	=> Get day as a number (1-31)
-getDay()	=> Get weekday as a number (0-6) [sunday is 0]
-getHours() =>	Get hour (0-23)
-getMinutes()	=> Get minute (0-59)
-getSeconds() =>	Get second (0-59)
-getMilliseconds() =>	Get millisecond (0-999)
-getTime()	=> Get time (milliseconds since January 1, 1970)
+```getFullYear()```	=> Get year as a four digit number (yyyy) ``` const d = new Date(); const y = d.getFullYear()```
+```getMonth()```	=> Get month as a number (0-11) [ January is month number 0, & December is month number 11]
+```getDate()```	=> Get day as a number (1-31)
+```getDay()```	=> Get weekday as a number (0-6) [sunday is 0]
+```getHours()``` =>	Get hour (0-23)
+```getMinutes()```	=> Get minute (0-59)
+```getSeconds()``` =>	Get second (0-59)
+```getMilliseconds()``` =>	Get millisecond (0-999)
+```getTime()```	=> Get time (milliseconds since January 1, 1970)
 
 **NOTE :** The get methods above return Local time.
 
