@@ -6,6 +6,7 @@ Diff in undefined & null
 - null      => Developer (intentional) ||  Explicitly empty  ||  API responses, database placeholders
 
 **Object and Array =>** Object = key-value || array = index-value
+
 -----
 
 MAP Polyfill
