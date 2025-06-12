@@ -1,6 +1,6 @@
 # CONTENT => Class, Module
 
-JS Classes are templates for objects. Use "class" keyword to create a class also always add a method name constructor() inside.
+JS Classes are templates/blueprint for objects. Use "class" keyword to create a class also always add a method name constructor() inside.
 
 ```js
 class ClassName {
@@ -8,7 +8,7 @@ class ClassName {
 }
 ```
 
-**NOTE :** JS class is not an object, it is template for JS objects.
+**NOTE :** JS class is not an object, it is template for JS objects. Classes are always written in strict mode.
 
 ```js
 class Car {
@@ -65,7 +65,7 @@ class Model extends Car {
     this.model = mod;
   }
   show() {
-    return this.present() + ', it is a ' + this.model;
+    return this.present() + ', it is a ' + this.model;  // this inside a class represents the props of same class OR props of parent class
   }
 }
 
