@@ -28,7 +28,7 @@ But Difference is => array uses ```number to access``` its elements unlike objec
 
 #### splice and slice methods 
 
-1. splice() => splice(start, deleteCount, ...items) => used to ```add new items``` to array OR ```simply removes elements without leaving holes``` => Returns the deleted items. 
+1. **splice()** => splice(start, deleteCount, ...items) => used to ```add new items``` to array OR ```simply removes elements without leaving holes``` => Returns the deleted items. 
 
 ```js
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -40,7 +40,7 @@ fruits.splice(2, 0, "Lemon", "Kiwi");  // Alters the original array.
 
 **NOTE :** toSpliced() methods is same but it does not alters the original array returns new array with change
 
-2. slice() => Slice out piece of array into new array. It does not remove/alter element from original array returns a new array.
+2. **slice()** => Slice out piece of array into new array. It does not remove/alter element from original array returns a new array.
 ``` js
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 const sliceArr = fruits.slice(1);   // slice out part of an array starting from array element 1.
