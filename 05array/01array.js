@@ -1,4 +1,4 @@
-// Array
+ // Array
 
 {
   const carArr = ["Mahindra", "BMW", "Tata", "Toyota"];  //Array literals => recommended declaration.
@@ -101,9 +101,17 @@
   })
   console.log(filteredArr);
 
-  // spread
+  // spread => Best for adding 2 or more array & adding some other element in the same array at end
   const q1 = ["Jan", "Feb", "Mar"];
   const q2 = ["Apr", "May", "Jun"];
   const q1q2 = [...q1, ...q2];
   console.log(q1q2);
+}
+
+// for of
+{
+
+const arr = [1,2,"aman",{lname:"rai", age:25},["js","JAVA","go"]];
+for(let x of arr){ console.log(x) }
+
 }
