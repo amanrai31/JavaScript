@@ -51,3 +51,14 @@
 - toSliced, toSorted, toReversed || 2D to 1D array
 - iterations => for-of loop, forEach, map, filter, reduce, keys, entries, spread(...)
 - polyfills of all iterables (foeEach, map, filter, reduce etc.) => See random folder
+
+-----
+
+- class, use of class, strict & non-hoisting nature of class
+- constructor, getter, setter, define f/n in class, define static f/n in class
+- inheritance
+- Module, use of module, default export, works with https only
+
+
+
+
