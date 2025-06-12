@@ -17,7 +17,7 @@
 
 let x = 5;
 {
-  let x = 3;          // do x = 3, then it will be global, If we do var here => SyntaxError: Identifier 'x' has already been declared
+  let x = 3;          // this x is valid for this block only. If we do var here => SyntaxError: Identifier 'x' has already been declared
 }
 console.log("x", x);
 
@@ -25,7 +25,7 @@ console.log("x", x);
 
 let y = 5;
 function myfunc() {
-  y = 3;                    // here y is not declared, so it will assign y = 3 as part of global scope;
+  y = 3;                    // here y already declared in global scope, so it will re-assign y = 3 
 }
 myfunc();
 console.log("y", y);
