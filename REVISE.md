@@ -47,4 +47,5 @@
 
 - What is array, why(use), how it is different from regular object
 - declear array, typeof & instanceof array
-- array f/n => length, put/remove at/from last, put/remove at/from 0th, array to string, sort/search methods
+- array f/n => length || put/remove at/from last || put/remove at/from 0th || array to string || sort/search methods || slice, splice
+- toSliced, toSorted, toReversed
