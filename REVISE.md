@@ -24,7 +24,7 @@
 
 -----
 
-- What is function, why function(use)
+- What is function, why function(use), how to declear f/n
 - function expression, arrow f/n, iife, f/n hoisting 
 - f/n parameters and arguments(pass by value, pass by ref), argument object/rest parameter
 - scope and this w.r.t f/n
@@ -46,4 +46,5 @@
 -----
 
 - What is array, why(use), how it is different from regular object
+- declear array
 - array f/n => length, put/remove at/from last, put/remove at/from 0th, array to string, sort/search methods
