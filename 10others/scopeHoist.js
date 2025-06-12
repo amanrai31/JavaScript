@@ -32,6 +32,13 @@ console.log("y", y);
 
 /////////////////////////////////
 
+let y = 5;
+function myfunc() {
+  x = 3;                    // here y already declared in global scope, so it will re-assign y = 3 
+}
+myfunc();
+console.log("y =>", y, "||", "x =>" x);  // x will be a global variable, but if we do this in strict mode- will give ReferenceError
+
 //Hoisting
 
 // x = 10;
