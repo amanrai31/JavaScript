@@ -64,6 +64,7 @@ const ti = setInterval(()=>{
     }
 },100)
 ```
+-----
 
 # Math
 
