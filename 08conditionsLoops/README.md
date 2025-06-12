@@ -100,7 +100,7 @@ for (let x in person) {
 }
 ```
 
-**NOTE :** Try not to use for-in loop over array if index order is important. The index order is implementation-dependent, and array values may not be accessed in the order you expect, better to use 'for'/'for-of'/Array.forEach() when order is important.
+**NOTE :** Try not to use for-in loop over array if index order is important. The index order is implementation-dependent, and array values may not be accessed in the order you expect, better to use 'for'/'for-of'/arr.forEach() when order is important.
 
 - **Array.forEach()** [forEach() method calls a function (a callback function) once for each array element]
 
