@@ -39,7 +39,10 @@ const bananas = {name: 'bananas'};
 fruits.set(mango, 100);
 fruits.set(kiwi, 150);
 fruits.set(bananas, 100);
-console.log("kiwi",fruits.has(kiwi))
+console.log("kiwi",fruits.has(kiwi));
+for(let x of fruits){
+    console.log(x);
+}
 
 console.log(typeof "jhon", typeof 3.14, typeof 1234n, typeof true, typeof x, typeof Symbol() )
 console.log("type of null is object",typeof null);  // This is a well-known bug in JS and has historical reasons.
