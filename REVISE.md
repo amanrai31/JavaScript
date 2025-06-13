@@ -67,7 +67,10 @@
 
 -----
 
-- 
+- boolean => when gives true/false || ?? operator || ?. operator
+- if,else || else-if || switch
+- LOOPS => for, while, do-while, for-in, for-of, forEach, map, filter, reduce || continue, break, return
+- Iterables, how to make an object iterable 
 
 
 
