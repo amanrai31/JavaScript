@@ -46,7 +46,7 @@ const d = new Date(2018); // Will take 2018 as milliseconds.
 
 **NOTE :** The getTimezoneOffset() method returns the difference (in minutes) between local time an UTC time. ```let diff = d.getTimezoneOffset();```
 
-Same goes with set Methods
+**Same goes with set Methods** => setYear(), setMonth(), setDate(), setDay(), setHour() etc.
 
 ```js
 const d = new Date("January 01, 2025");
