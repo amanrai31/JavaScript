@@ -2,6 +2,7 @@
 
 ```
 const d = new Date(); // creates a date object with the current date and time
+console.log(d, typeof(d));   // type = object
 ```
 ```
 const cd = new Date("2022-03-25"); // creates a date object from a date string
