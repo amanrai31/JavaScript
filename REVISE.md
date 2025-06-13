@@ -59,6 +59,15 @@
 - inheritance
 - Module, use of module, default export, works with https only
 
+-----
+
+- date || get methods =>  year,month,date,day,hour,min,sec,milisecond || set methods => year,month,date,day,hour etc.
+- math object || math properties ||  math f/n(s) => Math.ceil(), floor(), trunc(), round() || Math.round()
+- Math.pow(), sqrt(), cbrt(), abs(), Math.min(), Math.max()
+
+-----
+
+- 
 
 
 
