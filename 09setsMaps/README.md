@@ -35,6 +35,10 @@ let text = "";
 for (const x of letters) {
   text += x;
 }
+
+letters.forEach(( value, index, entry)=>{                  // in set => key,value,index all are same.
+    console.log(value,index,entry);
+})
 ```
 
 - has() method => Returns true if a specified value exists in a Set.
