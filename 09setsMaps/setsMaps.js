@@ -43,6 +43,9 @@ console.log("kiwi",fruits.has(kiwi));
 for(let x of fruits){
     console.log(x);
 }
+fruits.forEach((v,i,entry)=>{
+    console.log("forEach =>", v,i,entry);
+})
 
 console.log(typeof "jhon", typeof 3.14, typeof 1234n, typeof true, typeof x, typeof Symbol() )
 console.log("type of null is object",typeof null);  // This is a well-known bug in JS and has historical reasons.
