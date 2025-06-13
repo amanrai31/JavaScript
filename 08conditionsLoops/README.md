@@ -86,7 +86,7 @@ for (expression 1; expression 2; expression 3) {
 - **for in loop** (The JS for in loops through the properties of an Object, used to access value with the key)
 
 ```
-for (key in object) {
+for (let key in object) {
   // code block to be executed
 }
 ```
