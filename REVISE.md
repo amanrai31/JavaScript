@@ -72,5 +72,7 @@
 - LOOPS => for, while, do-while, for-in, for-of, forEach, map, filter, reduce || continue, break, return
 - Iterables, how to make an object iterable 
 
+-----
 
+- set
 
