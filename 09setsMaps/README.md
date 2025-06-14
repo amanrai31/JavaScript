@@ -49,7 +49,7 @@ letters.forEach(( value, index, entry)=>{                  // in set => key,valu
 
 **NOTE :** A Set has no keys, so keys() returns the same as values().
 
-**Set methods =>** new Set() || add() || has() || value() || size()
+**Set methods =>** new Set() || add() || has() || value() || size() || delete() || clear() 
 
 ## Maps
 
