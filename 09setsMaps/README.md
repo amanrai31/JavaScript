@@ -177,19 +177,16 @@ let {firstName, lastName, country = "US"} = person;
 - Array Destructuring
 
 ```js
-// Create an Array
 const fruits = ["Bananas", "Oranges", "Apples", "Mangos"];
 
-// Destructuring
+// Array Destructuring
 let [fruit1, fruit2] = fruits;
 ```
 
 - the res property (This syntax will store all remaining values into a new array)
 
 ```js
-// Create an Array
 const numbers = [10, 20, 30, 40, 50, 60, 70];
-
-// Destructuring
-const [a,b, ...rest] = numbers
+const [a,b, ...rest] = numbers;
+console.log(a,b,rest);
 ```
