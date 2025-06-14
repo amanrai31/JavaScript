@@ -108,4 +108,7 @@
   console.log(q1q2);
 }
 
-// for-of => See chapter 8 (08conditionsLoops)
+// for-of => Also See chapter 8 (08conditionsLoops)
+for(let [key,value] of numbers){
+ cosole.log("Key =>", key, "Value =>", value);
+}
