@@ -137,6 +137,10 @@ let text = "";
 for (let x of language) {
 text += x;
 }
+
+for(let [key,value] of map){
+ // code... can apply on those data type only which has entries i.e. in key, value pair like map. OR convert array or set into entries first and then apply this.
+}
 ```
 
 - **while loop** 
