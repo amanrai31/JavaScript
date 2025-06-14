@@ -74,5 +74,7 @@
 
 -----
 
-- set
-
+- set, use of set, declare set
+- set methods => add || value || has || delete || clear || size
+- map(use of map), declare Map
+- Map methods => set, get, has, size, delete, clear || value, key, entries, for-of, forEach  
