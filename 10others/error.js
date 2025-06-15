@@ -1,10 +1,10 @@
 try{
     const x = 10/0;
     console.log(x);
-    addlert("welcome");
+    addlert("welcome");                            // An error
 }
 catch(err){
-    console.log(err.message)
+    console.log(err.message,err.name)
 }
 finally{
     console.log("JAI SHREE RAM")
