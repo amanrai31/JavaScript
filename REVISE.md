@@ -79,3 +79,9 @@
 - map(use of map), declare Map
 - Map methods => set, get, has, size, delete, clear || value, key, entries, for-of, forEach
 - Destructuring => object, array
+
+-----
+
+- Bitwise, regex, error, try-catch-throw;
+- scope (global, block scope, f/n scope), hoisting,
+- strict mode, this, JSON, web APIs
