@@ -55,7 +55,7 @@ RESULT = 00000000000000000000000000000100 = 4
 
 -5 >> 1	11111111111111111111111111111101 (-3)
 
-- Right Shift (>>>) (This is a zero fill right shift. One or more zero bits are pushed in from the left, and the rightmost bits fall off)
+- Unsigned Right Shift (>>>) (This is a zero fill right shift i.e. Unsigned right shift. One or more zero bits are pushed in from the left, and the rightmost bits fall off)
 
 
 5	00000000000000000000000000000101
