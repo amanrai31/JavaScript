@@ -187,7 +187,7 @@ throw statement allow to create custom error. The exception can be JS string, a 
     if(x > 10) throw "too high";
   }
   catch(err) {
-    message.innerHTML = "Input is " + err;
+    message.innerHTML = "Input is " + err.message + err.name;
   }
 ```
 
