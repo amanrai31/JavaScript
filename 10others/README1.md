@@ -144,7 +144,7 @@ let result = text.match(/\u0057/g);            // Does a global search for W, so
 ```js
 //Question => How many matches will the regular expression get?
 let txt = 'Ladies and gentlemen';
-let x = txt.match(/[abc]/ig);                    // Answer is 2
+let x = txt.match(/[abc]/ig);                    // Answer is ['a','a'];
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
