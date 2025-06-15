@@ -40,22 +40,26 @@ RESULT = 00000000000000000000000000000100 = 4
 - NOT (~)
 
 5 = 00000000000000000000000000000101
+
 ~ 5 = 11111111111111111111111111111010 = -6 
 
 - Left shift (<<) (This is a zero fill left shift. One or more zero bits are pushed in from the right, and the leftmost bits fall off:)
 
 5	00000000000000000000000000000101
+
 5 << 1	00000000000000000000000000001010 (10)
 
 - Right Shift (>>) (This is a sign preserving right shift. Copies of the leftmost bit are pushed in from the left, and the rightmost bits fall off)
 
 -5	11111111111111111111111111111011
+
 -5 >> 1	11111111111111111111111111111101 (-3)
 
 - Right Shift (>>>) (This is a zero fill right shift. One or more zero bits are pushed in from the left, and the rightmost bits fall off)
 
 
 5	00000000000000000000000000000101
+
 5 >>> 1	00000000000000000000000000000010 (2)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
