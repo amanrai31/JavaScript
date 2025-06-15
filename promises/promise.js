@@ -1,5 +1,5 @@
 new Promise((resolve,reject)=>{
-    resolve(1)                       // new promise constructor body executes syncrounously
+    resolve(1)                       
 })
 .then(result => result*2)
 .then(result => result*2)
@@ -22,7 +22,7 @@ new Promise((resolve,reject)=>{
 
 
 new Promise ((resolve,reject)=>{
-    console.log(1);
+    console.log(1);                            // Body will execute syncronously, it's only resolve which executes asyncronously
     resolve(2)
 })
 .then(result => console.log(result))
@@ -37,9 +37,9 @@ console.log(3);
 
     setTimeout(()=> console.log(3),0);
     
-    console.log(4);
-
-    new Promise(()=> console.log(5));
+    new Promise(()=> console.log(4));                  // Will execute syncronously
+    
+    console.log(5);
 
     (async () => console.log())();
     
