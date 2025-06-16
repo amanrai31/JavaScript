@@ -21,7 +21,9 @@ Provide us interface to interact with browser's feature. [fetch API, Timer API(s
 
 **queueMicrotask =>** Goes to microTask
 
-When we work with promises(.then(), .catch(), .finally()) || async/await || queueMicrotask || timers => we work with microTask queue
+When we work with promises(.then(), .catch(), .finally()) || async/await || queueMicrotask => **we work with microTask queue**
+
+When we work with events(Click,keydown,scroll), timers, I/O, user interaction, webSocket, media events, file APIs and everything else => **We work with task queue**
 
 ### 3. Task queue(callback queue)
 
