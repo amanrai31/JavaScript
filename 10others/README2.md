@@ -154,7 +154,9 @@ JS built-in function JSON.parse() converts the string into a JS object. JSON.str
 
 ### Good practices
 
+```
 if (typeof myObj !== "undefined" && myObj !== null) **use undefined check before null**
+```
 
 ```js
 for(let i=0; i<arr.length;i++){     // BAD, cuz it calculates arr.length at every iteration.
