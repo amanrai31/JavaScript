@@ -4,7 +4,7 @@ try{
     addlert("welcome");                            // An error
 }
 catch(err){
-    console.log(err.message,err.name)
+    console.log("ErrMsg =>", err.message, "ErrName =>",err.name)
 }
 finally{
     console.log("JAI SHREE RAM")
