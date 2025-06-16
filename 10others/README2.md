@@ -70,6 +70,8 @@ Declared at the beginning of a script, it has global scope (all code in the scri
 - Duplicating a parameter name is not allowed.  ```js function x(p1, p1) {}; ```
 - Keywords reserved for future JavaScript versions can NOT be used as variable names in strict mode (like - implement, public, static,protected, private, pakage etc.)
 
+**NOTE :** JS classes are by default in strict mode.
+
 -----
 
 ### this
