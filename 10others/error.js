@@ -15,7 +15,7 @@ finally{
 // throw statement
 let x = "2";                              // Change the value of x and see the diff results.
   try {
-    if(x.trim() == "") throw "empty";
+    if(x.trim() == "") throw {name: "Empty", message: "Kya kr ra h bhai, kuch to value daal"};
     if(isNaN(x)) throw "not a number";
     x = Number(x);
     if(x < 5) throw "too low";
