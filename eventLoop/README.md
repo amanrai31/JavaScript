@@ -21,8 +21,6 @@ Provide us interface to interact with browser's feature. [fetch API, Timer API(s
 
 - **queueMicrotask =>** Goes to microTask
 
-When we work with promises(.then(), .catch(), .finally()) || async/await || queueMicrotask => **we work with microTask queue**
-
 ### 3. Task queue(callback queue)
 
 Holds callback based APIs and envent handlers once the asynchronous task done, to execute at some point later
@@ -30,17 +28,20 @@ Holds callback based APIs and envent handlers once the asynchronous task done, t
 When we work with events(Click,keydown,scroll), timers, I/O, user interaction, webSocket, media events, file APIs and everything else => **We work with task queue**
 
 ### 4. MicroTask queue - Only used by 
+
 promise handlers ``` .then(()=>{...}); .catch(()=>{...}); .finally(()=> {...})```
+
 async f/n bodies (F/n body execution after await) ``` async function asyncFunc(){ await ... } ```
+
 queue MicroTask queue callbacks ```queueMicrotask(()=>{...});```
+
 new MutationObserver callbacks ```new MutationObserver (()=>{...})```
+
+- When we work with promises(.then(), .catch(), .finally()) || async/await || queueMicrotask => **we work with microTask queue**
 
 **NOTE :** After handling *each* task from task queue, event loops checks(continuous) the MicroTask queue to ensure that nothing has been added to MicroTask queue in the meantime, if something added to microTask meanwhile, the event loop will prioritize microTask first.
 
 **NOTE :** When you have setTimeout delay, it's the delay until it moves to *task queue*, not the call stack. The callback will go to callStack only if callStack and microTask queue is empty.
-
-Test your JS knowledge => [https://www.youtube.com/watch?v=IHQcma93fpE]
-
 
 So the priority =>   callStack > microTask queue > task/callback queue
 
