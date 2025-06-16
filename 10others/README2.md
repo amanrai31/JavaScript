@@ -154,7 +154,7 @@ JS built-in function JSON.parse() converts the string into a JS object. JSON.str
 
 ### Good practices
 
-```
+```js
 if (typeof myObj !== "undefined" && myObj !== null) **use undefined check before null**
 ```
 
