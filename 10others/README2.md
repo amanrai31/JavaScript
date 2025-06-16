@@ -55,6 +55,8 @@ JS technically hoist every declarations, but in case of let & const the block of
 
 Function are also hoisted but the arrow function are not hoisted also class is not hoisted too.
 
+**Point to remmember regarding scope & hoisting** => 1st => What is it, is it const, let or var or not decleared at all, 2nd => where it is defined, inside block, function or global scope.
+
 -----
 
 ### strict mode  => "use strict";
