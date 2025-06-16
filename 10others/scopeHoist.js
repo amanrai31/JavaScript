@@ -36,27 +36,35 @@ console.log("y", y);
 
 let y = 5;
 function myfunc() {
-  x = 3;                    // here y already declared in global scope, so it will re-assign y = 3 
+  x = 3;                    // x will be global 
 }
 myfunc();
 console.log("y =>", y, "||", "x =>" x);  // x will be a global variable, but if we do this in strict mode- will give ReferenceError
 
 //Hoisting
 
-// x = 10;
-// console.log(x);
-// const x;                // Syntax error => We have to intialize const
+{
+x = 10;
+console.log(x);
+const x;                // Syntax error => We have to intialize const
+}
 
-// x = 10;
-// console.log(x);
-// let x;                 // ReferenceError: Cannot access 'x' before initialization
+{
+x = 10;
+console.log(x);
+let x;                 // ReferenceError: Cannot access 'x' before initialization
+}
 
-// x = 10;
-// console.log(x);
-// var x;                // No issue
+{
+x = 10;
+console.log(x);
+var x;                // No issue
+}
 
-// console.log(x);
-// var x = 10;           // JS only hoist declrations, not the initialization (even if it is var) => Will give undefined
+{
+console.log(x);
+var x = 10;           // JS only hoist declrations, not the initialization (even if it is var) => Will give undefined
+}
 
 
 
