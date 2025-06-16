@@ -39,6 +39,8 @@ console.log(car1.age === car2.age);    // RETURNS TRUE AS age() SHARED ACROSS IN
 - The constructor method is called automatically when a new object is created.
 - It is used to initialize object properties
 
+**Important =>** Everything inside constructor is specific to that instance, & everything not in the constructor is added to prototype so it's not directly on instance it goes down to prototype chain to find those methods.
+
 ### Class inheritance 
 
 Use "extend" keyword, child class inherits all methods from parent class. Inheritance is useful for code reusability.
