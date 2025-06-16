@@ -1,4 +1,6 @@
-// Scope
+// Scope  
+
+// Point to remmember => 1st => What is it, is it const, let or var or not decleared at all, 2nd => where it is defined, inside block, function or global scope.
 
 // {
 //   x = 10;     // Not defined that it is var, let or const => will be a global vaiable
