@@ -45,4 +45,6 @@ new MutationObserver callbacks ```new MutationObserver (()=>{...})```
 
 So the priority =>   callStack > microTask queue > task/callback queue
 
+**Event Loop Nuances: “nextTick” vs microtasks vs timers in Node what's this => Read about**
+
 Test your JS knowledge => [https://www.youtube.com/watch?v=IHQcma93fpE]
