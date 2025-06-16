@@ -14,12 +14,14 @@ Execution context is created in call stack, handles one task at a time.
 
 Provide us interface to interact with browser's feature. [fetch API, Timer API(setTimeout(), setInterval()), Geolocation, WebStorage API (localStorage, sessionStorage), HTML DOM]. Some of this APIs offload(transfer load/long running task from call stack to browser). This offloading can be either callback based or promise based.
 
-**Callbacks =>** ``` setTimeout(()=> console.log("Done"), 5000)```
+**Callbacks =>** ``` setTimeout(()=> console.log("Done"), 5000)```, ``` setInterval(()=>{console.log("Hello")},10000)```
 ```navigator.geolocation.getCurrentPosition( position => console.log(position),  error => console.error(error)  )```
 
-**Promises(then,await) =>** ```fetch("...").then(res => ...)``` ``` const [fileHandle] = await window.showOpenFilePicker();```
+**Promises(then, async/await, .catch(), .finally()) =>** ```fetch("...").then(res => ...)``` ``` const [fileHandle] = await window.showOpenFilePicker();```
 
-When we work with promises, we work with microTask queue
+**queueMicrotask =>** Goes to microTask
+
+When we work with promises(.then(), .catch(), .finally()) || async/await || queueMicrotask || timers => we work with microTask queue
 
 ### 3. Task queue(callback queue)
 
