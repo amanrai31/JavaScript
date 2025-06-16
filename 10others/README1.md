@@ -191,6 +191,8 @@ throw statement allow to create custom error. The exception can be JS string, a 
   }
 ```
 
+**.catch(), .finally() goes to microtask queue**
+
 #### Errors
 
 - SyntaxError
