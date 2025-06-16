@@ -92,10 +92,11 @@ const person = {
   id       : 5566,
   fullName : function() {
     return this.firstName + " " + this.lastName; // i.e. this.firstName is the firstName property of this (the person object)
-  }
+  },
   myFunc: function(){
     return this;     // returns whole object
-  };
+  },
+}
 ```
 
 ```js
