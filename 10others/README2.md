@@ -156,6 +156,8 @@ JS built-in function JSON.parse() converts the string into a JS object. JSON.str
 
 ```js
 if (typeof myObj !== "undefined" && myObj !== null)  // use undefined typeof check before null
+
+// Because if myObj is not declared at all, using it directly (like in myObj !== null) will throw a ReferenceError.
 ```
 
 ```js
