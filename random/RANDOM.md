@@ -16,6 +16,8 @@ Diff in undefined & null
 const num = prompt("Enter a number");
 num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an even number");
 ```
+
+- length of array or string is a property, not a method. 
 -----
 
 MAP Polyfill
