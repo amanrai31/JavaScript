@@ -15,7 +15,7 @@
 
 ### Operators
 1. Arithmetic Operators [ + , - , * , / , % , **(exponential), ++ -- ]
-2. Assignment operator [ = ]   (See logical assignment operator.)
+2. Assignment operator [ =, +=, -=, *=, /=, %=, **= ]   (See logical assignment operator.)
 3. Comparison Operators [ ==, !==, < , <= , > , >= , ===(equal value and equal type) , !==(not equal value or equal type)]
 4. Logical operators [ && , || , ! ]
 5. Type operators[typeof(Returns the type of a variable), instanceof(Returns true if an object is an instance of an object type)]
