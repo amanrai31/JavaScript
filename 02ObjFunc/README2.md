@@ -160,3 +160,5 @@ function greet(user: User) {
 
 greet({name: "Aman"}); // Hello, Aman. You are 18 years old.
 ```
+
+**NOTE :** There is slight diff b/w method & function. When we bind a function with an object it becomes a method. Like all the built in methods or function defined inside an object.
