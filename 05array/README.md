@@ -20,7 +20,7 @@ But Difference is => array uses ```number to access``` its elements unlike objec
 
 - arr.length;  arr.toString(); arr.at(index) => allows -ve index otherwise arr[index] is also fine;
 
-- arr.join() || arr.pop() => pops last || arr.push() => push at last || arr.shift() => put at 0th || arr.unshift() => removes from 0th;
+- arr.join() || arr.pop() => pops last || arr.push() => push at last || arr.shift() => removes from 0th index|| arr.unshift() => put at 0th index;
 
 - arr1.concat(arr2,arr3,...); - does not change existing array, creates a new array.
 
