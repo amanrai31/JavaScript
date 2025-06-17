@@ -12,7 +12,7 @@
   console.log("length of carArr => ", carArr.length, "carArr in string => ", carArr.toString());
   console.log(carArr[-2], carArr.at(-2));  // Accessing elements using [] and using at() method; at() accepts -ve index too.
 
-  // push(), pop(), shift()
+  // push(), pop(), shift(), unshift()
   carArr.push("Benz", "Dodge");           // adds elements at last
   const poped = carArr.pop();   // returns the removed element
   console.log(poped, carArr)
@@ -20,7 +20,7 @@
   carArr.shift();               // removes the 1st element and shift all other elements to lower index
   console.log(carArr);
 
-  carArr.unshift("Dodge");
+  carArr.unshift("Dodge");       // adds at index 0
   console.log(carArr);
 }
 
