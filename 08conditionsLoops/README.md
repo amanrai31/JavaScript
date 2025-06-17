@@ -102,22 +102,6 @@ for (let x in person) {
 
 **NOTE :** Try not to use for-in loop over array if index order is important. The index order is implementation-dependent, and array values may not be accessed in the order you expect, better to use 'for'/'for-of'/arr.forEach() when order is important.
 
-- **arr.forEach()** [forEach() method calls a function (a callback function) once for each array element]
-
-```
-const numbers = [45, 4, 9, 16, 25];
-
-let txt = "";
-numbers.forEach(myFunction);
-
-function myFunction(value, index, array) {     // Takes 3 arguments, 1- the item value, 2- the item index, 3- the array itself.
-  txt += value;
-}
-
-// or
-numbers.forEach((value)=> txt += value);
-```
-
 - **for of loop** (loops through the values of an iterable object)
 
 It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more
@@ -159,6 +143,24 @@ do {
 }
 while (condition);
 ```
+
+- **arr.forEach()** [forEach() method calls a function (a callback function) once for each array element]
+
+```
+const numbers = [45, 4, 9, 16, 25];
+
+let txt = "";
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array) {     // Takes 3 arguments, 1- the item value, 2- the item index, 3- the array itself.
+  txt += value;
+}
+
+// or
+numbers.forEach((value)=> txt += value);
+```
+
+**IMPORTANT NOTE :** forEach(), map(), filter(), reduce() are functions not purely LOOP as we can not apply forEach on string, we can only apply them on "iterable objects"
 
 ### JS break & continue
 
