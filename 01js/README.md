@@ -26,7 +26,7 @@
 
 -----
 
-### Data Types (8)
+### Data Types (8) => 7 primitive & 8th one is Object
 
 1. Number (64 bits, 15-17 digit precision)
 2. bigint [let bigInt = 20n; Used on integers only, arbitrary precision(unless ur memory fulls)]
