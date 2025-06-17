@@ -96,10 +96,28 @@
   console.log(numberSquare);
 
   // filter => creates a new array with array elements that pass a test (returns true for certain condition)
-  const filteredArr = numbers.filter((value)=> {
+  const filteredArr = numbers.filter((value,index,array)=> {
     return value >= 5;
   })
   console.log(filteredArr);
+
+  // reduce => reduces an array to a single value by running a f/n on each element, carrying forward a result (called accumulator)
+
+  const x =numbers.reduce((acc,val,index,array)=>{
+    console.log(val);
+    return acc += val;
+    
+  },0)
+  console.log(x);
+
+  const fruits = ["apple", "banana", "apple", "orange", "banana"];              // IMPORTANT => RUN THIS
+  const count = fruits.reduce((acc, fruit) => {
+    acc[fruit] = (acc[fruit] || 0) + 1;
+    return acc;
+  }, {});
+  console.log(count);
+  
+
 
   // spread => Best for adding 2 or more array & adding some other element in the same array at end
   const q1 = ["Jan", "Feb", "Mar"];

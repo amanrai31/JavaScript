@@ -36,7 +36,7 @@ fruits.splice(2, 0, "Lemon", "Kiwi");  // Alters the original array.
 ```
 1st parameter defines position where new elements should be added(spliced in), 2nd defines how many elements should be removed, rest parameters defines new elements to be added. 
 
-**NOTE :** The splice() method returns an array with the deleted items, alters the orignal array. Also splice() removes elements without leaving holes in array.
+**NOTE :** The splice() method returns an array with the deleted items, alters the original array. Also splice() removes elements without leaving holes in array.
 
 **NOTE :** toSpliced() methods is same but it does not alters the original array returns new array with change
 
@@ -71,7 +71,7 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 
 **NOTE :** ```js points.sort(function(a, b){return a - b}); // using compare f/n (will output in desc order)```
 
-### Array iteration
+### Array iteration methods
 
 1. forEach();         =>  calls a callback f/n once for each array element.
 2. map(); flatMap()   =>  has a callback f/n once for each element, creates a new array by performing a f/n on each array element.
@@ -84,11 +84,11 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 **NOTE :** If you do not want to alter your original array then use arr.toSpliced(), arr.toSorted(), arr.toReversed() instead of splice, sort and reverse.
 
 ```js
-// Suppose i do not know any functon about array then =>
+// Suppose i do not know any function about array then =>
 const arr = [1,2,3];
 console.log(arr.__proto__);
 ```
 
 -----
 
-### Polyfills of all iterables (foeEach, map, filter, reduce etc.) => See random folder
+### Polyfills of all iterables (foeEach(), map(), filter(), reduce() etc.) => See random folder

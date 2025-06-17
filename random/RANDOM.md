@@ -2,7 +2,7 @@
 
 Diff in undefined & null
 
-- undefined => JS engine (or unintentional by dev) ||  Value not assigned / doesn’t exist || Uninitialized vars, missing keys => We don't konw what's there.
+- undefined => JS engine (or unintentional by dev) ||  Value not assigned / doesn’t exist || Uninitialized vars, missing keys => We don't know what's there.
 - null      => Developer (intentional) ||  Explicitly empty  ||  API responses, database placeholders => We know there is nothing(null)
 
 **Object and Array =>** Object = key-value || array = index-value
