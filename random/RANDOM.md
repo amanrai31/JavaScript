@@ -14,7 +14,7 @@ Diff in undefined & null
 - **take input from user => **
 ```js
 const num = prompt("Enter a number");
-if(num%2 === 0) console.log(num, "is an even number");
+num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an even number");
 ```
 -----
 
