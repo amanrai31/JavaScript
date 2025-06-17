@@ -10,7 +10,12 @@ Diff in undefined & null
 - All intervals/timers get cleared on reload/refresh
 
 - Even though array/set has key,value but they are not stored like key-value pair like in map. So, we can not do ```for(let [key,value] of arr){.....}```. For that convert array/set into entry first.
-  
+
+- **take input from user => **
+```js
+const num = prompt("Enter a number");
+if(num%2 === 0) console.log(num, "is an even number");
+```
 -----
 
 MAP Polyfill
