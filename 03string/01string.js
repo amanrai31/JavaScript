@@ -40,7 +40,7 @@ console.log(text3)
 let str3 = "     Aman    ";
 console.log("Orignal", str3, " full trim",str3.trim(), "trim start",str3.trimStart(), "trim end", str3.trimEnd())
 
-// str.replace()
+// str.replace(), str.replaceAll()
 let str4 = "Please visit Microsoft and Microsoft!";
 console.log(str4.replace("Microsoft", "Google")); //Replace only 1st occurrence
 console.log(str4.replace("MICROSOFT", "Amazon")); // will not work as replace() is case sensitive
