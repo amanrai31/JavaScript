@@ -21,6 +21,7 @@ num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an 
 
 - forEach(), map(), filter(), reduce() are functions not purely LOOP as we can not apply forEach on string, we can only apply them on "iterable objects"
 
+- slight diff b/w forEach and map,filter,reduce is that map returns a new array and forEach just performs some operation.
 
 -----
 
