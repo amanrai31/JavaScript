@@ -60,6 +60,8 @@ const mutliply = ((x,y) => { return x*y})(4,5);
 4. If a function is called with missing arguments (less than declared), the missing values are set to *undefined*.
 5. If argumants are more than decleared params, then use argument object or (...args)
 
+**NOTE :** Parameters are inside Function defination, arguments are inside function call
+
 #### Default parameter values
 
 ``` js
