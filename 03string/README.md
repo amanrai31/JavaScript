@@ -55,3 +55,11 @@ let text = "We are the so-called \"Vikings\" from the north.";
 ### Template strings => ``
 
 Template string allows single & double quotes inside a string, allows multiline string and *interpolation* ${...} i.e. it can interpolate variables and expressions.
+
+**NOTE :** JavaScript auto-wraps primitives in objects temporarily when you call a method.
+
+```js
+"hello".toUpperCase(); // behind the scenes, wraps in object
+new String("hello").toUpperCase();
+```
+
