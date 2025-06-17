@@ -11,7 +11,7 @@ Diff in undefined & null
 
 - Even though array/set has key,value but they are not stored like key-value pair like in map. So, we can not do ```for(let [key,value] of arr){.....}```. For that convert array/set into entry first.
 
-- **take input from user => **
+- take input from user =>
 ```js
 const num = prompt("Enter a number");
 num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an even number");
