@@ -23,6 +23,8 @@ num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an 
 
 - slight diff b/w forEach and map,filter,reduce is that map returns a new array and forEach just performs some operation.
 
+- window object represents an open window in a browser. It's browser's object (not js's) & automatically created by browser.
+
 -----
 
 MAP Polyfill
