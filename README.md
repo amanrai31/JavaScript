@@ -100,7 +100,7 @@ External JS References
 
 **NOTE :** We can not run js on browser directly, HTML connects our code(JS) to browser.
 
-**NOTE :** If you write script tag in head, you woun't be able to access document elements ```js console.dir(document.body); // will give nothing ``` => That's why we put script at the end.
+**NOTE :** If you write script tag in head, you woun't be able to access document elements ``` console.dir(document.body); // will give nothing ``` => That's why we put script at the end.
 
 ----------------------------------------------------------------------------
 
