@@ -87,6 +87,7 @@ External JS References
 2. With a file path ``` <script src="/jsLogic/myScript.js defer"></script>)  // Here defer attribute ensures that script is executed after HTML is fully parsed (avoids loading HTML). Add script tag in head of HTML ```
 3. Without any path
 
+- Similarly we can attach css to HTML in head of html like => ```html <link rel="stylesheet" href="style.css"> ```
 ### * How JS displays data
 
 1. Using innerHTML. [Common way- document.getElementById(id)]
