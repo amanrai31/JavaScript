@@ -98,6 +98,9 @@ External JS References
 
 ### How to take input data => prompt()
 
-**IMPORTANT NOTE :** We can not run js on browser directly, HTML connects our code(JS) to browser.
+**NOTE :** We can not run js on browser directly, HTML connects our code(JS) to browser.
+
+**NOTE :** If you write script tag in head, you woun't be able to access document elements. => That's why we put script at the end.
+
 ----------------------------------------------------------------------------
 
