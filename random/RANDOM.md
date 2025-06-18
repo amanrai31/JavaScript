@@ -25,6 +25,8 @@ num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an 
 
 - window object represents an open window in a browser. It's browser's object (not js's) & automatically created by browser.
 
+- ``` console.dir(window.document)``` => prints the props/methods of object.
+
 -----
 
 MAP Polyfill
