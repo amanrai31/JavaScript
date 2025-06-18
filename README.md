@@ -95,5 +95,7 @@ External JS References
 4. Js print [window.print()]
 5. Using document.write().[delete all existing HTML, used for testing]
 
+
+**IMPORTANT NOTE :** We can not run js on browser directly, HTML connects our code(JS) to browser.
 ----------------------------------------------------------------------------
 
