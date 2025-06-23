@@ -30,3 +30,6 @@ Async/await with try-catch
 Parallel execution with Promise.all, Promise.race, Promise.allSettled
 
 Callback hell vs Promises
+
+
+**NOTE :** Async await is better than Promise chains and promise-chains are better than callback hell. `Async-await >> promise-chain >> callback hell`
