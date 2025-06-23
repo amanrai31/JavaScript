@@ -79,6 +79,8 @@ pro.then((result)=>{console.log(result)})
 .catch((err)=>{console.log(err)})
 ```
 
+### Promise chaining
+
 ```js
 const pro = new Promise((resolve,reject)=>{
     resolve(5);
