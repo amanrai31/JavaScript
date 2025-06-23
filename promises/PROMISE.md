@@ -31,5 +31,9 @@ Parallel execution with Promise.all, Promise.race, Promise.allSettled
 
 Callback hell vs Promises
 
+-----
 
 **NOTE :** Async await is better than Promise chains and promise-chains are better than callback hell. `Async-await >> promise-chain >> callback hell`
+
+**Synchronous** = Step-by-step(in same order code written), waits for each step. 	Blocks next task until current finishes
+**Asynchronous** = Non-blocking, tasks can run independently, don't wait for each other.
