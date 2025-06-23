@@ -66,15 +66,18 @@ oneAfterOther(3)
 
 ```js
 const pro = new Promise((resolve,reject)=>{
+    console.log("Hi");
     const x = Math.random();
     setTimeout(()=>{
         if(x < 0.5){
+            console.log("Hello");
             resolve("Success babe")
         }
         else{
+            console.log("Bye");
             reject("Failed, hit again")
         }
-    },1000)
+    },3000)
 });
 
 pro.then((result)=>{console.log(result)})
