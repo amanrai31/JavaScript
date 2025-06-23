@@ -63,7 +63,7 @@ class Car {
 
 class Model extends Car {
   constructor(brand, mod) {
-    super(brand);
+    super(brand);                 // invokes the parent constructor, super is related to invoking parent constructor only(we have to invoke inorder to access parent's properties.
     this.model = mod;
   }
   show() {
