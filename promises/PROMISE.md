@@ -39,6 +39,8 @@ Callback hell vs Promises
 **Asynchronous** = Non-blocking, tasks can run independently, don't wait for each other. Faster for tasks like API calls, DB operations, file reads.
 
 ```js
+// Callback hell
+
 function oneAfterOther(value, cbFunction){
   setTimeout(()=>{
 console.log("Current value : ", value);
@@ -49,13 +51,10 @@ cbFunction();
 oneAfterOther(1, ()=> {
 console.log("getting data2 ....");
 oneAfterOther(2,()=>{
-console.log("getting data2 ....");
+console.log("getting data3 ....");
 oneAfterOther(3,()=>{
-console.log("getting data2 ....");
 })
 })}
 )
-
-
-
+```
 
