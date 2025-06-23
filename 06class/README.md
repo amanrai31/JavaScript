@@ -84,6 +84,8 @@ console.log(car.cnam);
 
 **NOTE :** Unlike functions, and other JS declarations, class declarations are not hoisted && always written in strict mode.
 
+**NOTE :** If child & parent have same method, child's method will be used. (Method overriding).
+
 ### JS static methods
 
 Static class methods are defined on the class itself. You cannot call a static method on an object, only on an object class.
