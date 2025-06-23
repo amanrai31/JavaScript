@@ -62,7 +62,7 @@ oneAfterOther(3)
 )
 ```
 
-### Promise ( resolve,reject  ||  .then, .catch  ||  Promise chains)
+## Promise ( resolve,reject  ||  .then, .catch  ||  Promise chains)
 
 ```js
 const pro = new Promise((resolve,reject)=>{
