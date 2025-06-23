@@ -79,3 +79,12 @@ pro.then((result)=>{console.log(result)})
 .catch((err)=>{console.log(err)})
 ```
 
+```js
+const pro = new Promise((resolve,reject)=>{
+    resolve(5);
+})
+
+pro.then((result)=> result*3)
+.then((result)=> result + 10)
+.then((result)=> console.log(result));
+```
