@@ -122,3 +122,22 @@ Value is also an attribute of property.
 3. Object.seal(object) [Prevents adding and deleting object properties]
 4. Object.freeze(object) [Prevents any changes to an object, makes objects read only]
 5. Object.isExtensible(object), Object.isSealed(object), Object.isFrozen(object) 
+
+-----
+
+JS objects have a special property called prototype(itself an object). console.log any object and you can see. This prototype has all the in-buit properties and methods regarding "that object".
+
+```js
+const employee = {
+calculateTax(){
+console.log("tax rate is 25%")
+}
+}
+
+const emp1 ={
+salary: 60000;
+}
+console.log(emp1.__proto__);
+emp1.__proto__ = employee;    // emp1 object will get all the props & methods of employee inside it's prototype
+
+```
