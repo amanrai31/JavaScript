@@ -62,3 +62,20 @@ oneAfterOther(3)
 )
 ```
 
+```js
+const pro = new Promise((resolve,reject)=>{
+    const x = Math.random();
+    setTimeout(()=>{
+        if(x < 0.5){
+            resolve("Success babe")
+        }
+        else{
+            reject("Failed, hit again")
+        }
+    },1000)
+});
+
+pro.then((result)=>{console.log(result)})
+.catch((err)=>{console.log(err)})
+```
+
