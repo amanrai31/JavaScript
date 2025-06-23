@@ -37,3 +37,25 @@ Callback hell vs Promises
 
 **Synchronous** = Step-by-step(in same order code written), waits for each step. 	Blocks next task until current finishes
 **Asynchronous** = Non-blocking, tasks can run independently, don't wait for each other. Faster for tasks like API calls, DB operations, file reads.
+
+```js
+function oneAfterOther(value, cbFunction){
+  setTimeout(()=>{
+console.log("Current value : ", value);
+cbFunction();
+},2000)
+};
+
+oneAfterOther(1, ()=> {
+console.log("getting data2 ....");
+oneAfterOther(2,()=>{
+console.log("getting data2 ....");
+oneAfterOther(3,()=>{
+console.log("getting data2 ....");
+})
+})}
+)
+
+
+
+
