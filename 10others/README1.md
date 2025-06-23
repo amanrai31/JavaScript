@@ -151,6 +151,8 @@ let x = txt.match(/[abc]/ig);                    // Answer is ['a','a'];
 
 # JS Errors
 
+**USE :** We use try-catch so that our program do not endup in unexpect way or crash. Rest of code will execute even after error encouters.
+
 Throw, and Try...Catch...Finally
 
 - The **try** statement defines a code block to run (to try).
