@@ -23,7 +23,7 @@ Steps:
 
 -----
 
-Create a Promise => new Promise constructor is created which recives an executor function, when this constructor is executed then a new promise object is created in memory.
+Create a Promise => new Promise constructor is created which receives an executor function, when this constructor is executed then a new promise object is created in memory.
 
 What next?
 

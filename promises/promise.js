@@ -22,7 +22,7 @@ new Promise((resolve,reject)=>{
 
 
 new Promise ((resolve,reject)=>{
-    console.log(1);                            // Body will execute syncronously, it's only resolve which executes asyncronously
+    console.log(1);                            // Body will execute synchronously, it's only resolve which executes asynchronously
     resolve(2)
 })
 .then(result => console.log(result))
@@ -37,7 +37,7 @@ console.log(3);
 
     setTimeout(()=> console.log(3),0);
     
-    new Promise(()=> console.log(4));                  // Will execute syncronously
+    new Promise(()=> console.log(4));                  // Will execute synchronously
     
     console.log(5);
 
