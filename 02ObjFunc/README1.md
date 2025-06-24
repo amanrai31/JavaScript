@@ -64,7 +64,7 @@ const myMother = new Person("Sush", "Rai", 48, "Black");
 We can **NOT** add new property to constructor function just like objects, to add new property(property/function) 
 ` Person.prototype.nationality = "Indian" `
 
-` Person.prototype.fullname = function(){ console.log(this.firstName, this.lastName)} ` => RECOMMENDED way to define function inside constructor f/n using prototype 
+` Person.prototype.fullname = function(){ console.log(this.firstName, this.lastName)} ` => RECOMMENDED way to define function inside constructor f/n using prototype. **Log this** => `console.log(Person.Prototype)`
 
 
 **NOTE:** But that will be constant for all Obj made out of this Object Constructor.
