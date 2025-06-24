@@ -7,7 +7,7 @@ Source => [https://www.youtube.com/watch?v=Xs1EMmBLpn4]
 Promise Object => 
 1. PromiseState(*pending* by default) (pending or FullFilled/Resolved OR Rejected)
 2. PromiseResult (*undefined* by default) 
-3. PromiseReactionRecord (then handler creates this) => PromiseFulfillReactions (e.g result => console.log(result)) OR PromiseRejectReactions (e.g err => console.log(err));
+3. PromiseReactionRecord (then handler creates this) => PromiseFulfillReactions (e.g .then((result) => console.log(result))) OR PromiseRejectReactions (e.g .catch((err) => console.log(err)));
 4. PromiseIsHandled (true)
 
 
