@@ -30,7 +30,9 @@ num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an 
 ```js
 const arr = [1,2,3];
 console.log(arr.__proto__);            // Array constructor
-console.log(arr.__proto__.__proto__);  // Object constructor  
+console.log(arr.__proto__.__proto__);  // Object constructor
+console.log(arr.__proto__ === Array.prototype); //true
+```
 -----
 
 MAP Polyfill
