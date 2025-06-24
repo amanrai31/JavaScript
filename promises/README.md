@@ -2,7 +2,7 @@
 
 Source => [https://www.youtube.com/watch?v=Xs1EMmBLpn4]
 
-
+Promise is promise for eventual completion of task. It is an object in JS.  
 
 Promise Object => 
 1. PromiseState(*pending* by default) (pending or FullFilled/Resolved OR Rejected)
