@@ -14,12 +14,16 @@ Promise Object =>
 
 Steps:
 1. new Promise constructor added to the callStack, which creates the Promise object with promiseState pending and promiseResult undefined
-2. After resolve, promiseState is fulfilled and promiseResult is set (whatever the value is)
+2. After resolve/reject, promiseState is fulfilled/rejected and promiseResult is set (whatever the value is)
 3. .then handler creates a promise reaction record which also creates a Promise Object (PromiseState is pending by default, PromiseResult is undefined)
 4. PromiseState get fulfilled, PromiseResult is set to whatever the result is
 5. if there is no further .then handler then
 
+**NOTE :** We create Promise reaction record (1. PromiseFulfillReactions, 2. PromiseRejectReaction) by chaining .then or .catch
+
 -----
+
+Create a Promise => new Promise constructor is created which recives an executor function, when this constructor is executed then a new promise object is created in memory.
 
 What next?
 
