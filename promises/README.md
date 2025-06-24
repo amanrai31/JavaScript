@@ -17,7 +17,7 @@ Steps:
 2. After resolve/reject, promiseState is fulfilled/rejected and promiseResult is set (whatever the value is)
 3. .then handler creates a promise reaction record which also creates a Promise Object (PromiseState is pending by default, PromiseResult is undefined)
 4. PromiseState get fulfilled, PromiseResult is set to whatever the result is
-5. if there is no further .then handler then
+5. if there is no further .then handler then result is returned or printed.
 
 **NOTE :** We create Promise reaction record (1. PromiseFulfillReactions, 2. PromiseRejectReaction) by chaining .then or .catch
 
