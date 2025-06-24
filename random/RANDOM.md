@@ -27,6 +27,10 @@ num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an 
 
 - ``` console.dir(window.document)``` => prints the props/methods of object.
 
+```js
+const arr = [1,2,3];
+console.log(arr.__proto__);            // Array constructor
+console.log(arr.__proto__.__proto__);  // Object constructor  
 -----
 
 MAP Polyfill
