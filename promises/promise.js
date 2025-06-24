@@ -38,17 +38,18 @@ loadImage(src)
 }
 
 {
-    Promise.resolve()
-      .then(() => console.log(1));
+// Answer the order or execution
+Promise.resolve()
+  .then(() => console.log(1));
 
-    queueMicrotask(()=> console.log(2));
+queueMicrotask(()=> console.log(2));
 
-    setTimeout(()=> console.log(3),0);
-    
-    new Promise(()=> console.log(4));                  // Will execute synchronously
-    
-    console.log(5);
+setTimeout(()=> console.log(3),0);
 
-    (async () => console.log(6))();
+new Promise(()=> console.log(4));                  // Will execute synchronously
+
+console.log(5);
+
+(async () => console.log(6))();
     
 }
