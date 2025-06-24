@@ -23,20 +23,6 @@ Steps:
 
 -----
 
-Create a Promise => new Promise constructor is created which receives an executor function, when this constructor is executed then a new promise object is created in memory.
-
-What next?
-
-Promise chaining, error handling
-
-Async/await with try-catch
-
-Parallel execution with Promise.all, Promise.race, Promise.allSettled
-
-Callback hell vs Promises
-
------
-
 **NOTE :** Async await is better than Promise chains and promise-chains are better than callback hell. `Async-await >> promise-chain >> callback hell`
 
 **Synchronous** = Step-by-step(in same order code written), waits for each step. 	Blocks next task until current finishes.
@@ -99,3 +85,11 @@ pro.then((result)=> result*3)
 .then((result)=> result + 10)
 .then((result)=> console.log(result));
 ```
+
+What next?
+
+Async/await with try-catch
+
+Parallel execution with Promise.all, Promise.race, Promise.allSettled
+
+-----
