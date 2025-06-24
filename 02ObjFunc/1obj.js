@@ -37,7 +37,7 @@ Person.prototype.sayHello = function(){
     console.log("hello", this.firstName);
 }
 
-const mySelf = new Person("Aman", "Rai", 22, "black", "5.6" ); // But the height prototype will be constant to 6 (not 5.6)
+const mySelf = new Person("Aman", "Rai", 22, "black", "5.6" ); // But the height prototype will be constant to 6 (not 5.6), if you want to override this then do this explicitly => myself.height ="5.6"
 
 mySelf.length = "5.10"  // We can add new props to perticular objects.
 
