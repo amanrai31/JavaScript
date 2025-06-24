@@ -32,6 +32,9 @@ const arr = [1,2,3];
 console.log(arr.__proto__);            // Array constructor
 console.log(arr.__proto__.__proto__);  // Object constructor
 console.log(arr.__proto__ === Array.prototype); //true
+
+// We have prototype for every built in obj constructor like Array, Set, Map etc, we can make prototype of user defined object constrctor. But what is common in all
+// obj constructor(built in OR userDefined) is their prototype also contains a object prototype (Which is part of Object=> main hero) 
 ```
 -----
 
