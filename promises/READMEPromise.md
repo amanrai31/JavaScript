@@ -159,6 +159,6 @@ What next?
 
 Async/await with try-catch
 
-Parallel execution with Promise.all, Promise.race, Promise.allSettled
+Parallel execution with Promise.all, Promise.race, Promise.allSettled.
 
 -----
