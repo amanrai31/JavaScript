@@ -64,10 +64,10 @@ const myMother = new Person("Sush", "Rai", 48, "Black");
 We can **NOT** add new property to constructor function just like objects, to add new property(property/function) 
 ` Person.prototype.nationality = "Indian" `
 
-` Person.prototype.fullname = function(){ console.log(this.firstName, this.lastName)} ` => RECOMMENDED way to define function inside constructor f/n using prototype. **Log this** => `console.log(Person.Prototype)`
+` Person.prototype.fullname = function(){ console.log(this.firstName, this.lastName)} ` => RECOMMENDED way to define function inside constructor f/n using prototype. **Log this** => `console.log(Person.Prototype)`. It is similar to what we declear f/n outside of constructor in Classes. 
 
 
-**NOTE:** But that will be constant for all Obj made out of this Object Constructor.
+**NOTE:** But that will be constant  by default(can be override) for all Obj made out of this Object Constructor. We can explicitly override though.
 
 But we can add new properties to objects=> ` myFather.height = "5.10" `
 
