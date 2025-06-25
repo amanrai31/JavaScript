@@ -59,19 +59,19 @@ function fun1(value,callbck){
 setTimeout(()=>{
 console.log(value*value);
 callbck(value*value,fun3)
-})
+},2000)
 }
 function fun2(value,callbck){
 setTimeout(()=>{
 console.log(value*value);
 callbck(value*value,fun3)
-})
+},3000)
 }
 function fun3(value,callbck){
 setTimeout(()=>{
 console.log(value*value);
 console.log("callback hell ends");
-})
+},4000)
 }
 
 
