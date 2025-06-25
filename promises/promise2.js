@@ -6,6 +6,7 @@
 {
   
 const pro = new Promise((resolve,reject)=>{
+ console.log("Initiating the task");
     setTimeout(()=>{
         resolve("Task 1 complete.")
     },1000)
@@ -19,6 +20,7 @@ pro.then((result)=>{console.log(result);})
         console.log("Task 3 complete")
     },3000)
 });
+ 
 }
 
 {
@@ -45,7 +47,7 @@ const task3 = () => new Promise(resolve => {
 });
 
 task1()
-  .then(task2)         // If your function returns a Promise, never call it inside .then()
+  .then(task2)         // If your function returns a Promise, never call it inside .then(). Also we can write .then(()=> task())
   .then(task3)
   .then(() => {
       console.log("All tasks done");
