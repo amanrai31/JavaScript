@@ -1,4 +1,4 @@
-// Parallel chaining VS sequential chaining
+ // Parallel chaining VS sequential chaining
 
 // QESTION => Task 1 takes 1 second and resolves "Task 1 Complete". Task 2 takes 2 seconds and resolves "Task 2 Complete".
 // Task 3 takes 1 second and resolves "Task 3 Complete". Chain them so they run one after another, and log messages after each.
@@ -60,7 +60,7 @@ task1()
 }
 
 {
-  //Guess the order of execution
+  //Guess the order of execution => await queues microtasks before .then() callbacks, when they share the same Promise.
   const pro = new Promise((resolve,reject)=>{
     console.log("1");
     setTimeout(()=>{
