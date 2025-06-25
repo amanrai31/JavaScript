@@ -58,3 +58,27 @@ task1()
   // Parallel execution
   Promise.all([task1(), task2(), task3()])
 }
+
+{
+  //Guess the order of execution
+  const pro = new Promise((resolve,reject)=>{
+    console.log("1");
+    setTimeout(()=>{
+    resolve(10);
+
+    },2000)
+});
+
+const func=async()=>{
+    console.log("2")
+    const a=await pro
+
+    console.log("3")
+}
+
+func()
+
+
+pro.then(()=>console.log("4"));
+console.log("5");
+}
