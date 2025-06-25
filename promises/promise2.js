@@ -13,7 +13,7 @@ const pro = new Promise((resolve,reject)=>{
 })
 
 pro.then((result)=>{console.log(result);})
-.then(()=> {                                                 // this is not pure sequential as .then will create new promise and resolve it instantly and will set value
+.then(()=> {                                                 // this is not pure sequential as .then will create new promise(by default)and resolve it instantly and will set value
     setTimeout(()=>{console.log("Task 2 complete.")},2000)   // to undefined and state to fulfilled and goes for next .then. This timeout is not the part of that newly create Promise.
 }).then(()=> {
     setTimeout(()=>{
@@ -47,8 +47,8 @@ const task3 = () => new Promise(resolve => {
 });
 
 task1()
-  .then(task2)         // If your function returns a Promise, never call it inside .then(). Also we can write .then(()=> task())
-  .then(task3)
+  .then(task2)   // If your function returns a Promise, never call it inside .then(). Also we can write .then(()=> task()).. task2 and task3
+  .then(task3)  // are basically Promise indide then. If we do not pass our promise then "then" creates a promise & resolves(return nothing) and goes to next "then"
   .then(() => {
       console.log("All tasks done");
   });
