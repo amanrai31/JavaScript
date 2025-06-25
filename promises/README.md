@@ -86,6 +86,46 @@ pro.then((result)=> result*3)
 .then((result)=> console.log(result));
 ```
 
+### Promise object constructor internal
+
+```js
+class Promise {
+    constructor(executor) {
+        // Internal setup: state = pending, result = undefined
+
+        // executor is the function with (resolve, reject)
+        try {
+            executor(this.#resolve.bind(this), this.#reject.bind(this));
+        } catch (err) {
+            this.#reject(err);
+        }
+    }
+
+    then(onFulfilled, onRejected) {
+        // Attach handlers for fulfillment or rejection
+    }
+
+    catch(onRejected) {
+        return this.then(null, onRejected);
+    }
+
+    finally(onFinally) {
+        // Executes regardless of outcome
+    }
+
+    // Internal methods:
+    #resolve(value) { /* logic to fulfill promise */ }
+    #reject(reason) { /* logic to reject promise */ }
+}
+
+```
+```js
+Promise.prototype.then = function (callback) {        // pass a f/n ref, because it will call the f/n inside eventually, do not make call here.
+    // When current Promise resolves:
+    callback();  // Executes your function after resolution
+};
+
+```
 What next?
 
 Async/await with try-catch
