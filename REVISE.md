@@ -14,7 +14,7 @@
 - What is Object, why object(use)
 - Declare & initialize object (TS object), how to get value of object.
 - shallow copy, deep copy
-- Object constructor
+- Object constructor, prototype chain
 - Global object
 - for-in loop on object, JSON.stringify(), JSON.parse()
 - Object methods (general => key, value, entries, fromEntries etc.)
