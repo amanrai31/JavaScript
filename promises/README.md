@@ -126,6 +126,8 @@ Promise.prototype.then = function (callback) {        // pass a f/n ref, because
 };
 
 ```
+
+#### NOTE: We usually wrap Promise inside a f/n so that we can create/return Promise on call. If we declear normally Promise will start execulting immediatly 
 What next?
 
 Async/await with try-catch
