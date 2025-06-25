@@ -36,6 +36,7 @@ Nested callbacks stacked below one another forming pyramid structure.
 ```js
 // Callback hell
 
+{
 function oneAfterOther(value, cbFunction){
   setTimeout(()=>{
 console.log("Current value : ", value);
@@ -49,7 +50,24 @@ oneAfterOther(2,()=>{
 console.log("getting data3 ....");
 oneAfterOther(3)
 })}
-)
+)}
+
+//OR
+function fun1(value,callbck){
+setTimeout(()=>{
+console.log(value*value);
+
+})
+}
+function fun2(value,callbck){
+
+}
+function fun1(value,callbck){
+
+}
+
+
+fun1(fun2);
 ```
 
 ## Promise ( resolve,reject  ||  .then, .catch  ||  Promise chains)
