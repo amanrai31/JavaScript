@@ -53,3 +53,8 @@ task1()
   });
 
 }
+
+{
+  // Parallel execution
+  Promise.all([task1(), task2(), task3()])
+}
