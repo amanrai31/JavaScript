@@ -53,21 +53,30 @@ oneAfterOther(3)
 )}
 
 //OR
+
+{
 function fun1(value,callbck){
 setTimeout(()=>{
 console.log(value*value);
-
+callbck(value*value,fun3)
 })
 }
 function fun2(value,callbck){
-
+setTimeout(()=>{
+console.log(value*value);
+callbck(value*value,fun3)
+})
 }
-function fun1(value,callbck){
-
+function fun3(value,callbck){
+setTimeout(()=>{
+console.log(value*value);
+console.log("callback hell ends");
+})
 }
 
 
-fun1(fun2);
+fun1(3,fun2);
+}
 ```
 
 ## Promise ( resolve,reject  ||  .then, .catch  ||  Promise chains)
