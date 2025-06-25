@@ -81,7 +81,8 @@ func()
  
 pro.then(()=>console.log("4"));
 console.log("5");
-// We usually wrap Promise inside a f/n so that we can execute Promise on call. If we declear normally Promise will start execulting immediatly because Promise 
-// constructor calls the executor f/n. The promise obj will have promiseState pending and promiseResult undefined "till" 
+// We usually wrap Promise inside a f/n so that we can execute Promise on call. If we make promise obj out of Promise constructor, Promise will start execulting  
+// immediatly because Promise constructor calls the executor f/n. The "promise obj" will have promiseState pending and promiseResult undefined "till" promise is resolved/rejected.
+ // Once promise is resolved/rejected then promise object will have promiseState set to fullfilled/reject and promiseResult will have someValue/undefined.
 
 }
