@@ -1,6 +1,8 @@
 
 Source - [https://www.youtube.com/watch?v=IHQcma93fpE]
 
+Bhai Prototype/prototypeChain AND Promise/PromiseChain => These are heavy concept for now.
+
 Generator f/n => next,return,throw   
 
 Factory function => create object without using new keyword
