@@ -81,4 +81,7 @@ func()
  
 pro.then(()=>console.log("4"));
 console.log("5");
+// We usually wrap Promise inside a f/n so that we can execute Promise on call. If we declear normally Promise will start execulting immediatly because Promise 
+// constructor calls the executor f/n. The promise obj will have state "pending"
+
 }
