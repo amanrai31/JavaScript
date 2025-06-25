@@ -1,6 +1,6 @@
  // Parallel chaining VS sequential chaining
 
-// QESTION => Task 1 takes 1 second and resolves "Task 1 Complete". Task 2 takes 2 seconds and resolves "Task 2 Complete".
+// QUESTION => Task 1 takes 1 second and resolves "Task 1 Complete". Task 2 takes 2 seconds and resolves "Task 2 Complete".
 // Task 3 takes 1 second and resolves "Task 3 Complete". Chain them so they run one after another, and log messages after each.
 
 {
@@ -14,7 +14,7 @@ const pro = new Promise((resolve,reject)=>{
 
 pro.then((result)=>{console.log(result);})
 .then(()=> {                                                 // this is not pure sequential as .then will create new promise and resolve it instantly and will set value
-    setTimeout(()=>{console.log("Task 2 complete.")},2000)   // to undefined and state to fullfilled and goes for next .then. This timeout is not the part of that newly create Promise.
+    setTimeout(()=>{console.log("Task 2 complete.")},2000)   // to undefined and state to fulfilled and goes for next .then. This timeout is not the part of that newly create Promise.
 }).then(()=> {
     setTimeout(()=>{
         console.log("Task 3 complete")
@@ -81,8 +81,8 @@ func()
  
 pro.then(()=>console.log("4"));
 console.log("5");
-// We usually wrap Promise inside a f/n so that we can execute Promise on call. If we make promise obj out of Promise constructor, Promise will start execulting  
-// immediatly because Promise constructor calls the executor f/n. The "promise obj" will have promiseState pending and promiseResult undefined "till" promise is resolved/rejected.
- // Once promise is resolved/rejected then promise object will have promiseState set to fullfilled/reject and promiseResult will have someValue/undefined.
+// We usually wrap Promise inside a f/n so that we can execute Promise on call. If we make promise obj out of Promise constructor, Promise will start executing  
+// immediately because Promise constructor calls the executor f/n. The "promise obj" will have promiseState pending and promiseResult undefined "till" promise is resolved/rejected.
+ // Once promise is resolved/rejected then promise object will have promiseState set to fulfilled/reject and promiseResult will have someValue/undefined.
 
 }

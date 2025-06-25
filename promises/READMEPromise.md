@@ -1,4 +1,4 @@
-## Promise execution & async/await
+# CONTENT => Promise execution 
 
 Source => [https://www.youtube.com/watch?v=Xs1EMmBLpn4]
 
@@ -154,10 +154,9 @@ Promise.prototype.then = function (callback) {        // pass a f/n ref, because
 
 ```
 
-#### NOTE: We usually wrap Promise inside a f/n so that we can create/return Promise on call. If we declear normally Promise will start execulting immediatly 
-What next?
+#### NOTE: We usually wrap Promise inside a f/n so that we can create/return Promise on call. If we declare normally Promise will start executing immediately    
 
-Async/await with try-catch
+What next?
 
 Parallel execution with Promise.all, Promise.race, Promise.allSettled.
 
