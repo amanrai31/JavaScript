@@ -65,8 +65,9 @@ task1()
  const pro = new Promise((resolve,reject)=>{
  console.log("1");                         // Promise constructor takes this executor f/n as parameter and executes it.
  setTimeout(()=>{
+ console.log("before resolve, inside timeout");
  resolve(10);
-
+ console.log("after resolve, inside timeout");
 },2000)
 });
 
