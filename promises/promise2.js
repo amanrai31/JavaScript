@@ -4,7 +4,6 @@
 // Task 3 takes 1 second and resolves "Task 3 Complete". Chain them so they run one after another, and log messages after each.
 
 {
-// Parallel
   
 const pro = new Promise((resolve,reject)=>{
     setTimeout(()=>{
@@ -46,7 +45,7 @@ const task3 = () => new Promise(resolve => {
 });
 
 task1()
-  .then(task2)
+  .then(task2)         // If your function returns a Promise, never call it inside .then()
   .then(task3)
   .then(() => {
       console.log("All tasks done");
@@ -61,24 +60,22 @@ task1()
 
 {
   //Guess the order of execution => await queues microtasks before .then() callbacks, when they share the same Promise.
-  const pro = new Promise((resolve,reject)=>{
-    console.log("1");
-    setTimeout(()=>{
-    resolve(10);
+ const pro = new Promise((resolve,reject)=>{
+ console.log("1");                         // Promise constructor takes this executor f/n as parameter and executes it.
+ setTimeout(()=>{
+ resolve(10);
 
-    },2000)
+},2000)
 });
 
 const func=async()=>{
-    console.log("2")
-    const a=await pro
-
-    console.log("3")
+console.log("2")
+const a=await pro
+console.log("3")
 }
-
+ 
 func()
-
-
+ 
 pro.then(()=>console.log("4"));
 console.log("5");
 }
