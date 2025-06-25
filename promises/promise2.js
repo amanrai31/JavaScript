@@ -42,7 +42,7 @@ const task3 = () => new Promise(resolve => {
     setTimeout(() => {
         console.log("Task 3 complete");
         resolve();
-    }, 1000);
+    }, 3000);
 });
 
 task1()
