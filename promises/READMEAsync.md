@@ -62,7 +62,40 @@ async function demo() {
 }
 demo();
 ```
-what ever we write inside 
+
+### Error Handling
+
+```js
+async function test() {
+    try {
+        const res = await Promise.reject("Oops");
+        console.log(res);
+    } catch (err) {
+        console.error("Caught Error:", err);
+    }
+}
+test();
+```
+
+### 
+```js
+// Sequential (slow)
+async function seq() {
+    const res1 = await task1();
+    const res2 = await task2();
+    console.log(res1, res2);
+}
+
+// Parallel (faster)
+async function parallel() {
+    const promise1 = task1();      // calls promise
+    const promise2 = task2();       // calls promise
+    const res1 = await promise1;
+    const res2 = await promise2;
+    console.log(res1, res2);
+}
+```
+
 
 Async IIFE : `(async()=>{...})()`
 
