@@ -2,7 +2,8 @@
 
 Async f/n always returns a promise.
 
-Await pauses the execution of it's surrounding async f/n until the promise is settled. await only works with Promises (or values that behave like Promises) and defined inside async f/n only.
+Await pauses the execution of it's surrounding async f/n until the promise is settled. 
+**NOTE :** `Await only works with Promises only` (or values that behave like Promises) and defined inside async f/n only.
 
 ```js
 function fun1(value) {
