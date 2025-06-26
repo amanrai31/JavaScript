@@ -96,6 +96,32 @@ async function parallel() {
 }
 ```
 
+```js
+async function processData() {
+    console.log("Fetching...");
+    
+    const data = await fetchData();
+    
+    console.log("Processing:", data);
+
+    try {
+        const result = await riskyTask();
+        console.log(result);
+    } catch (err) {
+        console.error("Error:", err);
+    }
+}
+
+function fetchData() {
+    return new Promise(res => setTimeout(() => res("Data Ready"), 1000));
+}
+
+function riskyTask() {
+    return new Promise((_, rej) => setTimeout(() => rej("Failure"), 2000));
+}
+
+processData();
+```
 
 Async IIFE : `(async()=>{...})()`
 
