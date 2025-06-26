@@ -90,7 +90,7 @@ async function seq() {
 async function parallel() {
     const promise1 = task1();      // calls promise
     const promise2 = task2();       // calls promise
-    const res1 = await promise1;
+    const res1 = await promise1;     // OR we can do Promise.all([task1(),task2()])
     const res2 = await promise2;
     console.log(res1, res2);
 }
