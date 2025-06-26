@@ -84,6 +84,28 @@ fun1(3,fun2);
 Resolve is manual trigger for promise fulfill, if you call resolve than promise will get fulfilled and proceed it will not wait for other async task inside promise. So declear resolve inside the async task itself otherwise it will not wait for other async task.
 
 ```js
+new Promise((resolve) => {
+    let result;
+
+    setTimeout(() => {
+        console.log("Inside setTimeout");
+        result = "Task Done";
+    }, 2000);
+    setTimeout(() => {
+        console.log("Inside setTimeout");
+        resolve(result);
+    }, 3000);
+     setTimeout(() => {
+        console.log("Inside setTimeout");
+    }, 4000);
+    console.log("Synchronus operation")
+})
+.then((data) => {
+    console.log("Promise Resolved with:", data);
+});
+```
+
+```js
 const pro = new Promise((resolve,reject)=>{
     console.log("Hi");
     const x = Math.random();
