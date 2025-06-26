@@ -89,5 +89,5 @@
 -----
 
 - Callback, callback hell
-- Promise, promise object constructor(before & after resolve/reject), instantiate promise inside function
-- .then, .catch || promise chaining
+- Promise, promise state, promise result, promise reaction record, promise handled ||  promise object constructor(before & after resolve/reject), 
+- instantiate promise inside function || .then, .catch || promise chaining
