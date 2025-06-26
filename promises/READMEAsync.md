@@ -2,7 +2,13 @@
 
 Async f/n always returns a promise.
 
-Await pauses the execution of it's surrounding async f/n until the promise is settled. 
+```js
+async function example() {    // async f/n always return a promise even if you retuen plain value
+    return "Hello";           // Equivalent to => a function returning Promise.resolve("Hello");
+}
+```
+
+Await pauses the execution of it's `surrounding async f/n` until the promise is settled. 
 
 **NOTE :** `Await only works with Promises only` (or values that behave like Promises) and defined inside async f/n only.
 
@@ -16,7 +22,6 @@ function fun1(value) {
         }, 2000);
     });
 }
-
 function fun2(value) {
     return new Promise(resolve => {
         setTimeout(() => {
@@ -26,7 +31,6 @@ function fun2(value) {
         }, 3000);
     });
 }
-
 function fun3(value) {
     return new Promise(resolve => {
         setTimeout(() => {
@@ -36,7 +40,6 @@ function fun3(value) {
         }, 4000);
     });
 }
-
 async function func() {
     console.log("Async/await starts => fetching data 1...");
     const first = await fun1(3);
@@ -48,9 +51,18 @@ async function func() {
 }
 
 func();
-
-
 ```
+
+#### Await works with Promise only
+
+```js
+async function demo() {
+    const val = await 42;                    //  treated as await Promise.resolve(42)
+    console.log(val);
+}
+demo();
+```
+what ever we write inside 
 
 Async IIFE : `(async()=>{...})()`
 
