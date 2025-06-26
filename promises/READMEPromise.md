@@ -81,7 +81,7 @@ fun1(3,fun2);
 
 ## Promise ( resolve,reject  ||  .then, .catch  ||  Promise chains)
 
-Resolve is manual trigger for promise fulfill, if you call resolve than promise will get fulfilled and proceed it will not wait for other async task inside promise. So declear resolve inside the async task itself otherwise it will not wait for other async task.
+Resolve is manual trigger for promise fulfill, if you call resolve than promise will get fulfilled and proceed it will not wait for other async task inside promise. So declear resolve "inside the async task itself" otherwise it will not wait for other async task to complete even if the value that we pass in resolve depend on some async task
 
 ```js
 new Promise((resolve) => {
