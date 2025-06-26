@@ -85,3 +85,9 @@
 - Bitwise, regex, error, try-catch-throw;
 - scope (global, block scope, f/n scope), hoisting,
 - strict mode, this, JSON, web APIs
+
+-----
+
+- Callback, callback hell
+- Promise, promise object constructor(before & after resolve/reject), instantiate promise inside function
+- .then, .catch || promise chaining
