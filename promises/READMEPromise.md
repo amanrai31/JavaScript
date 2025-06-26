@@ -88,15 +88,15 @@ new Promise((resolve) => {
     let result;
 
     setTimeout(() => {
-        console.log("Inside setTimeout");
+        console.log("Inside setTimeout 2sec");
         result = "Task Done";
     }, 2000);
     setTimeout(() => {
-        console.log("Inside setTimeout");
-        resolve(result);
-    }, 3000);
+        console.log("Inside setTimeout 3sec");
+        resolve(result);                       // Do not wait for other async task in Promise, even if resolve depend on some value 
+    }, 3000);                                  // which is returned by async(will resolve with  undefined)
      setTimeout(() => {
-        console.log("Inside setTimeout");
+        console.log("Inside setTimeout 4sec");
     }, 4000);
     console.log("Synchronus operation")
 })
