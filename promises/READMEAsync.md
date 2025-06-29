@@ -125,3 +125,54 @@ processData();
 
 Async IIFE : `(async()=>{...})()`
 
+-----
+
+# FETCH APIs 
+
+Fetch API is a modern, "promise-based" way to make HTTP requests in JS (handling n/w requests asynchronously), replacement for Ooder XMLHttpRequest (XHR)
+
+**Syntax :** `let promise = fetch(url, [options]);`
+
+HTTP verbs/methods : GET, POST, PUT, DELETE, PATCH etc.
+
+```js
+fetch('https://api.example.com/data')
+  .then(res => {
+    if (!res.ok) {
+      throw new Error(`HTTP error! Status: ${res.status}`);
+    }
+    return res.json();
+  })
+  .then(data => console.log(data))
+  .catch(err => console.error('Error:', err));
+```
+
+```js
+fetch('https://api.example.com/data', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json',
+             'Authorization': 'Bearer your_token_here',
+             'Custom-Header': 'value' },
+  body: JSON.stringify({ name: 'Aman', age: 25 })
+})
+  .then(res => res.json())
+  .then(data => console.log(data))
+  .catch(err => console.error(err));
+```
+
+```js
+// fetch api in Async/await style
+
+async function fetchData() {
+  try {
+    const res = await fetch('https://api.example.com/data');
+    if (!res.ok) throw new Error('Network response was not ok');
+    const data = await res.json();
+    console.log(data);
+  } catch (err) {
+    console.error('Fetch Error:', err);
+  }
+}
+
+fetchData();
+```
