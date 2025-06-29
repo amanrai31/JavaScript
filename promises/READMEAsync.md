@@ -129,7 +129,7 @@ Async IIFE : `(async()=>{...})()`
 
 # FETCH APIs 
 
-Fetch API is a modern, "promise-based" way to make HTTP requests in JS (handling n/w requests asynchronously), replacement for Ooder XMLHttpRequest (XHR)
+Fetch API is a modern, "promise-based" way to make HTTP requests in JS (handling n/w requests asynchronously), replacement for Older XMLHttpRequest (XHR)
 
 **Syntax :** `let promise = fetch(url, [options]);`
 
@@ -141,7 +141,7 @@ fetch('https://api.example.com/data')
     if (!res.ok) {
       throw new Error(`HTTP error! Status: ${res.status}`);
     }
-    return res.json();
+    return res.json();                                    // This is a Response object, JSON.parse(res) works for plain string
   })
   .then(data => console.log(data))
   .catch(err => console.error('Error:', err));
@@ -176,3 +176,13 @@ async function fetchData() {
 
 fetchData();
 ```
+
+### HTTP response status codes
+
+1. Informational response (100-199)
+2. Successful responses (200-299)
+3. Redirection messages (300-399)
+4. Client error responses (400-499)
+5. Server error response (500-599)
+
+HTTP response header contains details such as => content type, HTTP status code etc.
