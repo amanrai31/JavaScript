@@ -126,7 +126,7 @@ Value is also an attribute of property.
 
 -----
 
-JS objects have a special property called prototype(itself an object). console.log any object and you can see. This prototype has all the in-buit properties and methods regarding "that object".
+JS objects have a special property called prototype(itself an object). console.log any object and you can see. This prototype has all the in-built properties and methods regarding "that object".
 
 ```js
 const employee = {
