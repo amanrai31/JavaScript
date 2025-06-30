@@ -18,7 +18,7 @@ function toCelsius(fahrenheit) {
 
 let value = toCelsius; // Accessing a function without () returns the function object and not the function result.
 
-console.log(typeof(value));
+console.log(typeof(value));          // function
 console.log(value(110);
 
 ```
