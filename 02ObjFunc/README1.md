@@ -124,6 +124,7 @@ Value is also an attribute of property.
 4. Object.freeze(object) [Prevents any changes to an object, makes objects read only]
 5. Object.isExtensible(object), Object.isSealed(object), Object.isFrozen(object) 
 
+`Object destructuring => {...obj}`
 -----
 
 JS objects have a special property called prototype(itself an object). console.log any object and you can see. This prototype has all the in-built properties and methods regarding "that object".
