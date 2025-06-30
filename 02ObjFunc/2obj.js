@@ -24,7 +24,7 @@ console.log("Values - ",Object.values(fruits))
 // Object.keys(object)
 console.log("Keys - ",Object.keys(fruits))
 
-// Other methods - Object.fromEntries(iterableEntries/list), Object.asign(target,source), Object.create(object)
+// Other methods - Object.fromEntries(iterableEntries/list), Object.assign(target,source)=> Both Creates shallow copy, Object.create(object) => See the diff b/w assign & create.
 
 // --------------------------------------------------------------------------------------------
 
