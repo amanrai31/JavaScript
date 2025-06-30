@@ -103,7 +103,7 @@ The global Object is the top-level object in JavaScript that provides access to 
 3. Object.entries(object) [Returns an array of the key/value pairs of an object]
 4. Object.fromEntries(iterableEntries) [Creates an object from a list/array of keys/values]
 5. Object.assign(target, source) [Copies properties from a source object to a target object]
-6. Object.create(object) [Creates an object from an existing object]
+6. Object.create(object) [creates an empty object inheriting all props from other Object, but has no own props]
 7. Object.groupBy(object, callback) [Groups object elements according to a function]
 
 ### 2. Property Management Methods - Not that much of use
