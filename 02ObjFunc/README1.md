@@ -69,7 +69,7 @@ We can **NOT** add new property to constructor function just like objects, to ad
 
 **NOTE:** But that will be constant  by default(can be override) for all Obj made out of this Object Constructor. We can explicitly override though.
 
-But we can add new properties to objects=> ` myFather.height = "5.10" `
+We can add new properties to objects=> ` myFather.height = "5.10" `
 
 - Built-in constructors `new Object()`, `new Array()`, `new Set()`, `new Map()`,`new RegExp()`, `new Date()`, `new Function()`
 
