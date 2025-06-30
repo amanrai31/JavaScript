@@ -7,7 +7,7 @@ const fruitEntries = Object.entries(fruits);
 console.log("Array from object => ",fruitEntries);
 
 let text = "";
-for (let [fruit, value] of fruitEntries) {     // forof loop works on array/entry(fruitEntries), not on object
+for (let [fruit, value] of fruitEntries) {     // for-of loop works on entries(fruitEntries), not on object
   text += fruit + ": " + value + " ";
 }
 console.log(text)
