@@ -81,7 +81,7 @@ We can add new properties to objects=> ` myFather.height = "5.10" `
 
 ### Global objects
 
-The global object is the top-level object in JavaScript that provides access to global variables, functions, and built-in constructors.
+The global Object is the top-level object in JavaScript that provides access to global variables, functions, and built-in constructors.
 
 - In browsers: ```window``` is the global object. In Node.js: ```global``` is the global object.
 
@@ -89,6 +89,7 @@ The global object is the top-level object in JavaScript that provides access to 
 
 - Contains built-in objects like Math, JSON, etc.
 - Contains global functions like parseInt, setTimeout, alert(browser only) etc.
+- Also all the built in Object constructor functions (Array, Set, Map etc) are themselves defined inside Object(global Object).
 - Holds user-defined global variables (e.g., var x = 10 makes x accessible via window.x)
 
 -----
