@@ -25,7 +25,7 @@ Provide us interface to interact with browser's feature. [fetch API, Timer API(s
 
 Holds callback based APIs and envent handlers once the asynchronous task done, to execute at some point later
 
-- When we work with events(Click,keydown,scroll), timers, I/O, user interaction, webSocket, media events, file APIs and everything else => **We work with task queue**
+- When we work with events(Click,keydown,scroll), fetch/XHR requests, timers, I/O, user interaction, webSocket, media events, file APIs and everything else => **We work with task queue**
 
 ### 4. MicroTask queue - Only used by 
 
