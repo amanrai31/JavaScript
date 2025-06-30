@@ -14,6 +14,7 @@ Numbers are primitive data type(immutable, directly stored in memory), JS has on
 ``` js
 let x = 100 / "Apple";  // Will give NaN
 console.log(x, typeof(x));
+console.log(x.__proto__);   // prototype for a number is Number
 ```
 
 ### Binary, octal, decimal, hexadecimal
