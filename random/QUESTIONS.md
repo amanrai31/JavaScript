@@ -4,4 +4,4 @@
 
 2. Why we should not declare a f/n inside class constructor OR constructor methods.
 
-3. Shallow copy vs Deep copy ```in context of nested objects``` 
+3. Shallow copy vs Deep copy ```in context of nested objects``` => Check 4exeObj.js 

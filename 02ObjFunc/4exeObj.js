@@ -14,3 +14,5 @@ copy.add.city = "bxr"
 copy.add.vill = "kk"
 console.log(copy);
 console.log(obj1);
+
+`Object destructuring => {...obj}`

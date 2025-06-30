@@ -52,7 +52,7 @@ function Person(first, last, age, eye) { // We can not use arrow function as obj
   this.age = age;
   this.eyeColor = eye;       
   this.language = "Hindi";   // Value given to a property will be default value for all objects
-  this.fullName = function (){                     // NOT RECOMMENDED to declear f/n here, each obh will have it's own copy then.
+  this.fullName = function (){                     // NOT RECOMMENDED to declare f/n here, each obh will have it's own copy then.
     return this.firstName + " " + this.lastName;
   }
 }
@@ -64,7 +64,7 @@ const myMother = new Person("Sush", "Rai", 48, "Black");
 We can **NOT** add new property to constructor function just like objects, to add new property(property/function) 
 ` Person.prototype.nationality = "Indian" `
 
-` Person.prototype.fullname = function(){ console.log(this.firstName, this.lastName)} ` => RECOMMENDED way to define function inside constructor f/n using prototype. **Log this** => `console.log(Person.Prototype)`. It is similar to what we declear f/n outside of constructor in Classes. 
+` Person.prototype.fullname = function(){ console.log(this.firstName, this.lastName)} ` => RECOMMENDED way to define function inside constructor f/n using prototype. **Log this** => `console.log(Person.Prototype)`. It is similar to what we declare f/n outside of constructor in Classes. 
 
 
 **NOTE:** But that will be constant  by default(can be override) for all Obj made out of this Object Constructor. We can explicitly override though.
@@ -124,7 +124,7 @@ Value is also an attribute of property.
 4. Object.freeze(object) [Prevents any changes to an object, makes objects read only]
 5. Object.isExtensible(object), Object.isSealed(object), Object.isFrozen(object) 
 
-`Object destructuring => {...obj}`
+**SHALLOW copy VS DEEP copy => 4exeObj.js**
 -----
 
 JS objects have a special property called prototype(itself an object). console.log any object and you can see. This prototype has all the in-built properties and methods regarding "that object".
