@@ -20,7 +20,7 @@ function Person(first, last, age, eye) {  // Object constructor (Can not use arr
     this.lastName = last;
     this.age = age;
     this.eyeColor = eye;       
-    this.language = "Hindi";   // Value given to a property will be default value for all objects
+    this.language = "Hindi";   // Value given to a property will be default value for all objects, we can overwrite
 }
 
 const myFather = new Person("BN", "Rai", 60, "black");
