@@ -22,13 +22,13 @@ console.log(x.__proto__);   // prototype for a number is Number
 JS interprets numeric constants as hexadecimal if they are preceded by 0x , and octal(in some JS versions) if preceded by 0.
 
 ``` js
-let nmbr = 32;
-myNumber.toString(32);
-myNumber.toString(16);
+let myNumber = 32;
+console.log(myNumber.toString(32));
+console.log(myNumber.toString(16));
 myNumber.toString(12);
-myNumber.toString(10);
-myNumber.toString(8);
-myNumber.toString(2);  //converts nmbr to binary
+console.log(myNumber.toString(10));
+console.log(myNumber.toString(8));
+console.log(myNumber.toString(2));  //converts nmbr to binary
 ```
 
 ### BigInt
