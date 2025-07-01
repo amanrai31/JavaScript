@@ -65,7 +65,8 @@ class Model extends Car {
     this.model = mod;
   }
   show() {
-    return this.present() + ', it is a ' + this.model;  // this inside a class represents the props of same class OR props of parent class
+    return this.present() + ', it is a ' + this.model;  // this inside a class represents the props of same class OR props of parent class. We could use super.present() also.
+                                                         // See diff b/w this & super in this case. "this" will override if present was also in Model class
   }
 }
 
