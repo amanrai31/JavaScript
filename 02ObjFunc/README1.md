@@ -113,7 +113,7 @@ Value is also an attribute of property.
 ** getters and setters**
 1. Object.defineProperty(object, property, descriptor) [adds new prop to obj, can change prop's value & metadata & getters/setters.]
 2. Object.getOwnPropertyDescriptor(object, property) -- [Accessing a Property]
-3. Object.getOwnPropertyNames(object) -- [Returns all properties as an array]
+3. Object.getOwnPropertyNames(object) -- [Similar to Object.keys(obj) => Returns all(enumerable and non-enumerable) props as an array ]
 4. Object.getPrototypeOf(object) -- [ Accessing the prototype ] => All the f/n defined in prototype(outside constructor) 
 
 ### 3. Object Protection Methods
