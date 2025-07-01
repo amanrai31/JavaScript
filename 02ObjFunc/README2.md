@@ -103,7 +103,7 @@ function sum(...args) {
 let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 ```
 
-**Note :** JS arguments are passed by value(primitives) so does't change the parameter's original value. Changes to arguments are not visible outside the f/n.
+**Note :** JS primitive arguments are passed by value(primitives) so does't change the parameter's original value. Changes to arguments are not visible outside the f/n.
 
 **Note :** Objects as JS arguments passed by ref, it changes the original value.
 
