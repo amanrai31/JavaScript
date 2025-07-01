@@ -27,6 +27,8 @@ num%2 === 0? console.log(num, "is an even number"): console.log(num, "is NOT an 
 
 - ``` console.dir(window.document)``` => prints the props/methods of object.
 
+- Object methods => Object.assign({},obj), Object.create(obj), object.bind(), object.apply()
+
 - Callback means passing whole f/n OR we can say passing f/n ref OR f/n definetion. Do not call that that function there just pass the whole f/n. ` callback is passing a function (not calling a f/n) as argument of some other f/n`
 
 ```js
