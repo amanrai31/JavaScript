@@ -38,7 +38,7 @@ fruits.splice(2, 0, "Lemon", "Kiwi");  // Alters the original array.
 
 **NOTE :** The splice() method returns an array with the deleted items, alters the original array. Also splice() removes elements without leaving holes in array.
 
-**NOTE :** toSpliced() methods is same but it does not alters the original array returns new array with change
+**NOTE :** toSpliced() methods is same but it does not alters the original array returns new array `with all the change`
 
 2. **slice()** => Slice out piece of array into new array. It does not remove/alter element from original array returns a new array.
 ``` js
