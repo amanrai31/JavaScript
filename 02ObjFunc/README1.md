@@ -10,7 +10,7 @@ Objects are non-primitive data type (in key: value format) because they are **st
 
 Define JS object 
 - Object literal =>  ``` const personDetails = {name:"xyz", age:20} ``` =>  **recommended**
-- using new keyword. [Usually when we make object from Object Constructor or class]
+- using new keyword. [Usually when we make object from `Object Constructor` or `Class`]
 - Using an Object Constructor
 
 ```ts
