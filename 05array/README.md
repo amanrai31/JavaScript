@@ -91,4 +91,4 @@ console.log(arr.__proto__);   // OR console.log(Array.prototype);
 
 -----
 
-### Polyfills of all iterables (foeEach(), map(), filter(), reduce() etc.) => See random folder
+### Polyfills of all iterables (forEach(), map(), filter(), reduce() etc.) => See random folder
