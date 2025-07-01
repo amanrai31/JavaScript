@@ -33,7 +33,7 @@
     cars: [
       { name: "Ford", models: ["Fiesta", "Focus", "Mustang"] },
       { name: "BMW", models: ["320", "X3", "X5"] },
-      { name: "Fiat", models: ["500", "Panda"] }
+      { name: "Benz", models: ["AMG", "GWAGON"] }
     ]
   }
   // console.log(myObj);
