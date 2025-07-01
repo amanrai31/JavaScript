@@ -38,7 +38,7 @@ let z = x(4, 3);          // After a function expression has been stored in a va
 ``` js
 // Arrow f/n
 const x = (x, y) => x * y;    
-// Arrow f/n do not bind "this" (Cannot be used as Obj constructor), also cannot be hoisted, it does not have arguments object.
+// Arrow f/n do not bind "this" (Cannot be used as Obj constructor), also cannot be hoisted also it does not have arguments object.
 
 ```
 
