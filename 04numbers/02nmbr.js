@@ -25,7 +25,7 @@
     console.log(x.toPrecision(), x.toPrecision(2), x.toPrecision(4), x.toPrecision(6));
 
     let y = 0.256;
-    console.log(y.toPrecision());    // if no argument passed then it takes 1 by default (round of to nearest integer)
+    console.log(y.toPrecision());    // if no argument passed then it prints as it is.
 }
 
 // Global JS methods for numbers => Number(), parseFloat(), parseInt()
