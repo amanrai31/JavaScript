@@ -86,7 +86,7 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 ```js
 // Suppose i do not know any function about array then =>
 const arr = [1,2,3];
-console.log(arr.__proto__);
+console.log(arr.__proto__);   // OR console.log(Array.prototype);
 ```
 
 -----
