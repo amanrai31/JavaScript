@@ -26,7 +26,7 @@ const car1 = new Car("Mahindra", 2018);
 const car2 = new Car("Tata", 2020);
 
 console.log(car1.age(), car2.age());
-console.log(car1.age === car2.age);    // RETURNS TRUE AS age() SHARED ACROSS INSTANCES, RETURNS FALSE IF age() WAS INSIDE CONSTRUCTOR
+console.log(car1.age === car2.age);    // RETURNS TRUE AS age f/n SHARED ACROSS INSTANCES, RETURNS FALSE IF age f/n WAS INSIDE CONSTRUCTOR
 ```
 
 **NOTE :** We do not declear f/n inside constructor cuz Every time class is instantiated, a new copy of that f/n is created for each obj. The same is true for object constructor f/n too, do not create f/n inside f/n constructor, instead that define f/n on prototype
