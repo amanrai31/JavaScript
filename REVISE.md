@@ -28,8 +28,8 @@
 - function expression, arrow f/n, iife, f/n hoisting 
 - f/n parameters and arguments(pass by value, pass by ref), argument object/rest parameter
 - scope and this w.r.t f/n
-- Closure
-- apply method and TS f/n, CALLBACK
+- Closure, method VS f/n
+- apply method and TS f/n, Higher order f/n, CALLBACK
 
 -----
 
