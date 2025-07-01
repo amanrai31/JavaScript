@@ -62,6 +62,7 @@
 -----
 
 - date(synchronous) || get methods =>  year,month,date,day,hour,min,sec,millisecond || set methods => year,month,date,day,hour etc.
+- Create a timer using setInterval which will count second from 1 to 10.
 - math object || math properties ||  math f/n(s) => Math.ceil(), floor(), trunc(), round() || Math.round()
 - Math.pow(), sqrt(), cbrt(), abs(), Math.min(), Math.max()
 
