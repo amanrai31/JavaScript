@@ -13,7 +13,7 @@ E2E JS
 3. create a file with .js extension
 4. to run a simple JS program run - `node filename ` => e.g- "node intro.js"
 
-Sources - [ChatGPT, W3Schools, mdn, Apna college, Akshay saini etc. ]
+Sources - [ChatGPT, W3Schools, mdn, lydia hallie, Apna college, Akshay saini etc. ]
 
 ---
 
