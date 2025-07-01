@@ -116,8 +116,21 @@
     return acc;
   }, {});
   console.log(count);
-  
 
+ {
+  // keys => returns an iterator of indices (0, 1, 2...)
+  const arr = ["a", "b", "c"];
+  const iterator = arr.keys();
+  for (let key of iterator) {
+  console.log(key); }
+
+ }
+ {
+  // entries => returns iterator with key-value pairs
+  const arr = ["apple", "banana"];
+  for (let [index, value] of arr.entries()) {
+  console.log(index, value);  }
+ }
 
   // spread => Best for adding 2 or more array & adding some other element in the same array at end
   const q1 = ["Jan", "Feb", "Mar"];
