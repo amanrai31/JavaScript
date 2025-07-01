@@ -79,7 +79,7 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 4. reduce()           =>  runs a function on each array element to produce (reduce it to) a single value.
 5. keys()             =>  returns an Array Iterator object with the keys of an array.
 6. entries()          =>  returns an Array Iterator object with key/value pairs.
-7. spread             =>  (...) 
+7. spread             =>  [...]
 
 **NOTE :** If you do not want to alter your original array then use arr.toSpliced(), arr.toSorted(), arr.toReversed() instead of splice, sort and reverse.
 
