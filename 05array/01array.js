@@ -77,7 +77,7 @@
   // If 0, no changes done with sort order. 
 }
 
-// Array iteration
+// Array iteration => We can make any object iterable & then we can apply forEacg(), map(), filter() etc.
 {
   // forEach => calls a callback f/n once for each array element.
   const numbers = [3,4,5,6,7];
