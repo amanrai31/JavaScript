@@ -31,6 +31,8 @@ console.log(letters.sie);
 ```
 const letters = new Set(["a","b","c"]);
 
+console.log(letters, letters.values(),letters.keys());
+
 let text = "";
 for (const x of letters) {
   text += x;
