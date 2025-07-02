@@ -148,7 +148,7 @@ It is a format for storing and transporting data. JSON is often used when data i
 }
 ```
 
-JS built-in function JSON.parse() converts the string into a JS object. JSON.stringify(obj) => converts object to JSON.
+JS built-in function `JSON.parse(obj)` converts the string into a JS object. `JSON.stringify(obj)` => converts object to JSON.
 
 -----
 
