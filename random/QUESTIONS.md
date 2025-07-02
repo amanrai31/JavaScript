@@ -13,3 +13,5 @@
 6. What is RegEX, patterns & modifiers
 
 7. Parallel execution with Promise.all, Promise.race, Promise.allSettled
+
+8. Object methods => Object.assign({},obj), Object.create(obj), object.bind(), object.apply()
