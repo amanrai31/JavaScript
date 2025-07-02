@@ -69,7 +69,7 @@ demo();
 async function test() {
     try {
         const res = await Promise.reject("Oops");
-        console.log(res);
+        console.log("res",res);                                 // will not logged, as Promise is rejected and will be catched.
     } catch (err) {
         console.error("Caught Error:", err);
     }
