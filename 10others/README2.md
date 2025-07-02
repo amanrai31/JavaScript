@@ -53,8 +53,6 @@ Hoisting is JavaScript's default behavior of moving all **declarations** to the 
 
 JS technically hoist every declarations(except classes, f/n expression & arrow f/n), but in case of let & const  they are in Temporal Dead Zone (TDZ) means the block of code is aware of declarations but still it can not use until it is literally declared.
 
-Function are also hoisted but the arrow function are not hoisted also class is not hoisted too.
-
 **Point to remmember regarding scope & hoisting** => 1st => What is it, is it const, let or var or not decleared at all, 2nd => where it is defined, inside block, function or global scope.
 
 -----
