@@ -175,7 +175,7 @@ const person = {
 };
 
 // Destructuring
-let {firstName, lastName} = person;
+let {firstName, lastName} = person;     // OR => let person1 = {...person}; => Full Destructuring
 
 // Destructuring
 let {firstName, lastName, country = "US"} = person; 
