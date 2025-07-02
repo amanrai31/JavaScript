@@ -35,7 +35,7 @@ async f/n bodies (F/n body execution after await) ``` async function asyncFunc()
 
 queue MicroTask queue callbacks ```queueMicrotask(()=>{...});```
 
-new MutationObserver callbacks ```new MutationObserver (()=>{...})```
+new MutationObserver callbacks ```new MutationObserver (()=>{...}) => MutationObserver efficiently tracks DOM changes```
 
 - When we work with promises(.then(), .catch(), .finally()) || async/await || queueMicrotask => **we work with microTask queue**
 
