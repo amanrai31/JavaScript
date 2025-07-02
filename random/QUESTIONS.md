@@ -5,3 +5,9 @@
 2. Why we should not declare a f/n inside class constructor OR constructor methods.
 
 3. Shallow copy vs Deep copy ```in context of nested objects``` => Check 4exeObj.js 
+
+4. What is global execution context.
+
+5. Diff b/w Map and object.
+
+6. What is RegEX, patterns & modifiers
