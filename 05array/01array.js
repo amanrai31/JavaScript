@@ -121,6 +121,7 @@
   // keys => returns an iterator of indices (0, 1, 2...)
   const arr = ["a", "b", "c"];
   const iterator = arr.keys();
+  console.log(iterator);
   for (let key of iterator) {
   console.log(key); }
 
