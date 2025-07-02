@@ -111,7 +111,7 @@ It lets you loop over iterable data structures such as Arrays, Strings, Maps, No
 const cars = ["BMW", "Volvo", "Mini"];
 
 let text = "";
-for (let x of cars) {
+for (let x of cars) {              // x is value/item here
   text += x;
 }
 
