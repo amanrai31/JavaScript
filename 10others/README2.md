@@ -51,7 +51,7 @@ function myFunction() {
 Hoisting is JavaScript's default behavior of moving all **declarations** to the top of the current scope (to the top of the current script or the current function). JS do not hoist Initializations. So Initialize your variable (var) and then you can use it and then declared it.  
 
 
-JS technically hoist every declarations, but in case of let & const the block of code is aware of declarations but still it can not use until it is literally declared.
+JS technically hoist every declarations(except classes & arrow f/n), but in case of let & const the block of code is aware of declarations but still it can not use until it is literally declared.
 
 Function are also hoisted but the arrow function are not hoisted also class is not hoisted too.
 
