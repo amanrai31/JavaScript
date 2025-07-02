@@ -47,4 +47,20 @@ So the priority =>   callStack > microTask queue > task/callback queue
 
 **Event Loop Nuances: “nextTick” vs microtasks vs timers in Node what's this => Read about**
 
+```js
+Promise.resolve().then (()=> console.log(1));
+
+setTimeout(()=> console.log(2));
+setTimeout(()=>console.log(6),10);
+
+queueMicrotask(()=>
+{
+console.log(3)
+queueMicrotask(()=> console.log(4))
+}
+);
+
+console.log(5);
+```
+
 Test your JS knowledge => [https://www.youtube.com/watch?v=IHQcma93fpE]
