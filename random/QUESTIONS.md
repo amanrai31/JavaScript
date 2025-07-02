@@ -11,3 +11,5 @@
 5. Diff b/w Map and object.
 
 6. What is RegEX, patterns & modifiers
+
+7. Parallel execution with Promise.all, Promise.race, Promise.allSettled
