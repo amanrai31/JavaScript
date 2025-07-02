@@ -49,6 +49,11 @@ letters.forEach(( value, index, entry)=>{                  // in set => key,valu
 
 - keys() method => returns an Iterator object with the values in a Set.
 
+- `set.delete(value)` => Removes a specific element from the Set. Return `true` if element was there & removed, returns `false` if element not found.
+
+- set.clear() => Removes all elements from the Set. Returns `undefined`
+
+
 **NOTE :** A Set has no keys, so keys() returns the same as values().
 
 **Set methods =>** new Set() || add() || has() || value() || size() || delete() || clear() 
