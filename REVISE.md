@@ -10,7 +10,7 @@
 - Data type (primitive(value), non-primitive(ref))
 
 -----
-### Object & F/N
+### Object
 
 - What is Object, why object(use)
 - Declare & initialize object (TS object), how to get value of object.
@@ -24,6 +24,7 @@
 
 
 -----
+### Function
 
 - What is function, why function(use), how to declare f/n
 - function expression, arrow f/n, iife, f/n hoisting 
@@ -33,11 +34,13 @@
 - apply method and TS f/n, Higher order f/n, CALLBACK
 
 -----
+### String
 
 - what is string, declaration of string
 - Methods => length, string to array, char at, extract string part, upper/lower case, trim, includes?, concat, replace(regex)
 
 -----
+### Number, BigInt
 
 - number, BigInt, (bit size, precision), Diff b/w these two, conversion b/w these two
 - number & string relations (+,-,*,/), NaN
@@ -45,6 +48,7 @@
 - max_value, min_value, max/min Safe Integer
 
 -----
+### Array
 
 - What is array, why(use), how it is different from regular object
 - declare array, typeof & instanceof array
@@ -54,6 +58,7 @@
 - polyfills of all iterables (forEach(), map(), filter(), reduce() etc.) => See random folder
 
 -----
+### Class & Module
 
 - class, use of class, strict & non-hoisting nature of class
 - constructor, getter, setter, define f/n in class, define static f/n in class
@@ -61,6 +66,7 @@
 - Module, use of module, default export, works with https only
 
 -----
+### Date & Math
 
 - date(synchronous) || get methods =>  year,month,date,day,hour,min,sec,millisecond || set methods => year,month,date,day,hour etc.
 - Create a timer using setInterval which will count second from 1 to 10.
@@ -68,6 +74,7 @@
 - Math.pow(), sqrt(), cbrt(), abs(), Math.min(), Math.max()
 
 -----
+### Boolean, Conditionals, Loops
 
 - boolean => when gives true/false || ?? operator || ?. operator
 - if,else || else-if || switch
@@ -79,6 +86,7 @@
 ### Start revision from here ⬇️
 
 -----
+### Set, Map, Destructuring
 
 - set, use of set, declare set
 - set methods => add || value || has || delete || clear || size
@@ -87,12 +95,14 @@
 - Destructuring => object Destructuring, array Destructuring. typeof, instanceof
 
 -----
+### Bitwise, regex, error, try-catch, scope, hoisting strict, this, JSON, webAPI
 
 - Bitwise, regex, error, try-catch-throw;
 - scope (global, block scope, f/n scope), hoisting,
 - strict mode, this, JSON, web APIs
 
 -----
+### Callback, Promise, Async-await, event-Loop
 
 - Callback, callback hell
 - Promise, promise state, promise result, promise reaction record, promise handled ||  promise object constructor(before & after resolve/reject), 
