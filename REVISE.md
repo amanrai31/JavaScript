@@ -10,6 +10,7 @@
 - Data type (primitive(value), non-primitive(ref))
 
 -----
+### Object & F/N
 
 - What is Object, why object(use)
 - Declare & initialize object (TS object), how to get value of object.
@@ -48,7 +49,7 @@
 - What is array, why(use), how it is different from regular object
 - declare array, typeof & instanceof array
 - array f/n => length || put/remove at/from last || put/remove at/from 0th || array to string || sort & search methods || slice, splice
-- toSliced, toSorted, toReversed || 2D to 1D array
+- toSliced, toSorted, toReversed || 2D to 1D array || Array[length].fill(), arr.fill()
 - iterations => for-in loop, for-of loop ||  methods =>forEach(), map(), filter(), reduce(), keys(), entries(), spread(...)
 - polyfills of all iterables (forEach(), map(), filter(), reduce() etc.) => See random folder
 
