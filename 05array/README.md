@@ -71,6 +71,8 @@ If compare f/n returns -ve "a" is sorted before "b"; If returns +ve, "b" is sort
 
 **NOTE :** ```js points.sort(function(a, b){return a - b}); // using compare f/n (will output in desc order)```
 
+**Array.fill() =>** `const arr = new Array(5).fill(0);` OR `arr.fill(value, start, end);`
+
 ### Array iteration methods
 
 1. forEach();         =>  calls a callback f/n once for each array element.
