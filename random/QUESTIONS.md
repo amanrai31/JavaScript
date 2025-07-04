@@ -15,3 +15,5 @@
 7. Parallel execution with Promise.all, Promise.race, Promise.allSettled
 
 8. Object methods => Object.assign({},obj), Object.create(obj), object.bind(), object.apply()
+
+9. Learn about Browser (Rendering engine, JS engine, Browser engine, Data, memory, network, timers etc.)
