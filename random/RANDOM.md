@@ -60,6 +60,19 @@ const obj1 = Factory("aman",24);
 console.log(obj1);
 ```
 
+```js
+const obj = {
+  value: 42,
+  print: function() {
+    console.log(this.value); // ✅ works
+  }
+};
+
+const ref = obj.print;
+ref();                                      // ❌ 'this' becomes undefined or global => to fix this, use => `ref.call(obj);` // or bind/ref
+
+```
+
 -----
 
 MAP Polyfill
