@@ -72,6 +72,9 @@ const ref = obj.print;
 ref();                                      // ❌ 'this' becomes undefined or global => to fix this, use => `ref.call(obj);` // or bind/ref
 
 ```
+-----
+
+JS do not have stack & queue, when we do `push/pop` it works as Stack & when we do `push/shift` then it works as queue.
 
 -----
 
