@@ -121,8 +121,8 @@ const pro = new Promise((resolve,reject)=>{
     },3000)
 });
 
-pro.then((result)=>{console.log(result)})
-.catch((err)=>{console.log(err)})
+pro.then((result)=>{console.log(result)}).catch((err)=>{console.log(err)})
+// Make this pro a function (wrap promise object inside function so that we can make call "only" when needed), otherwise it gets executed(by promise constructor) on declaration. 
 ```
 
 ### Promise chaining
