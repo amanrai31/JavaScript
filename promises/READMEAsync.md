@@ -8,7 +8,7 @@ async function example() {    // async f/n always return a promise even if you r
 }
 ```
 
-**Important note :** Await pauses the execution of **ONLY** it's `surrounding async f/n` until the promise is settled. It does not block the event loop. 
+**IMPORTANT NOTE :** Await pauses the execution of **ONLY** it's `surrounding async f/n` until the promise is settled. It does not block the event loop. 
 
 **NOTE :** `Await only works with Promises only` (or values that behave like Promises) and is defined inside async f/n only.
 
