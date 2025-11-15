@@ -61,6 +61,7 @@ async function demo() {
     console.log(val);
 }
 demo();
+console.log("hi");
 ```
 
 ### Error Handling
