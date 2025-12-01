@@ -1,6 +1,6 @@
 
 - JS as lang, Why js(use)
-- JS/CSS in html, how JS interact with html. How JS can write on browser/node
+- JS/CSS in html(inline & external), how JS interact with html. How JS can write on browser/node
 
 -----
 
